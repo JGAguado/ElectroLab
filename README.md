@@ -1,6 +1,9 @@
 # ArduLab
 
-The ArduLab Board is an educational platform for learning electronics.
+The ElectroLab board is an electronic trainer designed for the ICAI Technological Campus. It has been created with educational purposes in the analogic and digital electronics field.
+
+![ArduLab](http://spacediy.es/wp-content/uploads/2016/02/ElectroLab-Mk-I.jpg)
+
 It includes:
 * Resistors
 * Capacitors
