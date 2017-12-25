@@ -1,4 +1,4 @@
-# ArduLab
+# ElectroLab
 
 The ElectroLab board is an electronic trainer designed for the ICAI Technological Campus. It has been created with educational purposes in the analogic and digital electronics field.
 
