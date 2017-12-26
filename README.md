@@ -2,7 +2,7 @@
 
 The ElectroLab board is an electronic trainer designed for the ICAI Technological Campus. It has been created with educational purposes in the analogic and digital electronics field.
 
-![ElectroLab](http://spacediy.es/wp-content/uploads/2016/02/ElectroLab-MkI-Top.png)
+![ElectroLab](http://spacediy.es/wp-content/uploads/2016/02/Top.png)
 
 It includes:
 * Resistors
