@@ -30,7 +30,7 @@ It can be powered directly from a USB (5V) or throught the ArduLab Interface.
 
 Repository Contents
 -------------------
-* **/Documentation** - Data sheets (.pdf)
+* **/Documentation** - Data sheets, schematics, illustrations (.pdf)
 * **/Hardware** - All Eagle design files (.brd, .sch)
 
 License Information
