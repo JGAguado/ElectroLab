@@ -13850,7 +13850,17 @@ Panansonic - http://industrial.panasonic.com&lt;br&gt;
 &lt;p&gt;
 &lt;author&gt;librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="F6035AP">
+<package name="WM-64PC/64PK" urn="urn:adsk.eagle:footprint:21019/1" locally_modified="yes">
+<description>&lt;b&gt;Omnidirectional Back Electret Condenser Microphone Cartridge&lt;/b&gt;&lt;p&gt;
+Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</description>
+<circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.85" width="0.6" layer="41"/>
+<pad name="1" x="-1" y="0.8" drill="0.6" diameter="1"/>
+<pad name="2" x="-1" y="-0.8" drill="0.6" diameter="1"/>
+<text x="-2.794" y="3.302" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.794" y="-4.572" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="F6035AP" urn="urn:adsk.eagle:footprint:21013/1">
 <description>&lt;b&gt;Omnibidirectional Electret Condenser Microphon&lt;/b&gt;&lt;p&gt;
 Source: F6035AP.pdf</description>
 <circle x="0" y="0" radius="2.8754" width="0.2032" layer="21"/>
@@ -13861,7 +13871,7 @@ Source: F6035AP.pdf</description>
 <text x="-2.4" y="3.2" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.4" y="-4.8" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="F6050AP">
+<package name="F6050AP" urn="urn:adsk.eagle:footprint:21014/1">
 <description>&lt;b&gt;Omnibidirectional Electret Condenser Microphon&lt;/b&gt;&lt;p&gt;
 Source: F6050AP.pdf</description>
 <circle x="0" y="0" radius="2.8754" width="0.2032" layer="21"/>
@@ -13873,7 +13883,7 @@ Source: F6050AP.pdf</description>
 <rectangle x1="1.5499" y1="-2.0251" x2="1.9499" y2="-1.4751" layer="21" rot="R45"/>
 <rectangle x1="-1.95" y1="-2.025" x2="-1.55" y2="-1.475" layer="21" rot="R315"/>
 </package>
-<package name="WM-61A">
+<package name="WM-61A" urn="urn:adsk.eagle:footprint:21015/1">
 <description>&lt;b&gt;Omnidirectional Back Electret Condenser Microphone Cartridge&lt;/b&gt;&lt;p&gt;
 Source: www.panasonic.com/industrial/components/pdf/em06_wm61_a_b_dne.pdf</description>
 <wire x1="-2.75" y1="0.5" x2="-2.25" y2="0.5" width="0.2032" layer="21"/>
@@ -13887,7 +13897,7 @@ Source: www.panasonic.com/industrial/components/pdf/em06_wm61_a_b_dne.pdf</descr
 <text x="-2.794" y="3.302" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.794" y="-4.572" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="WM-61B">
+<package name="WM-61B" urn="urn:adsk.eagle:footprint:21016/1">
 <description>&lt;b&gt;Omnidirectional Back Electret Condenser Microphone Cartridge&lt;/b&gt;&lt;p&gt;
 Source: www.panasonic.com/industrial/components/pdf/em06_wm61_a_b_dne.pdf</description>
 <circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
@@ -13899,7 +13909,7 @@ Source: www.panasonic.com/industrial/components/pdf/em06_wm61_a_b_dne.pdf</descr
 <text x="-2.794" y="-4.572" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.8" y1="-0.225" x2="-2.325" y2="0.225" layer="21"/>
 </package>
-<package name="WM-62PC/62PK">
+<package name="WM-62PC/62PK" urn="urn:adsk.eagle:footprint:21017/1">
 <description>&lt;b&gt;Omnidirectional Back Electret Condenser Microphone Cartridge&lt;/b&gt;&lt;p&gt;
 Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</description>
 <circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
@@ -13909,7 +13919,7 @@ Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</de
 <text x="-2.794" y="3.302" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.794" y="-4.572" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="WM-63PR">
+<package name="WM-63PR" urn="urn:adsk.eagle:footprint:21018/1">
 <description>&lt;b&gt;Omnidirectional Back Electret Condenser Microphone Cartridge&lt;/b&gt;&lt;p&gt;
 Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE3.pdf</description>
 <circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
@@ -13919,27 +13929,91 @@ Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE3.pdf</des
 <text x="-2.794" y="3.302" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.794" y="-4.572" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="WM-64PC/64PK">
+<package name="WM-64PN" urn="urn:adsk.eagle:footprint:21020/1" locally_modified="yes">
 <description>&lt;b&gt;Omnidirectional Back Electret Condenser Microphone Cartridge&lt;/b&gt;&lt;p&gt;
 Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</description>
 <circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
 <circle x="0" y="0" radius="2.85" width="0.6" layer="41"/>
-<pad name="1" x="-1" y="1.15" drill="0.6" diameter="1"/>
-<pad name="2" x="-1" y="-1.15" drill="0.6" diameter="1"/>
-<text x="-0.254" y="4.572" size="1.6764" layer="25" align="center">&gt;NAME</text>
-<text x="-0.254" y="-4.572" size="1.27" layer="27" align="center">&gt;VALUE</text>
-</package>
-<package name="WM-64PN">
-<description>&lt;b&gt;Omnidirectional Back Electret Condenser Microphone Cartridge&lt;/b&gt;&lt;p&gt;
-Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</description>
-<circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.85" width="0.6" layer="41"/>
-<pad name="1" x="-1" y="0.95" drill="0.6" diameter="1"/>
-<pad name="2" x="-1" y="-0.95" drill="0.6" diameter="1"/>
+<pad name="1" x="-1" y="0.8" drill="0.6" diameter="1"/>
+<pad name="2" x="-1" y="-0.8" drill="0.6" diameter="1"/>
 <text x="-2.794" y="3.302" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.794" y="-4.572" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="TOM-1545P-R" urn="urn:adsk.eagle:footprint:21021/1">
+<description>&lt;b&gt;Mocrophone 4 x 1.5mm&lt;/b&gt;&lt;p&gt;
+Source: Projects Unlimited Inc. Microphone_TOM-1545P-R_40092-1.pdf</description>
+<pad name="-" x="-0.6" y="0.4" drill="0.5" diameter="0.8"/>
+<pad name="+" x="0.6" y="0.4" drill="0.5" diameter="0.8"/>
+<circle x="0" y="0" radius="2" width="0.1016" layer="21"/>
+<text x="-2.0508" y="2.1778" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.0508" y="-3.9558" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
+<packages3d>
+<package3d name="WM-64PC/64PK" urn="urn:adsk.eagle:package:21034/1" type="box">
+<description>Omnidirectional Back Electret Condenser Microphone Cartridge
+Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</description>
+<packageinstances>
+<packageinstance name="WM-64PC/64PK"/>
+</packageinstances>
+</package3d>
+<package3d name="F6035AP" urn="urn:adsk.eagle:package:21041/1" type="box">
+<description>Omnibidirectional Electret Condenser Microphon
+Source: F6035AP.pdf</description>
+<packageinstances>
+<packageinstance name="F6035AP"/>
+</packageinstances>
+</package3d>
+<package3d name="F6050AP" urn="urn:adsk.eagle:package:21036/1" type="box">
+<description>Omnibidirectional Electret Condenser Microphon
+Source: F6050AP.pdf</description>
+<packageinstances>
+<packageinstance name="F6050AP"/>
+</packageinstances>
+</package3d>
+<package3d name="WM-61A" urn="urn:adsk.eagle:package:21033/1" type="box">
+<description>Omnidirectional Back Electret Condenser Microphone Cartridge
+Source: www.panasonic.com/industrial/components/pdf/em06_wm61_a_b_dne.pdf</description>
+<packageinstances>
+<packageinstance name="WM-61A"/>
+</packageinstances>
+</package3d>
+<package3d name="WM-61B" urn="urn:adsk.eagle:package:21037/1" type="box">
+<description>Omnidirectional Back Electret Condenser Microphone Cartridge
+Source: www.panasonic.com/industrial/components/pdf/em06_wm61_a_b_dne.pdf</description>
+<packageinstances>
+<packageinstance name="WM-61B"/>
+</packageinstances>
+</package3d>
+<package3d name="WM-62PC/62PK" urn="urn:adsk.eagle:package:21040/1" type="box">
+<description>Omnidirectional Back Electret Condenser Microphone Cartridge
+Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</description>
+<packageinstances>
+<packageinstance name="WM-62PC/62PK"/>
+</packageinstances>
+</package3d>
+<package3d name="WM-63PR" urn="urn:adsk.eagle:package:21035/1" type="box">
+<description>Omnidirectional Back Electret Condenser Microphone Cartridge
+Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE3.pdf</description>
+<packageinstances>
+<packageinstance name="WM-63PR"/>
+</packageinstances>
+</package3d>
+<package3d name="WM-64PN" urn="urn:adsk.eagle:package:21039/1" type="box">
+<description>Omnidirectional Back Electret Condenser Microphone Cartridge
+Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</description>
+<packageinstances>
+<packageinstance name="WM-64PN"/>
+</packageinstances>
+</package3d>
+<package3d name="TOM-1545P-R" urn="urn:adsk.eagle:package:21038/1" type="box">
+<description>Mocrophone 4 x 1.5mm
+Source: Projects Unlimited Inc. Microphone_TOM-1545P-R_40092-1.pdf</description>
+<packageinstances>
+<packageinstance name="TOM-1545P-R"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="CONDENSER-MICROPHON">
 <wire x1="1.27" y1="-1.27" x2="2.032" y2="-1.27" width="0.1524" layer="94"/>
@@ -13966,6 +14040,9 @@ Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</de
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21041/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -13975,6 +14052,9 @@ Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</de
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21036/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -13984,6 +14064,9 @@ Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</de
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21033/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -13993,6 +14076,9 @@ Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</de
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21037/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14002,6 +14088,9 @@ Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</de
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21040/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14011,6 +14100,9 @@ Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</de
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21035/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14020,6 +14112,9 @@ Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</de
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21034/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14029,6 +14124,21 @@ Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</de
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21039/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TOM-1545P-R" package="TOM-1545P-R">
+<connects>
+<connect gate="G$1" pin="1" pad="+"/>
+<connect gate="G$1" pin="2" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21038/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -25463,7 +25573,7 @@ Solder type</description>
 <part name="PH24" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="PH22" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="PH23" library="pinhead" deviceset="PINHD-1X3" device=""/>
-<part name="MIC" library="microphon" deviceset="ELECTRET_MICROPHON-" device="WM-64PC/64PK" value=""/>
+<part name="MIC" library="microphon" deviceset="ELECTRET_MICROPHON-" device="WM-64PC/64PK" package3d_urn="urn:adsk.eagle:package:21034/1" value="ELECTRET_MICROPHON-WM-64PC/64PK"/>
 <part name="PH4" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="IC9" library="SparkFun-Sensors" deviceset="AT42QT1012" device=""/>
 <part name="U$16" library="SpaceDIY" deviceset="RESISTIVE_SENSOR_PAD" device=""/>
