@@ -15102,207 +15102,6 @@ digikey: SC1488-1-ND</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="led">
-<description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
-Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
-<packages>
-<package name="OVSTRGBBCR8">
-<description>&lt;b&gt;Full Color PLCC6 LED&lt;/b&gt; OVSTRGBBCR8&lt;p&gt;
-Source: www.optekinc.com  .. ovstrgbbcr8.pdf</description>
-<wire x1="-2.3622" y1="2.8956" x2="2.413" y2="2.8956" width="0.2032" layer="51"/>
-<wire x1="2.413" y1="2.8956" x2="2.413" y2="-1.397" width="0.2032" layer="51"/>
-<wire x1="2.413" y1="-1.397" x2="2.413" y2="-2.8956" width="0.2032" layer="51"/>
-<wire x1="2.413" y1="-2.8956" x2="0.9144" y2="-2.8956" width="0.2032" layer="51"/>
-<wire x1="0.9144" y1="-2.8956" x2="-2.3622" y2="-2.8956" width="0.2032" layer="51"/>
-<wire x1="-2.3622" y1="-2.8956" x2="-2.3622" y2="2.8956" width="0.2032" layer="51"/>
-<wire x1="2.413" y1="-1.397" x2="0.9144" y2="-2.8956" width="0.2032" layer="51"/>
-<wire x1="-0.4572" y1="2.8956" x2="0.508" y2="2.8956" width="0.2032" layer="21"/>
-<wire x1="0.9144" y1="-2.8956" x2="-0.8128" y2="-2.8956" width="0.2032" layer="21"/>
-<wire x1="-1.05" y1="1.75" x2="1.05" y2="1.75" width="0.2032" layer="21" curve="-59.863024"/>
-<wire x1="1.05" y1="-1.75" x2="-1.05" y2="-1.75" width="0.2032" layer="21" curve="-59.863024"/>
-<circle x="0" y="0" radius="2.032" width="0.2032" layer="51"/>
-<smd name="6" x="-4.4424" y="3.786" dx="6.5" dy="5" layer="1" stop="no" cream="no"/>
-<smd name="4" x="-4.4424" y="0" dx="6.5" dy="1.6" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-4.4424" y="-3.786" dx="6.5" dy="5" layer="1" stop="no" cream="no"/>
-<smd name="AEWSG" x="2.6924" y="-3.786" dx="3" dy="5" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="SDF" x="3.6924" y="0" dx="5" dy="1.6" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="SBE" x="2.6924" y="3.786" dx="3" dy="5" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="5" x="4.4424" y="5.136" dx="6.5" dy="2.3" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="1" x="4.4424" y="-5.136" dx="6.5" dy="2.3" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="3" x="6.15" y="-0.025" dx="3" dy="7" layer="1" rot="R180" stop="no" cream="no"/>
-<text x="0" y="0" size="1.27" layer="25" rot="R90" align="center">&gt;NAME</text>
-<text x="6.35" y="0" size="1.27" layer="27" rot="R90" align="center">&gt;VALUE</text>
-<rectangle x1="-2.8448" y1="1.4224" x2="-2.4638" y2="2.794" layer="51"/>
-<rectangle x1="-2.8448" y1="-0.6858" x2="-2.4638" y2="0.6858" layer="51"/>
-<rectangle x1="-2.8448" y1="-2.794" x2="-2.4638" y2="-1.4224" layer="51"/>
-<rectangle x1="2.4638" y1="-2.794" x2="2.8448" y2="-1.4224" layer="51" rot="R180"/>
-<rectangle x1="2.4638" y1="-0.6858" x2="2.8448" y2="0.6858" layer="51" rot="R180"/>
-<rectangle x1="2.4638" y1="1.4224" x2="2.8448" y2="2.794" layer="51" rot="R180"/>
-<rectangle x1="-4.2" y1="1.275" x2="-1.2" y2="3.3" layer="29"/>
-<rectangle x1="-4.2" y1="-0.8" x2="-1.2" y2="0.8" layer="29"/>
-<rectangle x1="-4.2" y1="-3.3" x2="-1.2" y2="-1.275" layer="29"/>
-<rectangle x1="1.2" y1="-3.3" x2="4.2" y2="-1.275" layer="29" rot="R180"/>
-<rectangle x1="1.2" y1="-0.8" x2="4.2" y2="0.8" layer="29" rot="R180"/>
-<rectangle x1="1.2" y1="1.275" x2="4.2" y2="3.3" layer="29" rot="R180"/>
-<rectangle x1="-4.125" y1="1.35" x2="-1.275" y2="3.225" layer="31"/>
-<rectangle x1="-4.125" y1="-0.725" x2="-1.275" y2="0.725" layer="31"/>
-<rectangle x1="-4.12" y1="-3.23" x2="-1.27" y2="-1.355" layer="31"/>
-<rectangle x1="1.275" y1="-3.225" x2="4.125" y2="-1.35" layer="31" rot="R180"/>
-<rectangle x1="1.275" y1="-0.725" x2="4.125" y2="0.725" layer="31" rot="R180"/>
-<rectangle x1="1.27" y1="1.355" x2="4.12" y2="3.23" layer="31" rot="R180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LED-A">
-<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
-<text x="3.556" y="-4.318" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="-4.318" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="C" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="0" y="2.54" visible="pad" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.429" y="-2.159"/>
-<vertex x="-3.048" y="-1.27"/>
-<vertex x="-2.54" y="-1.778"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.302" y="-3.302"/>
-<vertex x="-2.921" y="-2.413"/>
-<vertex x="-2.413" y="-2.921"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="OVSTRGBBCR8" prefix="LED">
-<description>&lt;b&gt;Full Color PLCC6 LED&lt;/b&gt; OVSTRGBBCR8&lt;p&gt;
-Source: www.optekinc.com  .. ovstrgbbcr8.pdf</description>
-<gates>
-<gate name="-G" symbol="LED-A" x="-10.16" y="0" addlevel="always"/>
-<gate name="-R" symbol="LED-A" x="0" y="0" addlevel="always"/>
-<gate name="-B" symbol="LED-A" x="10.16" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="OVSTRGBBCR8">
-<connects>
-<connect gate="-B" pin="A" pad="1"/>
-<connect gate="-B" pin="C" pad="2"/>
-<connect gate="-G" pin="A" pad="5"/>
-<connect gate="-G" pin="C" pad="6"/>
-<connect gate="-R" pin="A" pad="3"/>
-<connect gate="-R" pin="C" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="jump-0r-smd">
-<description>Soldering jumper and bridges</description>
-<packages>
-<package name="A0R-JMP">
-<description>&lt;b&gt;0R Jumper Variant A&lt;/b&gt;&lt;p&gt;
-chip 0805</description>
-<smd name="1" x="0" y="1.5" dx="1.1" dy="1.5" layer="1" rot="R270"/>
-<smd name="2" x="0" y="0" dx="1.3" dy="1.5" layer="1" rot="R270"/>
-<smd name="3" x="0" y="-1.5" dx="1.1" dy="1.5" layer="1" rot="R270"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-<wire x1="-0.47" y1="0.76" x2="0.46" y2="0.76" width="0.6096" layer="21"/>
-<wire x1="-0.47" y1="-0.76" x2="0.46" y2="-0.76" width="0.6096" layer="21"/>
-</package>
-<package name="B0R-JMP">
-<description>&lt;b&gt;0R Jumper Variant B&lt;/b&gt;&lt;p&gt;
-chip 0805</description>
-<wire x1="-0.635" y1="-0.44" x2="-0.635" y2="-1.26" width="0.1524" layer="51"/>
-<wire x1="0.635" y1="-1.26" x2="0.635" y2="-0.44" width="0.1524" layer="51"/>
-<smd name="1" x="0" y="1.7" dx="1.3" dy="1.5" layer="1" rot="R270"/>
-<smd name="2" x="0" y="0" dx="1.3" dy="1.5" layer="1" rot="R270"/>
-<smd name="3" x="0" y="-1.7" dx="1.3" dy="1.5" layer="1" rot="R270"/>
-<text x="-0.762" y="2.716" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.762" y="-3.986" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.3235" y1="-2.2814" x2="0.3265" y2="-0.8814" layer="51" rot="R270"/>
-<rectangle x1="-0.3235" y1="-0.8082" x2="0.3265" y2="0.5918" layer="51" rot="R270"/>
-</package>
-<package name="C0R-JMP">
-<description>&lt;b&gt;0R Jumper Variant C&lt;/b&gt;&lt;p&gt;
-Solder type</description>
-<wire x1="0.61" y1="0.66" x2="0.61" y2="0.34" width="0.1524" layer="51"/>
-<wire x1="-0.61" y1="0.66" x2="-0.61" y2="0.34" width="0.1524" layer="51"/>
-<smd name="1" x="0" y="0.938" dx="0.8" dy="1" layer="1" roundness="100"/>
-<smd name="2" x="0" y="0" dx="1" dy="0.8" layer="1" roundness="50"/>
-<smd name="3" x="0" y="-0.938" dx="0.8" dy="1" layer="1" roundness="100"/>
-<text x="-0.762" y="2.716" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.762" y="-3.986" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.3235" y1="-0.6814" x2="0.3265" y2="0.7186" layer="51" rot="R270"/>
-<rectangle x1="-0.3235" y1="0.2338" x2="0.3265" y2="1.6338" layer="51" rot="R270"/>
-</package>
-</packages>
-<symbols>
-<symbol name="0RJM">
-<wire x1="0" y1="2.54" x2="0" y2="1.778" width="0.1524" layer="94"/>
-<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.778" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="1.524" x2="0.254" y2="1.524" width="0.508" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.254" y1="-1.016" x2="0.254" y2="-1.016" width="0.508" layer="94" curve="-180" cap="flat"/>
-<wire x1="0.254" y1="1.016" x2="-0.254" y2="1.016" width="0.508" layer="94" curve="-180" cap="flat"/>
-<wire x1="0.254" y1="-1.524" x2="-0.254" y2="-1.524" width="0.508" layer="94" curve="-180" cap="flat"/>
-<text x="2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="0" y="2.54" visible="off" length="point" direction="pas" rot="R270"/>
-<pin name="3" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="0R-JUMP" prefix="JMP">
-<description>&lt;b&gt;SMD 0R 0805 Jumper&lt;/b&gt;&lt;p&gt;</description>
-<gates>
-<gate name="-0R" symbol="0RJM" x="0" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="A" package="A0R-JMP">
-<connects>
-<connect gate="-0R" pin="1" pad="1"/>
-<connect gate="-0R" pin="2" pad="2"/>
-<connect gate="-0R" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="B" package="B0R-JMP">
-<connects>
-<connect gate="-0R" pin="1" pad="1"/>
-<connect gate="-0R" pin="2" pad="2"/>
-<connect gate="-0R" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="C" package="C0R-JMP">
-<connects>
-<connect gate="-0R" pin="1" pad="1"/>
-<connect gate="-0R" pin="2" pad="2"/>
-<connect gate="-0R" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
@@ -25264,6 +25063,122 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Passive_components">
+<packages>
+<package name="PLCC6" urn="urn:adsk.eagle:footprint:15731/1" locally_modified="yes">
+<description>&lt;b&gt;Full Color PLCC6 LED&lt;/b&gt; OVSTRGBBCR8&lt;p&gt;
+Source: www.optekinc.com  .. ovstrgbbcr8.pdf</description>
+<wire x1="-2.3622" y1="2.8956" x2="2.413" y2="2.8956" width="0.2032" layer="51"/>
+<wire x1="2.413" y1="2.8956" x2="2.413" y2="-1.397" width="0.2032" layer="51"/>
+<wire x1="2.413" y1="-1.397" x2="2.413" y2="-2.8956" width="0.2032" layer="51"/>
+<wire x1="2.413" y1="-2.8956" x2="0.9144" y2="-2.8956" width="0.2032" layer="51"/>
+<wire x1="0.9144" y1="-2.8956" x2="-2.3622" y2="-2.8956" width="0.2032" layer="51"/>
+<wire x1="-2.3622" y1="-2.8956" x2="-2.3622" y2="2.8956" width="0.2032" layer="51"/>
+<wire x1="2.413" y1="-1.397" x2="0.9144" y2="-2.8956" width="0.2032" layer="51"/>
+<wire x1="-0.4572" y1="2.8956" x2="0.508" y2="2.8956" width="0.2032" layer="21"/>
+<wire x1="0.9144" y1="-2.8956" x2="-0.8128" y2="-2.8956" width="0.2032" layer="21"/>
+<wire x1="-0.95" y1="1.65" x2="0.95" y2="1.65" width="0.2032" layer="21" curve="-59.863024"/>
+<wire x1="0.95" y1="-1.65" x2="-0.95" y2="-1.65" width="0.2032" layer="21" curve="-59.863024"/>
+<circle x="0" y="0" radius="1.905" width="0.2032" layer="51"/>
+<smd name="R+" x="-4.4424" y="3.786" dx="6.5" dy="5" layer="1" stop="no" cream="no"/>
+<smd name="G+" x="-4.4424" y="0" dx="6.5" dy="1.6" layer="1" stop="no" cream="no"/>
+<smd name="B+" x="-4.4424" y="-3.786" dx="6.5" dy="5" layer="1" stop="no" cream="no"/>
+<smd name="6" x="2.6924" y="-3.786" dx="3" dy="5" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="5" x="3.6924" y="0" dx="5" dy="1.6" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="4" x="2.6924" y="3.786" dx="3" dy="5" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="R-" x="4.4424" y="5.136" dx="6.5" dy="2.3" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="B-" x="4.4424" y="-5.136" dx="6.5" dy="2.3" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="G-" x="6.15" y="-0.025" dx="3" dy="7" layer="1" rot="R180" stop="no" cream="no"/>
+<text x="-3.81" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.8448" y1="1.4224" x2="-2.4638" y2="2.794" layer="51"/>
+<rectangle x1="-2.8448" y1="-0.6858" x2="-2.4638" y2="0.6858" layer="51"/>
+<rectangle x1="-2.8448" y1="-2.794" x2="-2.4638" y2="-1.4224" layer="51"/>
+<rectangle x1="2.4638" y1="-2.794" x2="2.8448" y2="-1.4224" layer="51" rot="R180"/>
+<rectangle x1="2.4638" y1="-0.6858" x2="2.8448" y2="0.6858" layer="51" rot="R180"/>
+<rectangle x1="2.4638" y1="1.4224" x2="2.8448" y2="2.794" layer="51" rot="R180"/>
+<rectangle x1="-4.2" y1="1.275" x2="-1.2" y2="3.3" layer="29"/>
+<rectangle x1="-4.2" y1="-0.8" x2="-1.2" y2="0.8" layer="29"/>
+<rectangle x1="-4.2" y1="-3.3" x2="-1.2" y2="-1.275" layer="29"/>
+<rectangle x1="1.2" y1="-3.3" x2="4.2" y2="-1.275" layer="29" rot="R180"/>
+<rectangle x1="1.2" y1="-0.8" x2="4.2" y2="0.8" layer="29" rot="R180"/>
+<rectangle x1="1.2" y1="1.275" x2="4.2" y2="3.3" layer="29" rot="R180"/>
+<rectangle x1="-4.125" y1="1.35" x2="-1.275" y2="3.225" layer="31"/>
+<rectangle x1="-4.125" y1="-0.725" x2="-1.275" y2="0.725" layer="31"/>
+<rectangle x1="-4.12" y1="-3.23" x2="-1.27" y2="-1.355" layer="31"/>
+<rectangle x1="1.275" y1="-3.225" x2="4.125" y2="-1.35" layer="31" rot="R180"/>
+<rectangle x1="1.275" y1="-0.725" x2="4.125" y2="0.725" layer="31" rot="R180"/>
+<rectangle x1="1.27" y1="1.355" x2="4.12" y2="3.23" layer="31" rot="R180"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="OVSTRGBBCR8" urn="urn:adsk.eagle:package:15862/1" type="box">
+<description>Full Color PLCC6 LED OVSTRGBBCR8
+Source: www.optekinc.com  .. ovstrgbbcr8.pdf</description>
+<packageinstances>
+<packageinstance name="PLCC6"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="LED">
+<wire x1="-2.54" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.968" y1="1.722" x2="-0.571" y2="3.119" width="0.1524" layer="94"/>
+<wire x1="-0.495" y1="1.665" x2="0.902" y2="3.062" width="0.1524" layer="94"/>
+<text x="0" y="4.25" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-3" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.571" y="3.119"/>
+<vertex x="-0.952" y="2.23"/>
+<vertex x="-1.46" y="2.738"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.902" y="3.062"/>
+<vertex x="0.521" y="2.173"/>
+<vertex x="0.013" y="2.681"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LED_RGB_PLCC6" prefix="LED">
+<description>&lt;b&gt;Full Color PLCC6 LED&lt;/b&gt; 
+SLV6A-FKB-CK1P1G1BB7R3R3
+&lt;p&gt;
+Source:https://www.mouser.es/datasheet/2/90/1320-SLV6A-FKB-1659719.pdf</description>
+<gates>
+<gate name="RGB-G" symbol="LED" x="0" y="0"/>
+<gate name="RGB-R" symbol="LED" x="0" y="10.16"/>
+<gate name="RGB-B" symbol="LED" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="PLCC6">
+<connects>
+<connect gate="RGB-B" pin="A" pad="B+"/>
+<connect gate="RGB-B" pin="C" pad="B-"/>
+<connect gate="RGB-G" pin="A" pad="G+"/>
+<connect gate="RGB-G" pin="C" pad="G-"/>
+<connect gate="RGB-R" pin="A" pad="R+"/>
+<connect gate="RGB-R" pin="C" pad="R-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15862/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -25475,7 +25390,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R55" library="resistor" deviceset="R-US_" device="R1206" value="330"/>
 <part name="R56" library="resistor" deviceset="R-US_" device="R1206" value="330"/>
 <part name="PH47" library="pinhead" deviceset="PINHD-1X9" device=""/>
-<part name="RGB" library="led" deviceset="OVSTRGBBCR8" device="" value=""/>
 <part name="R57" library="resistor" deviceset="R-US_" device="R1206" value="150"/>
 <part name="R58" library="resistor" deviceset="R-US_" device="R1206" value="150"/>
 <part name="R59" library="resistor" deviceset="R-US_" device="R1206" value="220"/>
@@ -25495,12 +25409,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="AR2" library="SpaceDIY" deviceset="RESISTOR_ARRAY_X8_CAY17" device="" value="1K"/>
 <part name="AR3" library="SpaceDIY" deviceset="RESISTOR_ARRAY_X8_CAY17" device="" value="1K"/>
 <part name="AR4" library="SpaceDIY" deviceset="RESISTOR_ARRAY_X8_CAY17" device="" value="1K"/>
-<part name="JMP1" library="jump-0r-smd" deviceset="0R-JUMP" device="A" value=""/>
-<part name="JMP2" library="jump-0r-smd" deviceset="0R-JUMP" device="A" value=""/>
-<part name="JMP3" library="jump-0r-smd" deviceset="0R-JUMP" device="A" value=""/>
-<part name="JMP4" library="jump-0r-smd" deviceset="0R-JUMP" device="A" value=""/>
-<part name="JMP5" library="jump-0r-smd" deviceset="0R-JUMP" device="A" value=""/>
-<part name="JMP6" library="jump-0r-smd" deviceset="0R-JUMP" device="A" value=""/>
 <part name="IC13" library="SpaceDIY_IC" deviceset="ADXL337" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -25524,6 +25432,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="C28" library="SpaceDIY_passive_components" deviceset="C0603" device="" value="10nF"/>
 <part name="R67" library="SpaceDIY_passive_components" deviceset="R0603" device="" value="10k"/>
+<part name="RGB" library="Passive_components" deviceset="LED_RGB_PLCC6" device="" package3d_urn="urn:adsk.eagle:package:15862/1" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29927,18 +29836,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="NAME" x="79.375" y="49.53" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="50.8" y="49.53" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="RGB" gate="-G" x="86.36" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="90.678" y="18.796" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="90.678" y="20.955" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="RGB" gate="-R" x="86.36" y="22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="90.678" y="26.416" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="90.678" y="28.575" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="RGB" gate="-B" x="86.36" y="30.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="90.678" y="34.036" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="90.678" y="36.195" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="R57" gate="G$1" x="71.12" y="30.48" smashed="yes" rot="R180">
 <attribute name="NAME" x="74.93" y="28.9814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="74.93" y="33.782" size="1.778" layer="96" rot="R180"/>
@@ -30015,23 +29912,17 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="NAME" x="216.154" y="49.784" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="216.154" y="31.242" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="JMP1" gate="-0R" x="55.88" y="30.48" smashed="yes">
-<attribute name="NAME" x="58.42" y="31.75" size="1.778" layer="95"/>
+<instance part="RGB" gate="RGB-G" x="88.9" y="22.86" smashed="yes">
+<attribute name="NAME" x="88.9" y="27.11" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="88.9" y="19.86" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="JMP2" gate="-0R" x="55.88" y="22.86" smashed="yes">
-<attribute name="NAME" x="58.42" y="24.13" size="1.778" layer="95"/>
+<instance part="RGB" gate="RGB-R" x="88.9" y="30.48" smashed="yes">
+<attribute name="NAME" x="88.9" y="34.73" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="88.9" y="27.48" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="JMP3" gate="-0R" x="55.88" y="15.24" smashed="yes">
-<attribute name="NAME" x="58.42" y="16.51" size="1.778" layer="95"/>
-</instance>
-<instance part="JMP4" gate="-0R" x="101.6" y="30.48" smashed="yes" rot="R180">
-<attribute name="NAME" x="99.06" y="29.21" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="JMP5" gate="-0R" x="101.6" y="22.86" smashed="yes" rot="R180">
-<attribute name="NAME" x="99.06" y="21.59" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="JMP6" gate="-0R" x="101.6" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="99.06" y="13.97" size="1.778" layer="95" rot="R180"/>
+<instance part="RGB" gate="RGB-B" x="88.9" y="15.24" smashed="yes">
+<attribute name="NAME" x="88.9" y="19.49" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="88.9" y="12.24" size="1.778" layer="96" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -30237,34 +30128,18 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="200.66" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JMP4" gate="-0R" pin="3"/>
-<wire x1="101.6" y1="33.02" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
-<label x="106.68" y="33.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JMP1" gate="-0R" pin="3"/>
-<wire x1="55.88" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
-<label x="48.26" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JMP2" gate="-0R" pin="3"/>
-<wire x1="48.26" y1="20.32" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
-<label x="48.26" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JMP3" gate="-0R" pin="3"/>
-<wire x1="48.26" y1="12.7" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
-<label x="48.26" y="12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JMP5" gate="-0R" pin="3"/>
-<wire x1="101.6" y1="25.4" x2="106.68" y2="25.4" width="0.1524" layer="91"/>
-<label x="106.68" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JMP6" gate="-0R" pin="3"/>
-<wire x1="106.68" y1="17.78" x2="101.6" y2="17.78" width="0.1524" layer="91"/>
-<label x="106.68" y="17.78" size="1.778" layer="95"/>
+<wire x1="99.06" y1="30.48" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="15.24" x2="99.06" y2="15.24" width="0.1524" layer="91"/>
+<label x="104.14" y="15.24" size="1.778" layer="95"/>
+<wire x1="99.06" y1="15.24" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="30.48" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
+<junction x="99.06" y="15.24"/>
+<wire x1="99.06" y1="22.86" x2="99.06" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="22.86" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
+<junction x="99.06" y="22.86"/>
+<pinref part="RGB" gate="RGB-G" pin="C"/>
+<pinref part="RGB" gate="RGB-R" pin="C"/>
+<pinref part="RGB" gate="RGB-B" pin="C"/>
 </segment>
 </net>
 <net name="VREF" class="0">
@@ -30787,22 +30662,16 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="N$308" class="0">
 <segment>
-<pinref part="RGB" gate="-B" pin="A"/>
 <pinref part="R57" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$309" class="0">
-<segment>
-<pinref part="RGB" gate="-R" pin="A"/>
-<pinref part="R58" gate="G$1" pin="1"/>
+<pinref part="RGB" gate="RGB-R" pin="A"/>
 </segment>
 </net>
 <net name="N$310" class="0">
 <segment>
 <pinref part="R59" gate="G$1" pin="1"/>
-<pinref part="RGB" gate="-G" pin="A"/>
 <wire x1="76.2" y1="15.24" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="RGB" gate="RGB-B" pin="A"/>
 </segment>
 </net>
 <net name="B" class="0">
@@ -30812,14 +30681,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="25.4" y="27.94" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="JMP1" gate="-0R" pin="1"/>
-<wire x1="55.88" y1="33.02" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
-<label x="48.26" y="33.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JMP4" gate="-0R" pin="1"/>
-<wire x1="101.6" y1="27.94" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
-<label x="106.68" y="27.94" size="1.778" layer="95"/>
+<pinref part="R59" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="15.24" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
+<label x="58.42" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="G" class="0">
@@ -30829,14 +30693,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="27.94" y="27.94" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="JMP3" gate="-0R" pin="1"/>
-<wire x1="55.88" y1="17.78" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
-<label x="48.26" y="17.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JMP5" gate="-0R" pin="1"/>
-<wire x1="101.6" y1="20.32" x2="106.68" y2="20.32" width="0.1524" layer="91"/>
-<label x="106.68" y="20.32" size="1.778" layer="95"/>
+<pinref part="R58" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
+<label x="58.42" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="R" class="0">
@@ -30846,14 +30705,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="30.48" y="27.94" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="JMP2" gate="-0R" pin="1"/>
-<wire x1="55.88" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
-<label x="48.26" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JMP6" gate="-0R" pin="1"/>
-<wire x1="101.6" y1="12.7" x2="106.68" y2="12.7" width="0.1524" layer="91"/>
-<label x="106.68" y="12.7" size="1.778" layer="95"/>
+<pinref part="R57" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
+<label x="58.42" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$291" class="0">
@@ -31047,44 +30901,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="N$117" class="0">
 <segment>
-<pinref part="R57" gate="G$1" pin="2"/>
-<pinref part="JMP1" gate="-0R" pin="2"/>
-<wire x1="58.42" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$118" class="0">
-<segment>
-<pinref part="R58" gate="G$1" pin="2"/>
-<pinref part="JMP2" gate="-0R" pin="2"/>
-<wire x1="58.42" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$119" class="0">
-<segment>
-<pinref part="R59" gate="G$1" pin="2"/>
-<pinref part="JMP3" gate="-0R" pin="2"/>
-<wire x1="58.42" y1="15.24" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$120" class="0">
-<segment>
-<pinref part="RGB" gate="-B" pin="C"/>
-<pinref part="JMP4" gate="-0R" pin="2"/>
-<wire x1="99.06" y1="30.48" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$121" class="0">
-<segment>
-<pinref part="RGB" gate="-R" pin="C"/>
-<pinref part="JMP5" gate="-0R" pin="2"/>
-<wire x1="99.06" y1="22.86" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$122" class="0">
-<segment>
-<pinref part="RGB" gate="-G" pin="C"/>
-<pinref part="JMP6" gate="-0R" pin="2"/>
-<wire x1="99.06" y1="15.24" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="R58" gate="G$1" pin="1"/>
+<pinref part="RGB" gate="RGB-G" pin="A"/>
 </segment>
 </net>
 </nets>
