@@ -199,8 +199,10 @@
 <polygon width="0.4064" layer="42">
 <vertex x="5.5" y="66"/>
 <vertex x="43.5" y="66"/>
-<vertex x="43.5" y="11.2"/>
-<vertex x="5.5" y="11.2"/>
+<vertex x="43.5" y="10.5"/>
+<vertex x="39" y="6"/>
+<vertex x="9.4" y="6"/>
+<vertex x="5.5" y="9.9"/>
 </polygon>
 <polygon width="0.4064" layer="42">
 <vertex x="51" y="66"/>
@@ -34365,21 +34367,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
-<package name="A/3216-18W" urn="urn:adsk.eagle:footprint:22913/1" library_version="10">
-<description>&lt;b&gt;Chip Capacitor Type KEMET A / EIA 3216-18 Wave solder&lt;/b&gt;&lt;p&gt;
-KEMET S / EIA 3216-12</description>
-<wire x1="-1.45" y1="0.6" x2="1.45" y2="0.6" width="0.1016" layer="51"/>
-<wire x1="1.45" y1="0.6" x2="1.45" y2="-0.6" width="0.1016" layer="51"/>
-<wire x1="1.45" y1="-0.6" x2="-1.45" y2="-0.6" width="0.1016" layer="51"/>
-<wire x1="-1.45" y1="-0.6" x2="-1.45" y2="0.6" width="0.1016" layer="51"/>
-<smd name="+" x="1.475" y="0" dx="2.15" dy="1.8" layer="1"/>
-<smd name="-" x="-1.475" y="0" dx="2.15" dy="1.8" layer="1"/>
-<text x="-1.95" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.95" y="-2.325" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6" y1="-0.6" x2="-1.475" y2="0.6" layer="51"/>
-<rectangle x1="1.475" y1="-0.6" x2="1.6" y2="0.6" layer="51"/>
-<rectangle x1="0.8" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
-</package>
 <package name="D/7343-31W" urn="urn:adsk.eagle:footprint:22919/1" library_version="10">
 <description>&lt;b&gt;Chip Capacitor Type KEMET D / EIA 7343-21&lt;/b&gt;&lt;p&gt;
 KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
@@ -34395,20 +34382,53 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <rectangle x1="3.5" y1="-1.2" x2="3.65" y2="1.2" layer="51"/>
 <rectangle x1="2.675" y1="-2.125" x2="3.15" y2="2.125" layer="51"/>
 </package>
+<package name="D/7343-31R" urn="urn:adsk.eagle:footprint:22918/1" library_version="10">
+<description>&lt;b&gt;Chip Capacitor Type KEMET D / EIA 7343-21&lt;/b&gt;&lt;p&gt;KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 reflow solder</description>
+<wire x1="-3.45" y1="2.1" x2="3.45" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="3.45" y1="2.1" x2="3.45" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="3.45" y1="-2.1" x2="-3.45" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="-3.45" y1="-2.1" x2="-3.45" y2="2.1" width="0.1016" layer="51"/>
+<smd name="+" x="3.175" y="0" dx="2.55" dy="2.7" layer="1"/>
+<smd name="-" x="-3.175" y="0" dx="2.55" dy="2.7" layer="1"/>
+<text x="-3.65" y="2.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.65" y="-3.575" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.65" y1="-1.2" x2="-3.5" y2="1.2" layer="51"/>
+<rectangle x1="3.5" y1="-1.2" x2="3.65" y2="1.2" layer="51"/>
+<rectangle x1="2.675" y1="-2.125" x2="3.15" y2="2.125" layer="51"/>
+</package>
+<package name="A/3216-18R" urn="urn:adsk.eagle:footprint:22912/1" library_version="10">
+<description>&lt;b&gt;Chip Capacitor Type KEMET A / EIA 3216-18 reflow solder&lt;/b&gt;&lt;p&gt;KEMET S / EIA 3216-12</description>
+<wire x1="-1.45" y1="0.6" x2="1.45" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="0.6" x2="1.45" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="-0.6" x2="-1.45" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="-0.6" x2="-1.45" y2="0.6" width="0.1016" layer="51"/>
+<smd name="+" x="1.375" y="0" dx="1.95" dy="1.5" layer="1"/>
+<smd name="-" x="-1.375" y="0" dx="1.95" dy="1.5" layer="1"/>
+<text x="-1.95" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.95" y="-2.325" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6" y1="-0.6" x2="-1.475" y2="0.6" layer="51"/>
+<rectangle x1="1.475" y1="-0.6" x2="1.6" y2="0.6" layer="51"/>
+<rectangle x1="0.8" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="A/3216-18W" urn="urn:adsk.eagle:package:23408/2" type="model" library_version="10">
-<description>Chip Capacitor Type KEMET A / EIA 3216-18 Wave solder
-KEMET S / EIA 3216-12</description>
-<packageinstances>
-<packageinstance name="A/3216-18W"/>
-</packageinstances>
-</package3d>
 <package3d name="D/7343-31W" urn="urn:adsk.eagle:package:23414/2" type="model" library_version="10">
 <description>Chip Capacitor Type KEMET D / EIA 7343-21
 KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <packageinstances>
 <packageinstance name="D/7343-31W"/>
+</packageinstances>
+</package3d>
+<package3d name="D/7343-31R" urn="urn:adsk.eagle:package:23417/2" type="model" library_version="10">
+<description>Chip Capacitor Type KEMET D / EIA 7343-21KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 reflow solder</description>
+<packageinstances>
+<packageinstance name="D/7343-31R"/>
+</packageinstances>
+</package3d>
+<package3d name="A/3216-18R" urn="urn:adsk.eagle:package:23410/2" type="model" library_version="10">
+<description>Chip Capacitor Type KEMET A / EIA 3216-18 reflow solderKEMET S / EIA 3216-12</description>
+<packageinstances>
+<packageinstance name="A/3216-18R"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -34814,89 +34834,89 @@ design rules under a new name.</description>
 <element name="PH55" library="adafruit" package="1X10-BIG" value="" x="22.495" y="26.34" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.495" y="26.34" size="1.27" layer="49" rot="R270" align="center"/>
 </element>
-<element name="C1" library="resistor" package="C1206" value="10p" x="33.39" y="37.76" smashed="yes" rot="MR180">
-<attribute name="NAME" x="32.12" y="36.617" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="32.12" y="40.173" size="1.27" layer="28" rot="MR180"/>
+<element name="C1" library="resistor" package="C1206" value="10pF" x="33.39" y="37.76" smashed="yes" rot="MR180">
+<attribute name="NAME" x="37.82" y="37.717" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="29.22" y="37.773" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C2" library="resistor" package="C1206" value="10p" x="15.73" y="37.76" smashed="yes" rot="MR180">
-<attribute name="NAME" x="14.46" y="36.617" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="14.46" y="40.173" size="1.27" layer="28" rot="MR180"/>
+<element name="C2" library="resistor" package="C1206" value="10pF" x="15.73" y="37.76" smashed="yes" rot="MR180">
+<attribute name="NAME" x="20.16" y="37.717" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="11.56" y="37.773" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C3" library="resistor" package="C1206" value="100p" x="33.39" y="35.22" smashed="yes" rot="MR180">
-<attribute name="NAME" x="32.12" y="34.077" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="32.12" y="37.633" size="1.27" layer="28" rot="MR180"/>
+<element name="C3" library="resistor" package="C1206" value="100pF" x="33.39" y="35.22" smashed="yes" rot="MR180">
+<attribute name="NAME" x="37.82" y="35.177" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="29.22" y="35.233" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C4" library="resistor" package="C1206" value="100p" x="15.73" y="35.22" smashed="yes" rot="MR180">
-<attribute name="NAME" x="14.46" y="34.077" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="14.46" y="37.633" size="1.27" layer="28" rot="MR180"/>
+<element name="C4" library="resistor" package="C1206" value="100pF" x="15.73" y="35.22" smashed="yes" rot="MR180">
+<attribute name="NAME" x="20.16" y="35.177" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="11.56" y="35.233" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C5" library="resistor" package="C1206" value="1n" x="33.39" y="32.68" smashed="yes" rot="MR180">
-<attribute name="NAME" x="32.12" y="31.537" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="32.12" y="35.093" size="1.27" layer="28" rot="MR180"/>
+<element name="C5" library="resistor" package="C1206" value="1nF" x="33.39" y="32.68" smashed="yes" rot="MR180">
+<attribute name="NAME" x="37.82" y="32.637" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="29.22" y="32.693" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C6" library="resistor" package="C1206" value="1n" x="15.73" y="32.68" smashed="yes" rot="MR180">
-<attribute name="NAME" x="14.46" y="31.537" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="14.46" y="35.093" size="1.27" layer="28" rot="MR180"/>
+<element name="C6" library="resistor" package="C1206" value="1nF" x="15.73" y="32.68" smashed="yes" rot="MR180">
+<attribute name="NAME" x="20.16" y="32.637" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="11.56" y="32.693" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C7" library="resistor" package="C1206" value="10n" x="33.39" y="30.14" smashed="yes" rot="MR180">
-<attribute name="NAME" x="32.12" y="28.997" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="32.12" y="32.553" size="1.27" layer="28" rot="MR180"/>
+<element name="C7" library="resistor" package="C1206" value="10nF" x="33.39" y="30.14" smashed="yes" rot="MR180">
+<attribute name="NAME" x="37.82" y="30.097" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="29.22" y="30.153" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C8" library="resistor" package="C1206" value="10n" x="15.73" y="30.14" smashed="yes" rot="MR180">
-<attribute name="NAME" x="14.46" y="28.997" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="14.46" y="32.553" size="1.27" layer="28" rot="MR180"/>
+<element name="C8" library="resistor" package="C1206" value="10nF" x="15.73" y="30.14" smashed="yes" rot="MR180">
+<attribute name="NAME" x="20.16" y="30.097" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="11.56" y="30.153" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C9" library="resistor" package="C1206" value="47n" x="33.39" y="27.6" smashed="yes" rot="MR180">
-<attribute name="NAME" x="32.12" y="26.457" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="32.12" y="30.013" size="1.27" layer="28" rot="MR180"/>
+<element name="C9" library="resistor" package="C1206" value="47nF" x="33.39" y="27.6" smashed="yes" rot="MR180">
+<attribute name="NAME" x="37.82" y="27.557" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="29.22" y="27.613" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C10" library="resistor" package="C1206" value="47n" x="15.73" y="27.6" smashed="yes" rot="MR180">
-<attribute name="NAME" x="14.46" y="26.457" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="14.46" y="30.013" size="1.27" layer="28" rot="MR180"/>
+<element name="C10" library="resistor" package="C1206" value="47nF" x="15.73" y="27.6" smashed="yes" rot="MR180">
+<attribute name="NAME" x="20.16" y="27.557" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="11.56" y="27.613" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C11" library="resistor" package="C1206" value="100n" x="33.39" y="25.06" smashed="yes" rot="MR180">
-<attribute name="NAME" x="32.12" y="23.917" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="32.12" y="27.473" size="1.27" layer="28" rot="MR180"/>
+<element name="C11" library="resistor" package="C1206" value="100nF" x="33.39" y="25.06" smashed="yes" rot="MR180">
+<attribute name="NAME" x="37.82" y="25.017" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="29.22" y="25.073" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C12" library="resistor" package="C1206" value="100n" x="15.73" y="25.06" smashed="yes" rot="MR180">
-<attribute name="NAME" x="14.46" y="23.917" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="14.46" y="27.473" size="1.27" layer="28" rot="MR180"/>
+<element name="C12" library="resistor" package="C1206" value="100nF" x="15.73" y="25.06" smashed="yes" rot="MR180">
+<attribute name="NAME" x="20.16" y="25.017" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="11.56" y="25.073" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C13" library="resistor" package="C1206" value="1u" x="33.39" y="22.52" smashed="yes" rot="MR180">
-<attribute name="NAME" x="32.12" y="21.377" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="32.12" y="24.933" size="1.27" layer="28" rot="MR180"/>
+<element name="C13" library="resistor" package="C1206" value="1uF" x="33.39" y="22.52" smashed="yes" rot="MR180">
+<attribute name="NAME" x="37.82" y="22.477" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="29.22" y="22.533" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C14" library="resistor" package="C1206" value="1u" x="15.73" y="22.52" smashed="yes" rot="MR180">
-<attribute name="NAME" x="14.46" y="21.377" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="14.46" y="24.933" size="1.27" layer="28" rot="MR180"/>
+<element name="C14" library="resistor" package="C1206" value="1uF" x="15.73" y="22.52" smashed="yes" rot="MR180">
+<attribute name="NAME" x="20.16" y="22.477" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="11.56" y="22.533" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C15" library="resistor" package="C1206" value="10u" x="33.39" y="19.98" smashed="yes" rot="MR180">
-<attribute name="NAME" x="32.12" y="18.837" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="32.12" y="22.393" size="1.27" layer="28" rot="MR180"/>
+<element name="C15" library="resistor" package="C1206" value="10uF" x="33.39" y="19.98" smashed="yes" rot="MR180">
+<attribute name="NAME" x="37.82" y="19.937" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="29.22" y="19.993" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C16" library="resistor" package="C1206" value="10u" x="15.73" y="19.98" smashed="yes" rot="MR180">
-<attribute name="NAME" x="14.46" y="18.837" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="14.46" y="22.393" size="1.27" layer="28" rot="MR180"/>
+<element name="C16" library="resistor" package="C1206" value="10uF" x="15.73" y="19.98" smashed="yes" rot="MR180">
+<attribute name="NAME" x="20.16" y="19.937" size="1.016" layer="26" rot="MR180" align="center"/>
+<attribute name="VALUE" x="11.56" y="19.993" size="1.016" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="A/3216-18W" package3d_urn="urn:adsk.eagle:package:23408/2" value="100u" x="33.34" y="17.385" smashed="yes" rot="MR0">
-<attribute name="NAME" x="33.33" y="19.115" size="1.016" layer="26" rot="MR0" align="center"/>
-<attribute name="SPICEPREFIX" value="C" x="33.34" y="17.385" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="33.315" y="15.7" size="1.016" layer="28" rot="MR0" align="center"/>
+<element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="A/3216-18R" package3d_urn="urn:adsk.eagle:package:23410/2" value="100uF" x="33.375" y="17.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="37.665" y="17.43" size="1.016" layer="26" rot="MR0" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="33.375" y="17.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="28.85" y="17.515" size="1.016" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="A/3216-18W" package3d_urn="urn:adsk.eagle:package:23408/2" value="100u" x="15.725" y="17.35" smashed="yes" rot="MR0">
-<attribute name="NAME" x="15.715" y="19.08" size="1.016" layer="26" rot="MR0" align="center"/>
-<attribute name="SPICEPREFIX" value="C" x="15.725" y="17.35" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="15.7" y="15.665" size="1.016" layer="28" rot="MR0" align="center"/>
+<element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="A/3216-18R" package3d_urn="urn:adsk.eagle:package:23410/2" value="100uF" x="15.775" y="17.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="20.065" y="17.43" size="1.016" layer="26" rot="MR0" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="15.775" y="17.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="11.35" y="17.515" size="1.016" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="D/7343-31W" package3d_urn="urn:adsk.eagle:package:23414/2" value="1000u" x="33.575" y="13.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="33.565" y="14.23" size="1.016" layer="26" rot="MR0" align="center"/>
-<attribute name="SPICEPREFIX" value="C" x="33.575" y="13.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="33.44" y="12.525" size="1.016" layer="28" rot="MR0" align="center"/>
+<element name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="D/7343-31R" package3d_urn="urn:adsk.eagle:package:23417/2" value="470uF" x="33.575" y="13.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="33.565" y="14.73" size="1.016" layer="26" rot="MR0" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="33.575" y="13.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="33.54" y="12.725" size="1.016" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="D/7343-31W" package3d_urn="urn:adsk.eagle:package:23414/2" value="1000u" x="15.725" y="13.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="15.815" y="14.23" size="1.016" layer="26" rot="MR0" align="center"/>
-<attribute name="SPICEPREFIX" value="C" x="15.725" y="13.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="15.59" y="12.625" size="1.016" layer="28" rot="MR0" align="center"/>
+<element name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="D/7343-31R" package3d_urn="urn:adsk.eagle:package:23417/2" value="470uF" x="15.775" y="13.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="15.765" y="14.73" size="1.016" layer="26" rot="MR0" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="15.775" y="13.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="15.74" y="12.725" size="1.016" layer="28" rot="MR0" align="center"/>
 </element>
 <element name="U1" library="daspilker" package="FCI-10103594-0001LF" value="USB" x="33" y="99.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.04" y="97.642" size="1.27" layer="25" align="center"/>
@@ -35226,7 +35246,7 @@ design rules under a new name.</description>
 </element>
 <element name="MIC" library="microphon" package="WM-64PC/64PK" package3d_urn="urn:adsk.eagle:package:21034/1" value="ELECTRET_MICROPHON-WM-64PC/64PK" x="59.4" y="47" smashed="yes" rot="R180">
 <attribute name="NAME" x="59.654" y="42.428" size="1.6764" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="59.654" y="51.572" size="1.27" layer="27" rot="R180" align="center"/>
+<attribute name="VALUE" x="59.654" y="51.572" size="1.27" layer="27" rot="R180" align="center" display="off"/>
 </element>
 <element name="PH4" library="pinhead" package="1X02" value="" x="52.5" y="47" smashed="yes" rot="R270">
 <attribute name="NAME" x="52.5" y="47" size="1.27" layer="49" rot="R270" align="center"/>
@@ -35520,6 +35540,16 @@ design rules under a new name.</description>
 <element name="RGB" library="Passive_components" package="PLCC6" package3d_urn="urn:adsk.eagle:package:15862/1" value="" x="87.49" y="92.43" smashed="yes" rot="R180">
 <attribute name="NAME" x="85.63" y="101.55" size="1.27" layer="25"/>
 <attribute name="VALUE" x="91.3" y="97.51" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="C35" library="rcl" library_urn="urn:adsk.eagle:library:334" package="D/7343-31R" package3d_urn="urn:adsk.eagle:package:23417/2" value="470uF" x="33.6" y="8.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="33.65" y="9.8" size="1.016" layer="26" rot="MR0" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="33.6" y="8.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="33.55" y="7.425" size="1.016" layer="28" rot="MR0" align="center"/>
+</element>
+<element name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" package="D/7343-31R" package3d_urn="urn:adsk.eagle:package:23417/2" value="470uF" x="15.8" y="8.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="15.85" y="9.5" size="1.016" layer="26" rot="MR0" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="15.8" y="8.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="15.75" y="7.525" size="1.016" layer="28" rot="MR0" align="center"/>
 </element>
 </elements>
 <signals>
@@ -35909,14 +35939,16 @@ design rules under a new name.</description>
 <signal name="N$69">
 <contactref element="C17" pad="+"/>
 <contactref element="PH56" pad="2"/>
-<wire x1="26.445" y1="17.45" x2="31.8" y2="17.45" width="0.8128" layer="16"/>
-<wire x1="31.8" y1="17.45" x2="31.865" y2="17.385" width="0.8128" layer="16"/>
+<wire x1="32" y1="17.5" x2="31.95" y2="17.45" width="0.8128" layer="16"/>
+<wire x1="31.95" y1="17.45" x2="26.445" y2="17.45" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$70">
 <contactref element="C19" pad="+"/>
 <contactref element="PH56" pad="1"/>
-<wire x1="26.445" y1="14.91" x2="28.79" y2="14.91" width="0.8128" layer="16"/>
-<wire x1="28.79" y1="14.91" x2="30.2" y2="13.5" width="0.8128" layer="16"/>
+<contactref element="C35" pad="+"/>
+<wire x1="26.445" y1="14.91" x2="27.655" y2="13.7" width="0.8128" layer="16"/>
+<wire x1="27.655" y1="13.7" x2="30.4" y2="13.7" width="0.8128" layer="16"/>
+<wire x1="30.425" y1="8.5" x2="30.4" y2="13.7" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$71">
 <contactref element="C1" pad="2"/>
@@ -35969,14 +36001,16 @@ design rules under a new name.</description>
 <signal name="N$79">
 <contactref element="C17" pad="-"/>
 <contactref element="PH57" pad="9"/>
-<wire x1="40.18" y1="17.45" x2="34.88" y2="17.45" width="0.8128" layer="16"/>
-<wire x1="34.88" y1="17.45" x2="34.815" y2="17.385" width="0.8128" layer="16"/>
+<wire x1="34.75" y1="17.5" x2="40.13" y2="17.5" width="0.8128" layer="16"/>
+<wire x1="40.13" y1="17.5" x2="40.18" y2="17.45" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$80">
 <contactref element="C19" pad="-"/>
 <contactref element="PH57" pad="10"/>
-<wire x1="40.18" y1="14.91" x2="38.36" y2="14.91" width="0.8128" layer="16"/>
-<wire x1="38.36" y1="14.91" x2="36.95" y2="13.5" width="0.8128" layer="16"/>
+<contactref element="C35" pad="-"/>
+<wire x1="40.18" y1="14.91" x2="38.97" y2="13.7" width="0.8128" layer="16"/>
+<wire x1="38.97" y1="13.7" x2="36.75" y2="13.7" width="0.8128" layer="16"/>
+<wire x1="36.775" y1="8.5" x2="36.75" y2="13.7" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$81">
 <contactref element="C2" pad="1"/>
@@ -36021,26 +36055,33 @@ design rules under a new name.</description>
 <signal name="N$89">
 <contactref element="C18" pad="+"/>
 <contactref element="PH54" pad="2"/>
-<wire x1="9.01" y1="17.44" x2="14.16" y2="17.44" width="0.8128" layer="16"/>
-<wire x1="14.16" y1="17.44" x2="14.25" y2="17.35" width="0.8128" layer="16"/>
+<wire x1="14.4" y1="17.5" x2="9.07" y2="17.5" width="0.8128" layer="16"/>
+<wire x1="9.07" y1="17.5" x2="9.01" y2="17.44" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$90">
 <contactref element="PH54" pad="1"/>
 <contactref element="C20" pad="+"/>
-<wire x1="9.01" y1="14.9" x2="10.95" y2="14.9" width="0.8128" layer="16"/>
-<wire x1="10.95" y1="14.9" x2="12.35" y2="13.5" width="0.8128" layer="16"/>
+<contactref element="C36" pad="+"/>
+<wire x1="12.6" y1="13.7" x2="12.6" y2="8.525" width="1.27" layer="16"/>
+<wire x1="12.6" y1="8.525" x2="12.625" y2="8.5" width="1.27" layer="16"/>
+<wire x1="9.01" y1="14.9" x2="10.21" y2="13.7" width="0.8128" layer="16"/>
+<wire x1="10.21" y1="13.7" x2="12.6" y2="13.7" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$91">
 <contactref element="C20" pad="-"/>
 <contactref element="PH55" pad="10"/>
-<wire x1="22.495" y1="14.91" x2="20.51" y2="14.91" width="0.8128" layer="16"/>
-<wire x1="20.51" y1="14.91" x2="19.1" y2="13.5" width="0.8128" layer="16"/>
+<contactref element="C36" pad="-"/>
+<wire x1="18.975" y1="8.5" x2="18.975" y2="12" width="1.27" layer="16"/>
+<wire x1="18.975" y1="12" x2="18.975" y2="13.675" width="1.27" layer="16"/>
+<wire x1="18.975" y1="13.675" x2="18.95" y2="13.7" width="1.27" layer="16"/>
+<wire x1="22.495" y1="14.91" x2="21.285" y2="13.7" width="0.8128" layer="16"/>
+<wire x1="21.285" y1="13.7" x2="18.95" y2="13.7" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$92">
 <contactref element="PH55" pad="9"/>
 <contactref element="C18" pad="-"/>
-<wire x1="22.495" y1="17.45" x2="17.3" y2="17.45" width="0.8128" layer="16"/>
-<wire x1="17.3" y1="17.45" x2="17.2" y2="17.35" width="0.8128" layer="16"/>
+<wire x1="17.15" y1="17.5" x2="22.445" y2="17.5" width="0.8128" layer="16"/>
+<wire x1="22.445" y1="17.5" x2="22.495" y2="17.45" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$93">
 <contactref element="C16" pad="2"/>
@@ -36222,7 +36263,6 @@ design rules under a new name.</description>
 <vertex x="5" y="0"/>
 <vertex x="170" y="0" curve="90"/>
 <vertex x="175" y="5"/>
-<vertex x="175" y="95"/>
 <vertex x="175" y="95" curve="90"/>
 <vertex x="170" y="100"/>
 <vertex x="5" y="100" curve="90"/>
