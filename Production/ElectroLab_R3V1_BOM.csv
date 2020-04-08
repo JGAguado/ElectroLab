@@ -1,0 +1,74 @@
+No.,part number/description,Package,Value,Qty,RefDefs,Note,Supplier links
+1,Resistor,1206,100 Ohm,3,"R1, R2, R3",5% 1/4W ,
+2,Resistor,1206,150 Ohm,2,"R57,R58",5% 1/4W ,
+3,Resistor,1206,220 Ohm,1,R59,5% 1/4W ,
+4,Resistor,1206,330 Ohm,23,"R32 - R38, R41 - R56",5% 1/4W ,
+5,Resistor,1206,470 Ohm,4,"R4, R5, R6, R31",5% 1/4W ,
+6,Resistor,1206,1 kOhm,3,R7 - R9,5% 1/4W ,
+7,Resistor,0603,1 kOhm,3,R61 - R63,5% 1/4W ,
+8,Resistor,0603,2 kOhm,3,R64 - R65,5% 1/4W ,
+9,Resistor,1206,"4,7 kOhm",3,"R10, R11, R12",5% 1/4W ,
+10,Resistor,1206,10 kOhm,7,"R13 - R18, R60",5% 1/4W ,
+11,Resistor,0603,10 kOhm,1,R67,,
+12,Resistor,1206,15 kOhm,3,"R19, R20, R21",5% 1/4W ,
+13,Resistor,1206,47 kOhm,3,"R22, R23, R24",5% 1/4W ,
+14,Resistor,1206,100 kOhm,3,"R25, R26, R27",5% 1/4W ,
+15,Resistor,0603,100 kOhm,1,R39,5% 1/4W ,
+16,Resistor,1206,470 kOhm,3,"R28, R29, R30",5% 1/4W ,
+17,Resistor,0603,1 MOhm,1,R40,5% 1/4W ,
+18,Bussed Resistor Array,1206,CAY17-102JALF,4,AR1 - AR4,,
+19,Capacitor,1206,10 pF,2,"C1, C2",5% 25V,
+20,Capacitor,1206,100 pF,2,"C3, C4",5% 25V,
+21,Capacitor,1206,1 nF,2,"C5, C6",10% 25V,
+22,Capacitor,1206,10 nF,3,"C7, C8, C21",10% 25V,
+23,Capacitor,0603,10 nF,4, C28 - C31 ,10% 25V,
+24,Capacitor,1206,47 nF,2,"C9, C10",20% 25V,
+25,Capacitor,1206,100 nF,3,"C11, C12, C25",20% 25V,
+26,Capacitor,0603,100 nF,2,"C22, C32",20% 25V,
+27,Capacitor,1206,470 nF,1,C26,20% 25V,
+28,Capacitor,1206,1 uF,4,"C13, C14, C23, C24",20% 25V,
+29,Capacitor,1206,10 uF,2,"C15, C16",20% 25V,
+30,Capacitor,0603,10 uF,2,"C33, C34",20% 25V,
+31,Tantalum Capacitor,3216,100 uF,2,"C17, C18",20% >10V,http://www.mouser.es/ProductDetail/Nichicon/UWX1C101MCL1GB/?qs=sGAEpiMZZMtZ1n0r9vR22RxmuzErLMSV5uXFbsNvYDE%3d
+32,Tantalum Capacitor,7343,470 uF,1,C27,20% >10V,http://www.mouser.es/ProductDetail/Nichicon/UCM1A471MCL1GS/?qs=sGAEpiMZZMtZ1n0r9vR22XI9nq%252bPX3Ke3MvI1Xdm1aw%3d
+33,Tantalum Capacitor,7343,1 mF,2,"C19, C20",20% >10V,http://www.mouser.es/ProductDetail/Nichicon/UWT0J102MNL1GS/?qs=sGAEpiMZZMsh%252b1woXyUXj0XXKN5adBdTvOJSGxSET%2f8%3d
+34,Cuadruple 2 Input Positive AND Gates,SO-14,SN74LV08ADR,1,IC3,,http://www.mouser.es/ProductDetail/Texas-Instruments/SN74LV08ADR/?qs=sGAEpiMZZMtMa9lbYwD6ZGuuqVaqkGmOirge4NQ4WQc%3d
+35,Cuadruple 2 Input Positive OR Gates,SO-14,SN74LV32ADR,1,IC4,,http://www.mouser.es/ProductDetail/Texas-Instruments/SN74LV32ADR/?qs=sGAEpiMZZMtMa9lbYwD6ZGuuqVaqkGmO4e9dAJI3uJI%3d
+36,Hex Inverters,SO-14,SN74LV04ADR,1,IC5,,http://www.mouser.es/ProductDetail/Texas-Instruments/SN74LV04ADR/?qs=sGAEpiMZZMutVWjHE%2fYQw8FcJMyir0Lqf71fCaXb4GU%3d
+37,NPN general purpose transistor,SOT-23,"BC847C,215",3,"T1, T2, T3",,http://www.mouser.es/ProductDetail/NXP-Semiconductors/BC847C215/?qs=sGAEpiMZZMshyDBzk1%2fWi7dklbCN21lXAXknjDc2GSg%3d
+38,PNP general purpose transistor,SOT-23,"BC857C,215",2,"T4, T5",,http://www.mouser.es/ProductDetail/NXP-Semiconductors/BC857C215/?qs=sGAEpiMZZMshyDBzk1%2fWi7dklbCN21lX4hSO4kpPvIU%3d
+39,Switching Chip Diode,1206,CD1206-S01575,4,"D1, D2, D3, D4",,http://www.mouser.es/ProductDetail/Bourns/CD1206-S01575/?qs=sGAEpiMZZMtoHjESLttvkg3793dFaTfhPYzT01eaSFU%3d
+40,Low-power quad operational amplifier,SO-14,LM2902DT,3,"IC1, IC2, IC12",,http://www.mouser.es/ProductDetail/STMicroelectronics/LM2902DT/?qs=sGAEpiMZZMtOXy69nW9rMzX7cz5iqYIDSFF%2fe%2fYQ1KU%3d
+41,Precision Timer,SO-8,NE555PSR,1,IC8,,http://www.mouser.es/ProductDetail/Texas-Instruments/NE555PSR/?qs=sGAEpiMZZMuHTYi1bHPYENim6UGmH2PC
+42,Filterless 3w class-d audio amplifier,SOP-16,PAM8403DR,1,IC11,,http://www.mouser.es/ProductDetail/Diodes-Incorporated/PAM8403DR/?qs=sGAEpiMZZMtxdzBvM0rKcW6VwckCafRVd5ssSg6lsKc%3d
+43,BCD to 7 segment decoder/driver,SO-16,CD4511BNSR,1,IC10,,http://www.mouser.es/ProductDetail/Texas-Instruments/CD4511BNSR/?qs=sGAEpiMZZMtxONTBFIcRfsQCBiNmETR9hmp7ok3BJMM%3d
+44,One channel Toggle-mode Touch sensor IC,SOT23-6,AT42QT1012,1,IC9,,http://www.mouser.es/ProductDetail/Atmel/AT42QT1012-TSHR/?qs=xbJoyvfFV%2F8P3rJfwEwyNg%3D%3D
+45,Dual JK flip-flop,SO-16,"HEF4027BT,652",2,"IC6, IC7",,http://www.mouser.es/ProductDetail/NXP-Semiconductors/HEF4027BT652/?qs=sGAEpiMZZMvxP%252bvr8KwMwCQ0F1H8wvQHsy0y%2fgxr3lI%3d
+46,Accelerometer sensor, LFCSP-16 ,ADXL337,1,IC13,,https://www.mouser.at/ProductDetail/Analog-Devices/ADXL337BCPZ-RL7?qs=sGAEpiMZZMv9Q1JI0Mo%2FtcpQQ4%2F0OMfc
+47,Voltage regulator,SOT23-5,MIC5205,1,IC14,,
+48,6x6 mm Pushbutton,SMD,2-1437565-8,9,PB1 - PB9,,http://www.mouser.es/ProductDetail/TE-Connectivity-Alcoswitch/2-1437565-8/?qs=sGAEpiMZZMvxtGF7dlGNpmdDR%2fLbgCKmx2KOy1eWjG0%3d
+49,Sub-Miniature Slide Switches,TH,JS202011CQN,1,S1,,http://www.mouser.es/ProductDetail/CK-Components/JS202011CQN/?qs=LgMIjt8LuD%2fe%252bE3iTcEFYw%3d%3d
+50,Phone Connectors SMT 3.5MM PHONE JACK,SMD,35RASMT4BHNTRX,1,JC1,,http://www.mouser.es/ProductDetail/Lumex/SML-LX1206IC-TR/?qs=sGAEpiMZZMseGfSY3csMkW2UPVQWgWXn0K8A2Rttmcc%3d
+51,Thermistors - NTC 1206 10Kohm 5%,1206,NC20K00103JBA,1,NTC,,http://www.mouser.es/ProductDetail/Cree-Inc/SLV6A-FKB-CK1P1G1BB7R3R3/?qs=sGAEpiMZZMurHQmwyojo5G38NVLI9YOXgrMZqQsV8QKxRretwBbwTw%3d%3d
+52,Standard LEDs - SMD 1206 Red,1206,SML-LX1206IC-TR,3,"L14, L15, L16",,
+53,Standard LEDs - SMD 1206 Yellow,1206,SML-LX1206YW-TR,10,"L1 - L7, L11, L12, L13",,
+54,Standard LEDs - SMD 1206 Green,1206,SML-LX1206GC-TR1,4,"L0, L8, L9, L10",,
+55,Standard LEDs - SMD RGB LED,PLCC-6,SLV6A-FKB-CK1P1G1BB7R3R3,1,RGB,,
+56,USB Connectors 5P MICRO USB TYPE B,SMD ,10118194-0001LF,1,U1,,
+57,"Connector Header 2,54 mm 1 Pos ",TH,1p,1,PH1,,
+58,"Connector Header 2,54 mm 2 Pos ",TH,"1*2p 2,54",9,PH2 - PH10,,
+59,"Connector Header 2,54 mm 3 Pos ",TH,"1*3p 2,54",20,PH11 - PH30,,
+60,"Connector Header 2,54 mm 4 Pos ",TH,"1*4p 2,54",6,"PH31 - PH33, PH35 - PH37",,
+61,"Connector Header 2,54 mm 6 Pos ",TH,"1*6p 2,54",3,"PH38, PH39, PH40",,
+62,"Connector Header 2,54 mm 14 Pos (2x7)",TH,"2*7p 2,54",1,PH41 ,,
+63,"Connector Header 2,54 mm 8 Pos ",TH,"1*8p 2,54",5,PH42 - PH46,,
+64,"Connector Header 2,54 mm 9 Pos ",TH,"1*9p 2,54",1,PH47,,
+65,"Connector Header 2,54 mm 10 Pos ",TH,"1*10p 2,54",10,PH48 - PH57,,
+66,"Connector Header 2,54 mm 30 Pos ",TH,"1*30p 2,54",5,PH58 - PH62,,
+67,"Connector Header 2,54 mm 16 Pos (2x8)",TH,"2*8p 2,54",1,PH63,,https://www.digikey.com/products/en?keywords=SBH11-PBPC-D08-RA-BK
+68,Photocell,TH,GL5528,1,LDR, SBH11-PBPC-D08-RA-BK ,
+69,2x7 segments display,TH,LTD-4708JR ,1,DP1,Common cathode 2x7,https://www.mouser.at/ProductDetail/Lite-On/LTD-4708JR?qs=sGAEpiMZZMvkC18yXH9iIldXaCJr4RZ8CLkc%2FfYUPGw%3D
+70,Electrec Microphone,TH,,1,MIC,CMEJ-0627-42-P,https://www.mouser.at/ProductDetail/CUI-Devices/CMEJ-0627-42-P?qs=sGAEpiMZZMtcsMZaWNSqu%2Fz0YbdNREjMeFjt3asrnBr95QRHeZSqKg%3D%3D
+71,Sliding potentiometer,TH,PTA2043-2015CPB103,1,P1,,https://www.mouser.at/ProductDetail/Bourns/PTA2043-2015CPB103?qs=sGAEpiMZZMtC25l1F4XBU%252BN3R7ksrj06fgSufFP%252BM%2FM%3D
+72,Rotary potentiometer,TH,RK09K1130081 ,2,"P2, P3",,https://www.mouser.at/ProductDetail/ALPS/RK09K1130081?qs=%2Fha2pyFaduhNLJpKmWFhbaj9lwEHQYo5BDAWTYRugBca1g1hEaBC8g%3D%3D
+73,Speaker,TH,AST-01708MR-R,1,SP1,,https://www.mouser.at/ProductDetail/PUI-Audio/AST-01708MR-R?qs=%2Fha2pyFadujLsPNs%2FSjN4CJP1D0R6XgC2BYhqeC92Z4hngMQciq7pQ%3D%3D
