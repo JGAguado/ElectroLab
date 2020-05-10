@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25440,7 +25440,7 @@ Source:https://www.mouser.es/datasheet/2/90/1320-SLV6A-FKB-1659719.pdf</descript
 <sheet>
 <plain>
 <text x="218.44" y="15.24" size="2.54" layer="94">By JGAguado</text>
-<text x="248.92" y="5.08" size="2.54" layer="94">R3</text>
+<text x="248.92" y="5.08" size="2.54" layer="94">R2</text>
 <wire x1="152.4" y1="167.64" x2="152.4" y2="73.66" width="0.1524" layer="94"/>
 <wire x1="152.4" y1="73.66" x2="251.46" y2="73.66" width="0.1524" layer="94"/>
 <wire x1="251.46" y1="73.66" x2="251.46" y2="167.64" width="0.1524" layer="94"/>
@@ -27100,7 +27100,7 @@ Source:https://www.mouser.es/datasheet/2/90/1320-SLV6A-FKB-1659719.pdf</descript
 <wire x1="109.22" y1="33.02" x2="106.68" y2="33.02" width="0.1524" layer="94"/>
 <wire x1="106.68" y1="10.16" x2="106.68" y2="33.02" width="0.1524" layer="94"/>
 <text x="218.44" y="15.24" size="2.54" layer="94">By JGAguado</text>
-<text x="248.92" y="5.08" size="2.54" layer="94">R3</text>
+<text x="248.92" y="5.08" size="2.54" layer="94">R2</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
@@ -28498,7 +28498,7 @@ Source:https://www.mouser.es/datasheet/2/90/1320-SLV6A-FKB-1659719.pdf</descript
 <text x="22.86" y="93.98" size="2.54" layer="94">Bus bar</text>
 <wire x1="88.9" y1="7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
 <text x="218.44" y="15.24" size="2.54" layer="94">By JGAguado</text>
-<text x="248.92" y="5.08" size="2.54" layer="94">R3</text>
+<text x="248.92" y="5.08" size="2.54" layer="94">R2</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
@@ -29727,7 +29727,7 @@ Source:https://www.mouser.es/datasheet/2/90/1320-SLV6A-FKB-1659719.pdf</descript
 <wire x1="17.78" y1="91.44" x2="114.3" y2="91.44" width="0.1524" layer="94" style="longdash"/>
 <wire x1="17.78" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="94" style="longdash"/>
 <text x="218.44" y="15.24" size="2.54" layer="94">By JGAguado</text>
-<text x="248.92" y="5.08" size="2.54" layer="94">R3</text>
+<text x="248.92" y="5.08" size="2.54" layer="94">R2</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
