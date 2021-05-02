@@ -14191,7 +14191,6 @@ digikey: SC1488-1-nD</description>
 <smd name="5" x="15.6718" y="3.9624" dx="2.1082" dy="2.1082" layer="1" rot="R180"/>
 <hole x="3.5052" y="2.9972" drill="1.651"/>
 <hole x="10.5156" y="2.9972" drill="1.651"/>
-<text x="5.715" y="6.35" size="1.016" layer="27">3.5mm stereo</text>
 </package>
 </packages>
 <symbols>
@@ -30040,9 +30039,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="27.94" y="27.94" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="R58" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
-<label x="58.42" y="22.86" size="1.778" layer="95"/>
+<pinref part="R57" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
+<label x="58.42" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="R" class="0">
@@ -30052,9 +30051,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="30.48" y="27.94" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="R57" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
-<label x="58.42" y="30.48" size="1.778" layer="95"/>
+<pinref part="R58" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
+<label x="58.42" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$291" class="0">
