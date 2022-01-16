@@ -1,10 +1,18 @@
+[![GitHub Release][releases-shield]][releases]
+[![License][license-shield]](LICENSE)
+
+[![Project Maintenance][maintenance-shield]][maintenance]
+[![BuyMeCoffee][buymecoffee-shield]][buymecoffee]
+
 # ElectroLab
 
 The ElectroLab board is an electronic trainer designed for the ICAI Technological Campus. It has been created with educational purposes in the analogic and digital electronics field.
 
-![ElectroLab](https://raw.githubusercontent.com/SpaceDIY/ElectroLab/master/Documentation/ElectroLab.png)
+<p float="left">
+   <img src="./Documentation/Images/Render.png" width="100%">
+</p>
 
-It includes:
+## Features
 * Resistors
 * Capacitors
 * Transistors
@@ -29,14 +37,21 @@ It includes:
 
 It can be powered directly from a USB (5V) or throught the ArduLab Interface.
 
-Repository Contents
--------------------
-* **/Documentation** - Data sheets, schematics, illustrations (.pdf)
-* **/Hardware** - All Eagle design files (.brd, .sch)
-* **/Production** - All manufacturing files (BOM, centroids, Gerbers)
+## Project tree
 
-License Information
--------------------
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">ElectroLab</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/SpaceDIY/ElectroLab" property="cc:attributionName" rel="cc:attributionURL">J.G.Aguado</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons ShareAlike 4.0 International License</a>.
+<li><a href="./Design/">Design</a></li>
+<li><a href="./Documentation/">Documentation</a></li>
 
-Distributed as-is; no warranty is given.
+<li><a href="./README.md">README.md</a></li>
+
+
+[releases-shield]: https://img.shields.io/github/release/JGAguado/ElectroLab.svg?style=for-the-badge
+[releases]: https://github.com/JGAguado/ElectroLab/releases
+
+[license-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=for-the-badge
+
+[maintenance-shield]: https://img.shields.io/badge/maintainer-J.%20G.%20Aguado-blue.svg?style=for-the-badge
+[maintenance]: https://github.com/JGAguado
+
+[buymecoffee-shield]: https://img.shields.io/badge/buy%20me%20a%20coffee-support-yellow.svg?style=for-the-badge
+[buymecoffee]: https://www.buymeacoffee.com/J.G.Aguado
