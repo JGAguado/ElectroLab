@@ -1,5 +1,7 @@
+[![Documentation Status][documentation-shield]][documentation]
 [![GitHub Release][releases-shield]][releases]
 [![License][license-shield]](LICENSE)
+[![BuyIt][buyit-shield]][tindie]
 
 [![Project Maintenance][maintenance-shield]][maintenance]
 [![BuyMeCoffee][buymecoffee-shield]][buymecoffee]
@@ -44,6 +46,8 @@ It can be powered directly from a USB (5V) or throught the ArduLab Interface.
 
 <li><a href="./README.md">README.md</a></li>
 
+[documentation-shield]: https://readthedocs.org/projects/electrolab/badge/?version=latest&style=for-the-badge
+[documentation]: https://electrolab.readthedocs.io/en/latest/
 
 [releases-shield]: https://img.shields.io/github/release/JGAguado/ElectroLab.svg?style=for-the-badge
 [releases]: https://github.com/JGAguado/ElectroLab/releases
@@ -55,3 +59,6 @@ It can be powered directly from a USB (5V) or throught the ArduLab Interface.
 
 [buymecoffee-shield]: https://img.shields.io/badge/buy%20me%20a%20coffee-support-yellow.svg?style=for-the-badge
 [buymecoffee]: https://www.buymeacoffee.com/J.G.Aguado
+
+[buyit-shield]: https://img.shields.io/badge/get%20it%20on-tindie-247d84.svg?style=for-the-badge
+[tindie]: https://www.tindie.com/products/jgaguado/smart-plant/
