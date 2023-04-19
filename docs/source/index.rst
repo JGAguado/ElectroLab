@@ -1,4 +1,4 @@
-Smart Plant
+ElectroLab
 ###############
 
 .. sidebar:: |Product|
