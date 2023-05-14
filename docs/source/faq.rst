@@ -1,7 +1,7 @@
 :term:`FAQ`
 =============================
 
-After connecting everything and turning on the |Product|, I don't see the e-paper refresh or any :term:`LED` on.
+After connecting everything and turning on the |Product|, I don't see any :term:`LED` on.
     If the board is correctly powered and you cannot see the power :term:`LED` on, disconnect the power immediately: 
     there is a short-circuit in your board, meaning that there is a wire (with very little resistance) connecting the 
     Vcc 5V and the :term:`GND`.
