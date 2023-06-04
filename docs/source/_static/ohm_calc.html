@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ohm's Law Calculator</title>
+  <script>
+    function calculate() {
+      var voltage = parseFloat(document.getElementById("voltage").value);
+      var resistance = parseFloat(document.getElementById("resistance").value);
+      var resistanceUnit = document.getElementById("resistance-unit").value;
+      
+      if (isNaN(voltage) || isNaN(resistance)) {
+        document.getElementById("result").innerHTML = "Please enter valid numeric values.";
+      } else {
+        if (resistanceUnit === "ohm") {
+          // No conversion needed
+          var current = voltage / resistance;
+        } else if (resistanceUnit === "kilo") {
+          // Convert kiloohm to ohm
+          resistance *= 1000;
+          var current = voltage / resistance;
+        } else if (resistanceUnit === "mega") {
+          // Convert megaohm to ohm
+          resistance *= 1000000;
+          var current = voltage / resistance;
+        }
+        
+        if (current < 0.1) {
+          var currentInMilliamps = current * 1000;
+          document.getElementById("result").innerHTML = "The current is: " + currentInMilliamps.toFixed(2) + " milliamperes.";
+        } else {
+          document.getElementById("result").innerHTML = "The current is: " + current.toFixed(2) + " amperes.";
+        }      
+    }
+    }
+  </script>
+</head>
+<body>
+  <h2>Ohm's Law Calculator</h2>
+  
+  <label for="voltage">Voltage (V):</label>
+  <input type="text" id="voltage">
+  
+  <label for="resistance">Resistance:</label>
+  <input type="text" id="resistance">
+  
+  <select id="resistance-unit">
+    <option value="ohm">Ω</option>
+    <option value="kilo">kΩ</option>
+    <option value="mega">MΩ</option>
+  </select>
+  
+  <button onclick="calculate()">Calculate</button>
+  
+  <div id="result"></div>
+</body>
+</html>
