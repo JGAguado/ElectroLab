@@ -142,7 +142,8 @@ Despite two types of input components have already been presented, these cannot 
 
 The area where the sensors are placed extends from the center of the board (under the :term:`GND` pinhead row) to the bottom edge, forming a "T".
 
-### Microphone
+Microphone
+^^^^^^^^^^^^
 
 The electrec microphone is placed on the left side of the sensor's area. The CMEJ-0627-42-P is an omnidirectional microphone with a -42dB sensitivity.
 
@@ -150,24 +151,33 @@ The electrec microphone is placed on the left side of the sensor's area. The CME
 .. Warning::
     As the electrec microphone is a component with polarity, it's important to pay attention to the **+** and **-** printed signs on the silkscreen of the |Product|
 
-### LDR
+LDR
+^^^^^^^^^^^^
+
 The :term:`LDR` is placed next to the microphone. The used component is the GL5528.
 
 
-### Thermistor
+Thermistor
+^^^^^^^^^^^^
+
 The thermistor component integrated in the |Product|, next to the :term:`LDR`, is a :term:`NTC` type. This means that the resistance decreases as temperature rises. 
 
 
-### Accelerometer
+Accelerometer
+^^^^^^^^^^^^
 
 The |Product| integrates a tri-axial analog accelerometers, placed on the right side of the sensor's area. The chosen device is the ADXL337 transducer from Analog Devices, able to measure up to ±3g. 
 
 As the accelerometer :term:`IC` works with 3V, a voltage regulator is connected internally to provide the required power to the :term:`IC`. The sensor outputs 3 signals, according to each axis, from 0 to 3V that corresponds to the range from -3g to +3g. This means that, for example, when the device's Z axis is vertical (aligned with the local gravity) the X and Y axis of the sensor should read 0g, providing an output signal of ~1.5V.
 
-### Gas
+Gas
+^^^^^^^^^^^^
+
 The gas sensor, independently of which one is mounted, can be easily located in the center of the boad, under the |Product| logo. The MQ sensor series, is a gas sensor type, known as Chemiresistors, that work based upon resistance changes of the sensing material when the gas comes in contact with the material.
 
-### Conductivity
+Conductivity
+^^^^^^^^^^^^
+
 Last, but not least, the conductivity sensor is placed on the center bottom area of the board. This sensor, based on an uncover set of routes integrated on the top layer of the PCB, works by measuring the conductivity of any item in contact with the top layer.
 
 The sensor is formed by a 2 sets of horizontal lines interconnected vertically. If any conductive item (like a drop of water or a finger) is in contact with the layer, the resistance in between the two pins decreases.
