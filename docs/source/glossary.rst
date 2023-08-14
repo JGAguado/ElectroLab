@@ -24,6 +24,9 @@
    FF
        Flip Flop
 
+   Op.Amp.
+       Operational Amplifier
+
    FAQ
        Frequently Answered Questions
 
@@ -33,8 +36,8 @@
    LED
        Light Emitting Diode
 
-   RGBW
-       Red-Green-Blue-White
+   RGB
+       Red-Green-Blue
 
    NTC
        Negative Temperature Coefficient
