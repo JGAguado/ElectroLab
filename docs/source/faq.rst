@@ -17,7 +17,7 @@ I accidentally inverted the polarity of a component that was marked as polarized
 
 I want to expand the set of sensors to play with other, can I do it?
     Of course! Just make sure are components rated for 5V. Remember to connect both :term:`GND` 
-    together and in case the sensor needs a power supply: connect it to the 5V bus-bar.
+    together and in case the sensor needs a power supply connect it to the 5V bus-bar.
 
 Can I connect multiple ElectroLab together for making more complex circuits?
     Yes, some of the circuits can become so complex that you might need to do it like this. In 

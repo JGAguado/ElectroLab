@@ -1,0 +1,15 @@
+const curvesData = [
+  {"from": "POS1", "to": "P4"},
+  {"from": "POS5", "to": "R25"},
+  {"from": "GND1", "to": "C40"},
+  {"from": "GND5", "to": "PB3"},
+  {"from": "X1", "to": "P5"},
+  {"from": "X5", "to": "GEN1"},
+  {"from": "Y1", "to": "C39"},
+  {"from": "Y5", "to": "GEN2"},
+  {"from": "Z1", "to": "Z5"},
+  {"from": "X10", "to": "GEN3"},
+  {"from": "Y10", "to": "PB6"},
+  {"from": "Z10", "to": "R26"},
+  {"from": "GEN4", "to": "L11"},
+];
