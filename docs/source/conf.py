@@ -34,7 +34,6 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_copybutton',
 ]
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
