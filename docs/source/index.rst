@@ -49,7 +49,6 @@ please contact me directly:
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
 
    safety
    
@@ -67,6 +66,7 @@ please contact me directly:
    :maxdepth: 2
    :hidden:
 
+   examples 
    examples/basics   
    examples/op_amps
    examples/logic_gates

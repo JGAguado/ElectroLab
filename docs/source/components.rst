@@ -6,7 +6,7 @@ Let's start by exploring the different sections that form the |Product|, how the
 
 Power
 -------------
-.. figure:: ../images/components/Power_top.png
+.. figure:: images/components/Power_top.png
     :align: left
     :figwidth: 150px
     
@@ -22,9 +22,9 @@ The power can be inputted in two different ways: through the USB connector or th
 Once the board is powered, not only the Integrated Circuits (:term:`IC`) are being energized, but also the 5V bar gets its voltage with respect to the :term:`GND` bar. The 5V & :term:`GND` bar are separated by 3 rows of other pinheads. These headers are interconnected vertically, forming nodes of 4 points for those applications that requires multiple connections in one node.
 
 .. image:: images/components/BusBar_top.png
-  :width: 400
-.. image:: ../source/images/components/BusBar_bottom.png
-  :width: 400
+  :height: 80
+.. image:: images/components/BusBar_bottom.png
+  :height: 80
 Resistors
 -------------
 
