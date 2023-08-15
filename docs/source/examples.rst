@@ -4,7 +4,6 @@
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
 
    examples/basics   
    examples/op_amps
