@@ -29,10 +29,8 @@ Contents
 :doc:`design`
     Design files of the |Product|.
 
-:doc:`projects`
-    Electronic assemblied for the |Product|.
-.. _support:
 
+.. _support:
 Technical support
 -----------------
 
@@ -49,7 +47,8 @@ please contact me directly:
 
 .. toctree::
    :maxdepth: 2
-
+   :hide:
+   
    safety   
    glossary
    getting_started
