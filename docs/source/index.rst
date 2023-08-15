@@ -56,5 +56,4 @@ please contact me directly:
    examples 
    components
    design   
-   specs
    faq   

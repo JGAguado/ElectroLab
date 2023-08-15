@@ -6,7 +6,7 @@ Let's start by exploring the different sections that form the |Product|, how the
 
 Power
 -------------
-.. figure:: images/components/Power_top.png
+.. figure:: images/components/Power_top.PNG
     :align: left
     :figwidth: 150px
     
