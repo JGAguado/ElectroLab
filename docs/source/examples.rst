@@ -15,7 +15,10 @@ Feel free to experiment with the following tested circuits:
 
 .. toctree::
    :maxdepth: 1
-   :glob:
    :numbered:
+   :glob:
 
-   examples/*
+   examples/0_basics/main
+   examples/1_analogic/main
+   examples/2_digital/main
+   examples/3_oscillators/main
