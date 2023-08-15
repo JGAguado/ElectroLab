@@ -23,6 +23,9 @@ Contents
 :doc:`getting_started`
     First steps for starting with the |Product|.
 
+:doc:`examples`
+    Example circuits ready to deploy on the |Product|.
+
 :doc:`design`
     Design files of the |Product|.
 
@@ -45,7 +48,6 @@ please contact me directly:
 
 
 .. toctree::
-   :caption: 🦺 Safety Guidelines
    :maxdepth: 2
    :hidden:
 

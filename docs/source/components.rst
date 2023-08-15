@@ -21,9 +21,9 @@ The power can be inputted in two different ways: through the USB connector or th
 
 Once the board is powered, not only the Integrated Circuits (:term:`IC`) are being energized, but also the 5V bar gets its voltage with respect to the :term:`GND` bar. The 5V & :term:`GND` bar are separated by 3 rows of other pinheads. These headers are interconnected vertically, forming nodes of 4 points for those applications that requires multiple connections in one node.
 
-.. image:: ../images/components/BusBar_top.png
+.. image:: images/components/BusBar_top.png
   :width: 400
-.. image:: ../images/components/BusBar_bottom.png
+.. image:: ../source/images/components/BusBar_bottom.png
   :width: 400
 Resistors
 -------------
