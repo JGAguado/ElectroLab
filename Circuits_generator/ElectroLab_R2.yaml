@@ -1,6 +1,7 @@
 board: ElectroLab
 version: 2
 image: ..\Documentation\Images\Render.png
+output_path: ..\docs\source\_static\Circuits\
 colors:
   - [0.10980392, 0.4627451, 0.89019608]  # blue
   - [1.0, 0.49803922, 0.05490196]         # orange

@@ -17,9 +17,10 @@ import numpy as np
 import pandas as pd
 import yaml
 import cv2
-import random
 import cairo
 import math
+import shutil
+
 import matplotlib.colors as colors
 
 left_clicks = list()
@@ -37,18 +38,29 @@ class ElectroLab():
         self.main(circuits_path)
 
     def main(self, circuits_path):
-        for files in os.listdir(circuits_path):
-            if files.endswith('.xlsx'):
-                self.render_circuit(circuits_path + '\\' + files)
+        for file in os.listdir(circuits_path):
+            if file.endswith('.xlsx'):
+                self.circuit = pd.read_excel(circuits_path + '\\' + file)
+                name = file.split('.')[0]
+                self.render_circuit(name)
+                self.generate_html(name)
             else:
                 continue
 
-    def render_circuit(self, circuit):
+    def render_circuit(self, name):
         """ Load config of the circuit in excel file """
-        self.circuit = pd.read_excel(circuit)
+
+        output_path = self.config['output_path'] + name
+        isExist = os.path.exists(output_path)
+        if not isExist:
+            # Create a new directory because it does not exist
+            os.makedirs(output_path)
+
         # Create a surface and a context
-        surface = cairo.ImageSurface.create_from_png(self.config['image'])
-        context = cairo.Context(surface)
+
+        board = cairo.ImageSurface.create_from_png(self.config['image'])
+        imagesize = (board.get_width(), board.get_height())
+
 
         k = 0.2
         if 'd' in self.circuit.columns:
@@ -56,6 +68,9 @@ class ElectroLab():
 
         jj = 0
         for ii, row in self.circuit.iterrows():
+
+            surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, *imagesize)
+            context = cairo.Context(surface)
 
             # Color selection
             color = self.config['colors'][jj]
@@ -99,11 +114,31 @@ class ElectroLab():
             context.set_source_rgb(1, 0, 0)  # Blue color
             context.arc(p2[0], p2[1], 10, 0, 2 * math.pi)
             context.fill()
+
+            surface.write_to_png(output_path + '\\' + str(ii+1) + '.png')
             # Save the image
-        output = circuit.replace('.xlsx', '.png')
-        surface.write_to_png(output)
+        # output = circuit.replace('.xlsx', '.png')
+        # surface.write_to_png(output)
 
+    def generate_html(self, name):
+        output_path = self.config['output_path'] + name
 
+        shutil.copyfile("Template.html", output_path + '\\' + "Circuit.html")
+        shutil.copyfile(self.config['image'], output_path + '\\' + "0.png")
+
+        self.generate_js_file(self.circuit, output_path + '\\data.js')
+
+    def generate_js_file(self, dataframe, js_filename):
+        with open(js_filename, "w") as js_file:
+            js_file.write("const curvesData = [\n")
+
+            for index, row in dataframe.iterrows():
+                from_value = row["From"]
+                to_value = row["To"]
+                js_item = f'  {{"from": "{from_value}", "to": "{to_value}"}},\n'
+                js_file.write(js_item)
+
+            js_file.write("];")
 
     def board_mapping(self, board):
         self.image = cv2.imread(self.config['image'])
