@@ -1,7 +1,5 @@
-📚 Acronyms
-============
-
-.. glossary::
+.. glossary:: 📚 Acronyms
+   :sorted:
 
    IC
        Integrated Circuit
@@ -64,5 +62,8 @@
        Through Hole Technology
 
    IIC
-       Inter-Integrated Circuit
+       Inter-Integrated Circuit    
+
+   ADC
+       Analog-Digital Converter
     

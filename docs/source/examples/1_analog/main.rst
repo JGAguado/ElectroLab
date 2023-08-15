@@ -2,11 +2,10 @@ Analog circuits
 ==============
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :glob:
    :numbered:
    
-   Tactil_amplified 
    Dark_sensor 
    Thermostat   
    Palm_detector 

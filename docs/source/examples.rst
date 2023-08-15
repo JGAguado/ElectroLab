@@ -14,7 +14,7 @@ You can also visualize all the steps at once by clicking on the 👁 (eye icon).
 Feel free to experiment with the following tested circuits:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :numbered:
    :glob:
 
