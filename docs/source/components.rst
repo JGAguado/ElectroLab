@@ -26,6 +26,7 @@ Once the board is powered, not only the Integrated Circuits (:term:`IC`) are bei
   :align: left
 .. image:: images/components/BusBar_bottom.png
   :height: 100px
+  :align: right
 
 Resistors
 -------------
@@ -55,7 +56,6 @@ Capacitors
 .. figure:: images/components/Capacitors_top.png
     :align: left
     :figwidth: 150px
-
     Top side view
 
 .. figure:: images/components/Capacitors_bottom.png
@@ -77,21 +77,19 @@ Diodes
 
 .. figure:: images/components/Diodes_top.png
     :align: left
-    :figwidth: 150px
+    :figwidth: 100px
 
     Top side view
 
 .. figure:: images/components/Diodes_bottom.png
     :align: right
-    :figwidth: 150px
+    :figwidth: 100px
 
     Bottom side view
 
 
+
 The |Product| comes with a 4 diodes set, in this case, located in the upper right side of the board, between the 7 segments display and the transistors.
-
-
-
 
 
 Transistors
@@ -109,7 +107,7 @@ Transistors
 
     Bottom side view
 
-
+    
 There are two types of transistors integrated in the |Product|: PNP & NPN. Both of them are placed on the top right side of the board. Due to the limited space on the board and the more extended use of the NPN, there is one more of this type: 3 NPN in total and 2 PNP type. 
 
 
@@ -155,8 +153,6 @@ Logic gates
 
 Moving on to the 100% digital circuits, |Product| integrates a set of 3 different logic gates: 4 AND, 4 OR and 6 NOT. The set of gates are placed on the right side of the board, directly under the :term:`Op.Amp.` and divided by columns (according to the gate type).
 
-
-
 Attending to each type of logic gate, the used :term:`IC` are the following:
 
 - AND gates: SN74LV08ADR. 
@@ -171,13 +167,13 @@ Flip Flops
 
 .. figure:: images/components/FlipFlops_top.png
     :align: left
-    :figwidth: 150px
+    :figwidth: 130px
 
     Top side view
 
 .. figure:: images/components/FlipFlops_bottom.png
     :align: right
-    :figwidth: 150px
+    :figwidth: 130px
 
     Bottom side view
 
@@ -186,8 +182,6 @@ Flip Flops
 Continuing with the digital circuits, and located under the logic gates, the |Product| integrates 4 JK :term:`FF` thanks to two 4027D :term:`IC`. 
 
 The :term:`FF` are, like in the case of the logic gates, ready to be used. 
-
-
 
 Signal generator
 -----------------
@@ -210,13 +204,12 @@ The |Product| integrates a square signal generator, the well-known **555** Timer
 
 This common :term:`IC` can provide square signals (0-5V) and depending on the assembled circuit the integrated 555 can be configured as monostable or astable multivibrator. This is because the pin 5 of the 555 :term:`IC` is internally connected to a 0.01μF capacitor, as it is required for any monostabe or astable configuration.
 
-
 Audio
 ----------------
 
 .. figure:: images/components/Audio_top.png
     :align: left
-    :figwidth: 150px
+    :figwidth: 140px
 
     Top side view
 
@@ -233,8 +226,6 @@ Next to the signal generator, also on the bottom right side of the board, there 
 This filter-less 3W stereo amplifier is internally prepared to provide a ready-to-use interface, it can input the left (L) and/or right (R) channels. It is important to connect correctly the :term:`GND` from the jack to the :term:`GND` of the amplifier.
 
 As part of the audio laboratory there are two more components: 2 jack connectors and 1 speaker, located on the upper side of the |Product|.
-
-
 
 
 Opto-electronics
@@ -269,7 +260,7 @@ Push-buttons
 
 .. figure:: images/components/Pushbuttons_top.png
     :align: left
-    :figwidth: 150px
+    :figwidth: 120px
 
     Top side view
 
@@ -278,8 +269,6 @@ Moving to the board's inputs side, we can easily recognize the push-buttons arra
 Individually, a push-button connects the two terminals it has if it is pressed, like a switch, letting the current flow. 
 
 On the assembled array, each of the push-buttons, if pressed, connects one of the upper pins with one of the lateral pins, depending on the column and the row.
-
-
 
 
 
@@ -330,15 +319,11 @@ LDR
 
 .. figure:: images/components/LDR_top.png
     :align: left
-    :figwidth: 150px
+    :figwidth: 100px
 
     Top side view
 
 The :term:`LDR` is placed next to the microphone. The used component is the GL5528.
-
-
-
-
 
 
 Thermistor
@@ -346,15 +331,11 @@ Thermistor
 
 .. figure:: images/components/NTC_top.png
     :align: left
-    :figwidth: 150px
+    :figwidth: 100px
 
     Top side view
 
 The thermistor component integrated in the |Product|, next to the :term:`LDR`, is a :term:`NTC` type. This means that the resistance decreases as temperature rises. 
-
-
-
-
 
 
 Accelerometer
