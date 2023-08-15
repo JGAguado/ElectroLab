@@ -32,6 +32,8 @@ Once the board is powered, not only the Integrated Circuits (:term:`IC`) are bei
 |
 |
 |
+|
+|
 
 ----------
 
@@ -56,8 +58,6 @@ As it can seen on the board's back, each resistor is connected to two male pinhe
 
 The resistors have no *polarity*, meaning that any of the terminals can go to the positive or negative side of a circuit. 
 
-|
-|
 
 ----------
 
@@ -106,6 +106,8 @@ Diodes
 The |Product| comes with a 4 diodes set, in this case, located in the upper right side of the board, between the 7 segments display and the transistors.
 
 
+|
+|
 |
 |
 |
@@ -403,6 +405,8 @@ The :term:`LDR` is placed next to the microphone. The used component is the GL55
 |
 |
 |
+|
+|
 
 ----------
 
@@ -447,6 +451,8 @@ As the accelerometer :term:`IC` works with 3V, a voltage regulator is connected 
 
 |
 |
+
+----------
 
 
 Tactile sensors
