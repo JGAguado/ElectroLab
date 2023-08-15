@@ -46,6 +46,15 @@ The resistors have no *polarity*, meaning that any of the terminals can go to th
 
 Capacitors
 --------------
+
+.. figure:: images/components/Capacitors_top.png
+    :align: left
+    :figheight: 150px
+
+.. figure:: images/components/Capacitors_bottom.png
+    :align: left
+    :figheight: 150px
+
 The capacitors array, located under the resistors array, consists on two columns of 10 capacitors each. In this case each row has its own value, giving a total of 20 capacitors, 10 different values.
 
 The first 8 rows (or values) are formed by ceramic capacitors, that have no polarity. However, the last two rows (values 100 μF and 1mF) are tantalum capacitors, **with polarity**.
@@ -56,12 +65,30 @@ The first 8 rows (or values) are formed by ceramic capacitors, that have no pola
 Diodes
 ------------
 
+.. figure:: images/components/Diodes_top.png
+    :align: left
+    :figheight: 150px
+
+.. figure:: images/components/Diodes_bottom.png
+    :align: left
+    :figheight: 150px
+    
+
+
 The |Product| comes with a 4 diodes set, in this case, located in the upper right side of the board, between the 7 segments display and the transistors.
 
 
 Transistors
 --------------
 
+.. figure:: images/components/Transistors_top.png
+    :align: left
+    :figheight: 150px
+
+.. figure:: images/components/Transistors_bottom.png
+    :align: left
+    :figheight: 150px
+    
 There are two types of transistors integrated in the |Product|: PNP & NPN. Both of them are placed on the top right side of the board. Due to the limited space on the board and the more extended use of the NPN, there is one more of this type: 3 NPN in total and 2 PNP type. 
 
 
@@ -69,6 +96,14 @@ Attending to the white printed silkscreen on the board, it is easy to identify e
 
 Operational Amplifier
 ---------------------
+
+.. figure:: images/components/OpAmps_top.png
+    :align: left
+    :figheight: 150px
+
+.. figure:: images/components/OpAmps_bottom.png
+    :align: left
+    :figheight: 150px
 
 The :term:`Op.Amp.` :term:`IC` that the |Product| mounts is a LM2902DT. Each :term:`IC` contains up to 4 independent :term:`Op.Amp.`, giving a total of 8 for the |Product| board, located on the right side of the board.
 
@@ -78,6 +113,14 @@ As commented in the power section, these :term:`Op.Amp.` are powered as soon as 
 
 Logic gates
 -----------
+
+.. figure:: images/components/LogicGates_top.png
+    :align: left
+    :figheight: 150px
+
+.. figure:: images/components/LogicGates_bottom.png
+    :align: left
+    :figheight: 150px
 
 Moving on to the 100% digital circuits, |Product| integrates a set of 3 different logic gates: 4 AND, 4 OR and 6 NOT. The set of gates are placed on the right side of the board, directly under the :term:`Op.Amp.` and divided by columns (according to the gate type).
 
@@ -93,6 +136,15 @@ When working with 5V :term:`TTL` levels, the definition of a bit (1 or 0) is don
 Flip Flops
 -----------
 
+.. figure:: images/components/FlipFlops_top.png
+    :align: left
+    :figheight: 150px
+
+.. figure:: images/components/FlipFlops_bottom.png
+    :align: left
+    :figheight: 150px
+
+
 Continuing with the digital circuits, and located under the logic gates, the |Product| integrates 4 JK :term:`FF` thanks to two 4027D :term:`IC`. 
 
 The :term:`FF` are, like in the case of the logic gates, ready to be used. 
@@ -100,12 +152,30 @@ The :term:`FF` are, like in the case of the logic gates, ready to be used.
 Signal generator
 -----------------
 
+.. figure:: images/components/555_top.png
+    :align: left
+    :figheight: 150px
+
+.. figure:: images/components/555_bottom.png
+    :align: left
+    :figheight: 150px
+
+
 The |Product| integrates a square signal generator, the well-known **555** Timer oscillator :term:`IC`, placed on the bottom right side of the board.
 
 This common :term:`IC` can provide square signals (0-5V) and depending on the assembled circuit the integrated 555 can be configured as monostable or astable multivibrator. This is because the pin 5 of the 555 :term:`IC` is internally connected to a 0.01μF capacitor, as it is required for any monostabe or astable configuration.
 
 Audio
 ----------------
+
+.. figure:: images/components/Audio_top.png
+    :align: left
+    :figheight: 150px
+
+.. figure:: images/components/Audio_bottom.png
+    :align: left
+    :figheight: 150px
+
 
 Next to the signal generator, also on the bottom right side of the board, there is a class-D audio amplifier based on the PAM8403 :term:`IC`.
 
@@ -116,6 +186,15 @@ As part of the audio laboratory there are two more components: 2 jack connectors
 
 Opto-electronics
 ----------------
+
+.. figure:: images/components/OptoElectronics_top.png
+    :align: left
+    :figheight: 150px
+
+.. figure:: images/components/OptoElectronics_bottom.png
+    :align: left
+    :figheight: 150px
+
 
 Next to the speaker, and continuing with the non-electric signals the |Product| can output, the opto-electronics section can be found: 3-colors :term:`LED` bar, :term:`RGB` & 7 segments display.
 
@@ -130,6 +209,10 @@ This BCD to seven segment decoder has 4 input and 7 output lines. This output is
 Push-buttons
 ------------------
 
+.. figure:: images/components/Pushbuttons_top.png
+    :align: left
+    :figheight: 150px
+
 Moving to the board's inputs side, we can easily recognize the push-buttons array on the bottom area next to the capacitors.
 
 Individually, a push-button connects the two terminals it has if it is pressed, like a switch, letting the current flow. 
@@ -140,6 +223,15 @@ On the assembled array, each of the push-buttons, if pressed, connects one of th
 
 Potentiometers
 ----------------------
+
+.. figure:: images/components/Potentiometers_top.png
+    :align: left
+    :figheight: 100px
+
+.. figure:: images/components/Potentiometers_bottom.png
+    :align: left
+    :figheight: 100px
+
 
 A potentiometer is a resistor whose values can be changed by a manual action. In the case of the |Product|, there are two different types of integrated potentiometers: 2 rotary and 1 linear, located on the bottom side, next to the audio amplifier circuit and the flip flops.
 
@@ -159,6 +251,10 @@ The area where the sensors are placed extends from the center of the board (unde
 Microphone
 ^^^^^^^^^^^^
 
+.. figure:: images/components/Microphone_top.png
+    :align: left
+    :figheight: 150px
+
 The electrec microphone is placed on the left side of the sensor's area. The CMEJ-0627-42-P is an omnidirectional microphone with a -42dB sensitivity.
 
 
@@ -168,11 +264,19 @@ The electrec microphone is placed on the left side of the sensor's area. The CME
 LDR
 ^^^^^^^^^^^^
 
+.. figure:: images/components/LDR_top.png
+    :align: left
+    :figheight: 150px
+
 The :term:`LDR` is placed next to the microphone. The used component is the GL5528.
 
 
 Thermistor
 ^^^^^^^^^^^^
+
+.. figure:: images/components/NTC_top.png
+    :align: left
+    :figheight: 150px
 
 The thermistor component integrated in the |Product|, next to the :term:`LDR`, is a :term:`NTC` type. This means that the resistance decreases as temperature rises. 
 
@@ -180,18 +284,31 @@ The thermistor component integrated in the |Product|, next to the :term:`LDR`, i
 Accelerometer
 ^^^^^^^^^^^^
 
+.. figure:: images/components/Accelerometer_top.png
+    :align: left
+    :figheight: 150px
+
+.. figure:: images/components/Accelerometer_bottom.png
+    :align: left
+    :figheight: 150px
+
+
 The |Product| integrates a tri-axial analog accelerometers, placed on the right side of the sensor's area. The chosen device is the ADXL337 transducer from Analog Devices, able to measure up to ±3g. 
 
 As the accelerometer :term:`IC` works with 3V, a voltage regulator is connected internally to provide the required power to the :term:`IC`. The sensor outputs 3 signals, according to each axis, from 0 to 3V that corresponds to the range from -3g to +3g. This means that, for example, when the device's Z axis is vertical (aligned with the local gravity) the X and Y axis of the sensor should read 0g, providing an output signal of ~1.5V.
 
-Gas
-^^^^^^^^^^^^
+Tactile sensors
+^^^^^^^^^^^^^^^^
+.. figure:: images/components/Tactile_top.png
+    :align: left
+    :figheight: 150px
 
-The gas sensor, independently of which one is mounted, can be easily located in the center of the boad, under the |Product| logo. The MQ sensor series, is a gas sensor type, known as Chemiresistors, that work based upon resistance changes of the sensing material when the gas comes in contact with the material.
+.. figure:: images/components/CapTactile_bottom.png
+    :align: left
+    :figheight: 150px
 
-Conductivity
-^^^^^^^^^^^^
+Last, but not least, there are two types of *tactile* sensor: a capacitive sensor and a conductive one, both placed on the 
+center bottom area of the board, one over each other respectively.
 
-Last, but not least, the conductivity sensor is placed on the center bottom area of the board. This sensor, based on an uncover set of routes integrated on the top layer of the PCB, works by measuring the conductivity of any item in contact with the top layer.
-
-The sensor is formed by a 2 sets of horizontal lines interconnected vertically. If any conductive item (like a drop of water or a finger) is in contact with the layer, the resistance in between the two pins decreases.
+- The capacitive sensor is supported by the AT42QT1012 :term:`IC`, which is internally routed to give a states-based output through the accessible pinhead.
+- The conductivity (or resistivity) based sensor, works by measuring the conductivity of any item in contact with the top's layer expoded pad. The sensor is formed by a 2 sets of horizontal lines interconnected vertically. If any conductive item (like a drop of water or a finger) is in contact with the layer, the resistance in between the two pins decreases.
