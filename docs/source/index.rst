@@ -50,28 +50,11 @@ please contact me directly:
 .. toctree::
    :maxdepth: 2
 
-   safety
+   safety   
    glossary
    getting_started
    examples 
-   faq
-
-.. toctree::
-   :caption: 🚀 Examples
-   :maxdepth: 2
-
-   examples/basics   
-   examples/op_amps
-   examples/logic_gates
-   examples/flip_flops
-   examples/555
-   examples/Widget List
-
-.. toctree::  
-   :caption: 📐Design
-   :maxdepth: 2
-   :hidden:
-   
    components
    design   
    specs
+   faq   
