@@ -8,7 +8,7 @@ Power
 -------------
 .. figure:: images/components/Power_top.PNG
     :align: left
-    :figwidth: 150px
+    :figheight: 150px
     
 The |Product| is powered at 5V (volts). That is because the different components on board work with a standard 5 volts :term:`TTL` level.
 
@@ -22,11 +22,20 @@ The power can be inputted in two different ways: through the USB connector or th
 Once the board is powered, not only the Integrated Circuits (:term:`IC`) are being energized, but also the 5V bar gets its voltage with respect to the :term:`GND` bar. The 5V & :term:`GND` bar are separated by 3 rows of other pinheads. These headers are interconnected vertically, forming nodes of 4 points for those applications that requires multiple connections in one node.
 
 .. image:: images/components/BusBar_top.png
-  :height: 80
+  :height: 150px
 .. image:: images/components/BusBar_bottom.png
-  :height: 80
+  :height: 150px
+
 Resistors
 -------------
+
+.. figure:: images/components/Resistors_top.png
+    :align: left
+    :figheight: 150px
+
+.. figure:: images/components/Resistors_bottom.png
+    :align: left
+    :figheight: 150px
 
 The resistors array, located in the left side of the |Product|, consist on three columns of 10 resistors per row, giving a total of 30 resistors. As experience has showed us, the value of 10kΩ is specially useful (for pull-down/pull-up circuits), and that is why there are two columns with the same value. Apart from this exception, the rest of rows has its own individual value.
 
