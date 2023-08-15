@@ -6,7 +6,7 @@ Basic circuits
    :glob:
    :numbered:
    
-   examples/0_basics/Resistors
-   examples/0_basics/Capacitors
-   examples/0_basics/Diodes
-   examples/0_basics/Transistors
+   Resistors
+   Capacitors
+   Diodes
+   Transistors

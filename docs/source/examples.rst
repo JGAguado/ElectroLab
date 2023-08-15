@@ -19,6 +19,6 @@ Feel free to experiment with the following tested circuits:
    :glob:
 
    examples/0_basics/main
-   examples/1_analogic/main
+   examples/1_analog/main
    examples/2_digital/main
    examples/3_oscillators/main

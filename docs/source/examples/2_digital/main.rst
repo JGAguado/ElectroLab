@@ -6,8 +6,8 @@ Digital circuits
    :glob:
    :numbered:
    
-   examples/2_digital/BCD_decoder 
-   examples/2_digital/combinational 
-   examples/2_digital/palm_detector_states   
-   examples/2_digital/counter 
-   examples/2_digital/automatic_counter 
+   BCD_decoder 
+   combinational 
+   palm_detector_states   
+   counter 
+   automatic_counter 
