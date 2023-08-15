@@ -6,7 +6,7 @@ Through the upcomming docs, you will see interactive illustrations like this one
 
 .. raw:: html
         
-    <iframe src="../_static/Circuits/PB_LEDs/Circuit.html" style="width: 100%; height: 500px; border: none;"></iframe>
+    <iframe src="_static/Circuits/PB_LEDs/Circuit.html" style="width: 100%; height: 500px; border: none;"></iframe>
 
 You can navigate through each step forward ▶️ and backward ◀️, or enter directly the step you want to.
 You can also visualize all the steps at once clicking on the 👁 eye icon.
