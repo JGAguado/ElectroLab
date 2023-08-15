@@ -6,7 +6,7 @@ Let's start by exploring the different sections that form the |Product|, how the
 
 Power
 -------------
-.. figure:: images/components/Power_top.PNG
+.. figure:: images/components/Power_top.png
     :align: left
     :figwidth: 150
     
@@ -23,8 +23,10 @@ Once the board is powered, not only the Integrated Circuits (:term:`IC`) are bei
 
 .. image:: images/components/BusBar_top.png
   :height: 150px
+  :align: center
 .. image:: images/components/BusBar_bottom.png
   :height: 150px
+  :align: center
 
 Resistors
 -------------
@@ -32,10 +34,11 @@ Resistors
 .. figure:: images/components/Resistors_top.png
     :align: left
     :figwidth: 150px
-
+    Top side view
 .. figure:: images/components/Resistors_bottom.png
-    :align: left
+    :align: right
     :figwidth: 150px
+    Bottom side view
 
 The resistors array, located in the left side of the |Product|, consist on three columns of 10 resistors per row, giving a total of 30 resistors. As experience has showed us, the value of 10kΩ is specially useful (for pull-down/pull-up circuits), and that is why there are two columns with the same value. Apart from this exception, the rest of rows has its own individual value.
 
@@ -289,7 +292,7 @@ Accelerometer
     :figwidth: 150px
 
 .. figure:: images/components/Accelerometer_bottom.png
-    :align: left
+    :align: right
     :figwidth: 150px
 
 
