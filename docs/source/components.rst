@@ -8,7 +8,7 @@ Power
 -------------
 .. figure:: images/components/Power_top.png
     :align: left
-    :figwidth: 150
+    :figwidth: 200px
     
 The |Product| is powered at 5V (volts). That is because the different components on board work with a standard 5 volts :term:`TTL` level.
 
@@ -22,14 +22,18 @@ The power can be inputted in two different ways: through the USB connector or th
 Once the board is powered, not only the Integrated Circuits (:term:`IC`) are being energized, but also the 5V bar gets its voltage with respect to the :term:`GND` bar. The 5V & :term:`GND` bar are separated by 3 rows of other pinheads. These headers are interconnected vertically, forming nodes of 4 points for those applications that requires multiple connections in one node.
 
 .. image:: images/components/BusBar_top.png
-  :height: 100px
+  :height: 120px
   :align: left
 .. image:: images/components/BusBar_bottom.png
-  :height: 100px
+  :height: 120px
   :align: right
 
 |
 |
+|
+|
+
+----------
 
 Resistors
 -------------
@@ -55,6 +59,8 @@ The resistors have no *polarity*, meaning that any of the terminals can go to th
 |
 |
 
+----------
+
 Capacitors
 --------------
 
@@ -78,8 +84,8 @@ The first 8 rows (or values) are formed by ceramic capacitors, that have no pola
 .. Warning::
      It's important to pay attention how the polarized capacitors are connected in the circuit **before** powering it, making sure that the side with the **+** symbol **never** goes to the :term:`GND`. 
 
-|
-|
+
+----------
 
 Diodes
 ------------
@@ -97,12 +103,15 @@ Diodes
     Bottom side view
 
 
-
 The |Product| comes with a 4 diodes set, in this case, located in the upper right side of the board, between the 7 segments display and the transistors.
 
 
 |
 |
+|
+|
+
+----------
 
 Transistors
 --------------
@@ -127,6 +136,8 @@ Attending to the white printed silkscreen on the board, it is easy to identify e
 
 |
 |
+
+----------
 
 
 Operational Amplifier
@@ -153,6 +164,8 @@ As commented in the power section, these :term:`Op.Amp.` are powered as soon as 
 
 |
 |
+
+----------
 
 
 Logic gates
@@ -184,6 +197,8 @@ When working with 5V :term:`TTL` levels, the definition of a bit (1 or 0) is don
 |
 |
 
+----------
+
 Flip Flops
 -----------
 
@@ -207,6 +222,8 @@ The :term:`FF` are, like in the case of the logic gates, ready to be used.
 
 |
 |
+
+----------
 
 
 Signal generator
@@ -232,6 +249,8 @@ This common :term:`IC` can provide square signals (0-5V) and depending on the as
 
 |
 |
+
+----------
 
 
 Audio
@@ -260,18 +279,20 @@ As part of the audio laboratory there are two more components: 2 jack connectors
 |
 |
 
+----------
+
 Opto-electronics
 ----------------
 
 .. figure:: images/components/OptoElectronics_top.png
     :align: left
-    :figwidth: 150px
+    :figwidth: 200px
 
     Top side view
 
 .. figure:: images/components/OptoElectronics_bottom.png
     :align: right
-    :figwidth: 150px
+    :figwidth: 200px
 
     Bottom side view
 
@@ -289,6 +310,8 @@ This BCD to seven segment decoder has 4 input and 7 output lines. This output is
 
 |
 |
+
+----------
 
 
 Push-buttons
@@ -309,6 +332,8 @@ On the assembled array, each of the push-buttons, if pressed, connects one of th
 
 |
 |
+
+----------
 
 Potentiometers
 ----------------------
@@ -332,6 +357,8 @@ In both cases, the resistance range the mounted potentiometers is 0 to 10kΩ. Th
 |
 |
 
+
+----------
 
 
 Sensors
@@ -359,6 +386,7 @@ The electrec microphone is placed on the left side of the sensor's area. The CME
 |
 |
 
+----------
 
 LDR
 ^^^^^^^^^^^^
@@ -374,7 +402,9 @@ The :term:`LDR` is placed next to the microphone. The used component is the GL55
 
 |
 |
+|
 
+----------
 
 Thermistor
 ^^^^^^^^^^^^
@@ -390,7 +420,9 @@ The thermistor component integrated in the |Product|, next to the :term:`LDR`, i
 
 |
 |
+|
 
+----------
 
 Accelerometer
 ^^^^^^^^^^^^
