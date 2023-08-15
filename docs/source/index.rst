@@ -47,8 +47,8 @@ please contact me directly:
 
 .. toctree::
    :maxdepth: 2
-   :hide:
-   
+   :hidden:
+
    safety   
    glossary
    getting_started
