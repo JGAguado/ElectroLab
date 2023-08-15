@@ -28,6 +28,8 @@ Once the board is powered, not only the Integrated Circuits (:term:`IC`) are bei
   :height: 100px
   :align: right
 
+----------
+
 Resistors
 -------------
 
@@ -49,6 +51,8 @@ As it can seen on the board's back, each resistor is connected to two male pinhe
 
 The resistors have no *polarity*, meaning that any of the terminals can go to the positive or negative side of a circuit. 
 
+----------
+
 
 Capacitors
 --------------
@@ -56,6 +60,7 @@ Capacitors
 .. figure:: images/components/Capacitors_top.png
     :align: left
     :figwidth: 150px
+
     Top side view
 
 .. figure:: images/components/Capacitors_bottom.png
@@ -72,18 +77,20 @@ The first 8 rows (or values) are formed by ceramic capacitors, that have no pola
 .. Warning::
      It's important to pay attention how the polarized capacitors are connected in the circuit **before** powering it, making sure that the side with the **+** symbol **never** goes to the :term:`GND`. 
 
+----------
+
 Diodes
 ------------
 
 .. figure:: images/components/Diodes_top.png
     :align: left
-    :figwidth: 100px
+    :figwidth: 150px
 
     Top side view
 
 .. figure:: images/components/Diodes_bottom.png
     :align: right
-    :figwidth: 100px
+    :figwidth: 150px
 
     Bottom side view
 
@@ -91,6 +98,8 @@ Diodes
 
 The |Product| comes with a 4 diodes set, in this case, located in the upper right side of the board, between the 7 segments display and the transistors.
 
+
+----------
 
 Transistors
 --------------
@@ -113,6 +122,8 @@ There are two types of transistors integrated in the |Product|: PNP & NPN. Both 
 
 Attending to the white printed silkscreen on the board, it is easy to identify each terminal of the transistor to be used on the circuit.
 
+----------
+
 Operational Amplifier
 ---------------------
 
@@ -134,6 +145,8 @@ The :term:`Op.Amp.` :term:`IC` that the |Product| mounts is a LM2902DT. Each :te
 As printed in the silkscreen, the inputs to the :term:`Op.Amp.` are placed on the upper side, while the outputs are under. With a little bit of zoom it can be appreciated in the silkscreen which input is the Inverting (-) and which one is the Non-Inverting (+)
 
 As commented in the power section, these :term:`Op.Amp.` are powered as soon as the |Product| is powered, making them ready to be used.
+
+----------
 
 Logic gates
 -----------
@@ -162,18 +175,20 @@ Attending to each type of logic gate, the used :term:`IC` are the following:
 When working with 5V :term:`TTL` levels, the definition of a bit (1 or 0) is done by voltage levels. For avoiding the background electrical noise to interfere with our logic processes, all the logic gates inputs are pulled-down through a 10kΩ resistor array.
 
 
+----------
+
 Flip Flops
 -----------
 
 .. figure:: images/components/FlipFlops_top.png
     :align: left
-    :figwidth: 130px
+    :figwidth: 150px
 
     Top side view
 
 .. figure:: images/components/FlipFlops_bottom.png
     :align: right
-    :figwidth: 130px
+    :figwidth: 150px
 
     Bottom side view
 
@@ -182,6 +197,8 @@ Flip Flops
 Continuing with the digital circuits, and located under the logic gates, the |Product| integrates 4 JK :term:`FF` thanks to two 4027D :term:`IC`. 
 
 The :term:`FF` are, like in the case of the logic gates, ready to be used. 
+
+----------
 
 Signal generator
 -----------------
@@ -204,12 +221,14 @@ The |Product| integrates a square signal generator, the well-known **555** Timer
 
 This common :term:`IC` can provide square signals (0-5V) and depending on the assembled circuit the integrated 555 can be configured as monostable or astable multivibrator. This is because the pin 5 of the 555 :term:`IC` is internally connected to a 0.01μF capacitor, as it is required for any monostabe or astable configuration.
 
+----------
+
 Audio
 ----------------
 
 .. figure:: images/components/Audio_top.png
     :align: left
-    :figwidth: 140px
+    :figwidth: 150px
 
     Top side view
 
@@ -226,6 +245,8 @@ Next to the signal generator, also on the bottom right side of the board, there 
 This filter-less 3W stereo amplifier is internally prepared to provide a ready-to-use interface, it can input the left (L) and/or right (R) channels. It is important to connect correctly the :term:`GND` from the jack to the :term:`GND` of the amplifier.
 
 As part of the audio laboratory there are two more components: 2 jack connectors and 1 speaker, located on the upper side of the |Product|.
+
+----------
 
 
 Opto-electronics
@@ -255,12 +276,14 @@ The seven segments (7s) :term:`LED` display is the last, but not least, componen
 
 This BCD to seven segment decoder has 4 input and 7 output lines. This output is given to the 7 segment display, through the required resistors, so it displays the decimal number depending on the inputs.
 
+----------
+
 Push-buttons
 ------------------
 
 .. figure:: images/components/Pushbuttons_top.png
     :align: left
-    :figwidth: 120px
+    :figwidth: 150px
 
     Top side view
 
@@ -270,6 +293,8 @@ Individually, a push-button connects the two terminals it has if it is pressed, 
 
 On the assembled array, each of the push-buttons, if pressed, connects one of the upper pins with one of the lateral pins, depending on the column and the row.
 
+
+----------
 
 
 Potentiometers
@@ -291,6 +316,8 @@ In both cases, the resistance range the mounted potentiometers is 0 to 10kΩ. Th
 .. Warning::
     If you are assembling any circuit non-listed in the official tutorials of the |Product|, please make sure that there is some minimum resistance (>100Ω) in series with the used potentiometer. This is recommended because if the potentiometer is moved to the minimum resistance values, the current flowing through the potentiometer increases, which can damage irreversibly the component.
  
+----------
+
 
 Sensors
 ----------------
@@ -314,29 +341,35 @@ The electrec microphone is placed on the left side of the sensor's area. The CME
 .. Warning::
     As the electrec microphone is a component with polarity, it's important to pay attention to the **+** and **-** printed signs on the silkscreen of the |Product|
 
+----------
+
 LDR
 ^^^^^^^^^^^^
 
 .. figure:: images/components/LDR_top.png
     :align: left
-    :figwidth: 100px
+    :figwidth: 150px
 
     Top side view
 
 The :term:`LDR` is placed next to the microphone. The used component is the GL5528.
 
 
+----------
+
 Thermistor
 ^^^^^^^^^^^^
 
 .. figure:: images/components/NTC_top.png
     :align: left
-    :figwidth: 100px
+    :figwidth: 150px
 
     Top side view
 
 The thermistor component integrated in the |Product|, next to the :term:`LDR`, is a :term:`NTC` type. This means that the resistance decreases as temperature rises. 
 
+
+----------
 
 Accelerometer
 ^^^^^^^^^^^^
@@ -358,6 +391,8 @@ Accelerometer
 The |Product| integrates a tri-axial analog accelerometers, placed on the right side of the sensor's area. The chosen device is the ADXL337 transducer from Analog Devices, able to measure up to ±3g. 
 
 As the accelerometer :term:`IC` works with 3V, a voltage regulator is connected internally to provide the required power to the :term:`IC`. The sensor outputs 3 signals, according to each axis, from 0 to 3V that corresponds to the range from -3g to +3g. This means that, for example, when the device's Z axis is vertical (aligned with the local gravity) the X and Y axis of the sensor should read 0g, providing an output signal of ~1.5V.
+
+----------
 
 Tactile sensors
 ^^^^^^^^^^^^^^^^
