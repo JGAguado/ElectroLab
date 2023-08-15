@@ -23,10 +23,10 @@ Once the board is powered, not only the Integrated Circuits (:term:`IC`) are bei
 
 .. image:: images/components/BusBar_top.png
   :height: 150px
-  :align: center
+  :align: left
 .. image:: images/components/BusBar_bottom.png
   :height: 150px
-  :align: center
+  :align: right
 
 Resistors
 -------------
@@ -34,10 +34,13 @@ Resistors
 .. figure:: images/components/Resistors_top.png
     :align: left
     :figwidth: 150px
+
     Top side view
+
 .. figure:: images/components/Resistors_bottom.png
     :align: right
     :figwidth: 150px
+    
     Bottom side view
 
 The resistors array, located in the left side of the |Product|, consist on three columns of 10 resistors per row, giving a total of 30 resistors. As experience has showed us, the value of 10kΩ is specially useful (for pull-down/pull-up circuits), and that is why there are two columns with the same value. Apart from this exception, the rest of rows has its own individual value.
@@ -55,7 +58,7 @@ Capacitors
     :figwidth: 150px
 
 .. figure:: images/components/Capacitors_bottom.png
-    :align: left
+    :align: right
     :figwidth: 150px
 
 The capacitors array, located under the resistors array, consists on two columns of 10 capacitors each. In this case each row has its own value, giving a total of 20 capacitors, 10 different values.
@@ -73,7 +76,7 @@ Diodes
     :figwidth: 150px
 
 .. figure:: images/components/Diodes_bottom.png
-    :align: left
+    :align: right
     :figwidth: 150px
     
 
@@ -89,7 +92,7 @@ Transistors
     :figwidth: 150px
 
 .. figure:: images/components/Transistors_bottom.png
-    :align: left
+    :align: right
     :figwidth: 150px
     
 There are two types of transistors integrated in the |Product|: PNP & NPN. Both of them are placed on the top right side of the board. Due to the limited space on the board and the more extended use of the NPN, there is one more of this type: 3 NPN in total and 2 PNP type. 
@@ -105,7 +108,7 @@ Operational Amplifier
     :figwidth: 150px
 
 .. figure:: images/components/OpAmps_bottom.png
-    :align: left
+    :align: right
     :figwidth: 150px
 
 The :term:`Op.Amp.` :term:`IC` that the |Product| mounts is a LM2902DT. Each :term:`IC` contains up to 4 independent :term:`Op.Amp.`, giving a total of 8 for the |Product| board, located on the right side of the board.
@@ -122,7 +125,7 @@ Logic gates
     :figwidth: 150px
 
 .. figure:: images/components/LogicGates_bottom.png
-    :align: left
+    :align: right
     :figwidth: 150px
 
 Moving on to the 100% digital circuits, |Product| integrates a set of 3 different logic gates: 4 AND, 4 OR and 6 NOT. The set of gates are placed on the right side of the board, directly under the :term:`Op.Amp.` and divided by columns (according to the gate type).
@@ -144,7 +147,7 @@ Flip Flops
     :figwidth: 150px
 
 .. figure:: images/components/FlipFlops_bottom.png
-    :align: left
+    :align: right
     :figwidth: 150px
 
 
@@ -160,7 +163,7 @@ Signal generator
     :figwidth: 150px
 
 .. figure:: images/components/555_bottom.png
-    :align: left
+    :align: right
     :figwidth: 150px
 
 
@@ -176,7 +179,7 @@ Audio
     :figwidth: 150px
 
 .. figure:: images/components/Audio_bottom.png
-    :align: left
+    :align: right
     :figwidth: 150px
 
 
@@ -195,7 +198,7 @@ Opto-electronics
     :figwidth: 150px
 
 .. figure:: images/components/OptoElectronics_bottom.png
-    :align: left
+    :align: right
     :figwidth: 150px
 
 
@@ -232,7 +235,7 @@ Potentiometers
     :figwidth: 100px
 
 .. figure:: images/components/Potentiometers_bottom.png
-    :align: left
+    :align: right
     :figwidth: 100px
 
 
@@ -307,7 +310,7 @@ Tactile sensors
     :figwidth: 150px
 
 .. figure:: images/components/CapTactile_bottom.png
-    :align: left
+    :align: right
     :figwidth: 150px
 
 Last, but not least, there are two types of *tactile* sensor: a capacitive sensor and a conductive one, both placed on the 

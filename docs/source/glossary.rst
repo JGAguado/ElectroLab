@@ -1,3 +1,6 @@
+📚 Acronyms
+============
+
 .. glossary::
 
    IC
