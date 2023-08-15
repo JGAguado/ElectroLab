@@ -9,8 +9,8 @@ project = 'ElectroLab'
 author = 'J.G.Aguado'
 email = 'jon-garcia@hotmail.com'
 
-release = '3'
-version = '1'
+release = '1'
+version = '2'
 
 today = date.today()
 compile_date = today.strftime("%B %d, %Y")
@@ -21,9 +21,9 @@ rst_epilog  = """
 .. |Product| replace:: %s
 .. |Author| replace:: %s
 .. |Email| replace:: %s
-.. |Release| replace:: %s
+.. |Version| replace:: %s
 .. |Date| replace:: %s
-""" % (project, author, email, release, compile_date)
+""" % (project, author, email, version, compile_date)
 
 
 # -- General configuration

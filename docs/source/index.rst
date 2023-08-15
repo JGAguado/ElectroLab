@@ -41,7 +41,7 @@ please contact me directly:
 :Contact: |Email|
 
 :Board: |Product|
-:Revision: |Release|
+:Version: |Version|
 :Date: |Date|
 
 
