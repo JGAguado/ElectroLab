@@ -19,9 +19,9 @@ The Auxiliary Interface consist on the lateral black IDC-16 connector. This inte
 
 Once the board is powered, not only the Integrated Circuits (:term:`IC`) are being energized, but also the 5V bar gets its voltage with respect to the :term:`GND` bar. The 5V & :term:`GND` bar are separated by 4 rows of other pinheads. These headers are interconnected vertically, forming nodes of 4 points for those applications that requires multiple connections in one node.
 
-.. |Power_top| image:: components/Power_top.png
-  :width: 400
-  :alt: Powering area
+.. figure:: images/components/Power_top.png
+    :align: left
+    :figwidth: 150px
 
 Resistors
 -------------
