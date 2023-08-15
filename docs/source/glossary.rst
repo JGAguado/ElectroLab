@@ -1,4 +1,7 @@
-.. glossary:: 📚 Acronyms
+📚 Acronyms
+============
+
+.. glossary:: 
    :sorted:
 
    IC
@@ -66,4 +69,6 @@
 
    ADC
        Analog-Digital Converter
-    
+
+   BCD
+       Binary-coded decimal
