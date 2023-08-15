@@ -16,7 +16,6 @@ Feel free to experiment with the following tested circuits:
 .. toctree::
    :maxdepth: 2
    :numbered:
-   :glob:
 
    examples/0_basics/main
    examples/1_analog/main
