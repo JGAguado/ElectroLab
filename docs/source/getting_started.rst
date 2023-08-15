@@ -1,7 +1,7 @@
-Getting started
+💡 Getting started
 ===============
 
-Assembly options 
+🛠 Assembly options 
 ----------------
 The |Product| can be ordered fully assembled or partially, where all the :term:`SMD`
 components are already assembled and you only need to assemble and solder the :term:`THT`
@@ -29,7 +29,7 @@ help you with the pinheads positioning for soldering. For an optimal assembly, f
    6. Solder the rest of the pins and cut the excess length of them.
   
 
-How it works?
+🎓How it works?
 -------------
 On the |Product|, each component is internally powered and it's :term:`I/O` are already routed to an accessible pinhead. 
 This makes it very easy the quick prototyping of electronic circuits since you just need to interconnect them with female-female wires.

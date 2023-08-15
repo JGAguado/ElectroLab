@@ -1,4 +1,4 @@
-:term:`FAQ`
+💬 :term:`FAQ`
 =============================
 
 After connecting everything and turning on the |Product|, I don't see any :term:`LED` on.

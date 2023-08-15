@@ -53,7 +53,6 @@ please contact me directly:
    safety
    
 .. toctree::
-   :caption: 💡 First steps
    :maxdepth: 2
    :hidden:
 
@@ -64,7 +63,6 @@ please contact me directly:
 .. toctree::
    :caption: 🚀 Examples
    :maxdepth: 2
-   :hidden:
 
    examples 
    examples/basics   
