@@ -51,20 +51,15 @@ please contact me directly:
    :maxdepth: 2
 
    safety
-   
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
+   glossary
    getting_started
-   components
+   examples 
    faq
 
 .. toctree::
    :caption: 🚀 Examples
    :maxdepth: 2
 
-   examples 
    examples/basics   
    examples/op_amps
    examples/logic_gates
@@ -77,6 +72,6 @@ please contact me directly:
    :maxdepth: 2
    :hidden:
    
+   components
    design   
    specs
-   glossary
