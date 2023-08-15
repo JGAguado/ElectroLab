@@ -65,7 +65,7 @@
        Through Hole Technology
 
    IIC
-       Inter-Integrated Circuit    
+       Inter-Integrated Circuit. Also known as I2C or :math:`I^2 C`.
 
    ADC
        Analog-Digital Converter
