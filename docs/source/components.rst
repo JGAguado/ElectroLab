@@ -8,7 +8,7 @@ Power
 -------------
 .. figure:: images/components/Power_top.PNG
     :align: left
-    :figheight: 150px
+    :figheight: 150
     
 The |Product| is powered at 5V (volts). That is because the different components on board work with a standard 5 volts :term:`TTL` level.
 
@@ -17,7 +17,7 @@ It is important to highlight that there is no power regulation, and therefore th
 The power can be inputted in two different ways: through the USB connector or through the Auxiliary Interface. The selection of the power source is done with the switch.
 
 - The micro USB connector, placed in the upper left side of the board, can be directly plugged to any USB source, like a laptop, a charger or even a power-bank.
-- The Auxiliary Interface consist on the lateral black IDC-16 connector. This interface, apart from providing an auxiliary power source to the |Product|, remains as an expansion port for upcoming compatible boards.
+- The Auxiliary Interface consists on the lateral black IDC-16 connector. This interface, apart from providing an auxiliary power source to the |Product|, remains as an expansion port for upcoming compatible boards.
 
 Once the board is powered, not only the Integrated Circuits (:term:`IC`) are being energized, but also the 5V bar gets its voltage with respect to the :term:`GND` bar. The 5V & :term:`GND` bar are separated by 3 rows of other pinheads. These headers are interconnected vertically, forming nodes of 4 points for those applications that requires multiple connections in one node.
 
