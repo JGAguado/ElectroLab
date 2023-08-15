@@ -1,4 +1,4 @@
-🧰 Components
+📱 Components
 ===========
 The |Product| is a board that may look complex at first sight because of the density of components in the layout. However, once you get familiarized with the different parts, it's pretty simple and intuitive.
 
@@ -22,11 +22,10 @@ The power can be inputted in two different ways: through the USB connector or th
 Once the board is powered, not only the Integrated Circuits (:term:`IC`) are being energized, but also the 5V bar gets its voltage with respect to the :term:`GND` bar. The 5V & :term:`GND` bar are separated by 3 rows of other pinheads. These headers are interconnected vertically, forming nodes of 4 points for those applications that requires multiple connections in one node.
 
 .. image:: images/components/BusBar_top.png
-  :height: 150px
+  :height: 100px
   :align: left
 .. image:: images/components/BusBar_bottom.png
-  :height: 150px
-  :align: right
+  :height: 100px
 
 Resistors
 -------------
@@ -40,7 +39,7 @@ Resistors
 .. figure:: images/components/Resistors_bottom.png
     :align: right
     :figwidth: 150px
-    
+
     Bottom side view
 
 The resistors array, located in the left side of the |Product|, consist on three columns of 10 resistors per row, giving a total of 30 resistors. As experience has showed us, the value of 10kΩ is specially useful (for pull-down/pull-up circuits), and that is why there are two columns with the same value. Apart from this exception, the rest of rows has its own individual value.
@@ -56,10 +55,14 @@ Capacitors
 .. figure:: images/components/Capacitors_top.png
     :align: left
     :figwidth: 150px
+    Top side view
 
 .. figure:: images/components/Capacitors_bottom.png
     :align: right
     :figwidth: 150px
+
+    Bottom side view
+
 
 The capacitors array, located under the resistors array, consists on two columns of 10 capacitors each. In this case each row has its own value, giving a total of 20 capacitors, 10 different values.
 
@@ -75,10 +78,13 @@ Diodes
     :align: left
     :figwidth: 150px
 
+    Top side view
+
 .. figure:: images/components/Diodes_bottom.png
     :align: right
     :figwidth: 150px
-    
+
+    Bottom side view
 
 
 The |Product| comes with a 4 diodes set, in this case, located in the upper right side of the board, between the 7 segments display and the transistors.
@@ -91,10 +97,15 @@ Transistors
     :align: left
     :figwidth: 150px
 
+    Top side view
+
 .. figure:: images/components/Transistors_bottom.png
     :align: right
     :figwidth: 150px
-    
+
+    Bottom side view
+
+
 There are two types of transistors integrated in the |Product|: PNP & NPN. Both of them are placed on the top right side of the board. Due to the limited space on the board and the more extended use of the NPN, there is one more of this type: 3 NPN in total and 2 PNP type. 
 
 
@@ -107,9 +118,14 @@ Operational Amplifier
     :align: left
     :figwidth: 150px
 
+    Top side view
+
 .. figure:: images/components/OpAmps_bottom.png
     :align: right
     :figwidth: 150px
+
+    Bottom side view
+
 
 The :term:`Op.Amp.` :term:`IC` that the |Product| mounts is a LM2902DT. Each :term:`IC` contains up to 4 independent :term:`Op.Amp.`, giving a total of 8 for the |Product| board, located on the right side of the board.
 
@@ -124,9 +140,14 @@ Logic gates
     :align: left
     :figwidth: 150px
 
+    Top side view
+
 .. figure:: images/components/LogicGates_bottom.png
     :align: right
     :figwidth: 150px
+
+    Bottom side view
+
 
 Moving on to the 100% digital circuits, |Product| integrates a set of 3 different logic gates: 4 AND, 4 OR and 6 NOT. The set of gates are placed on the right side of the board, directly under the :term:`Op.Amp.` and divided by columns (according to the gate type).
 
@@ -146,9 +167,14 @@ Flip Flops
     :align: left
     :figwidth: 150px
 
+    Top side view
+
 .. figure:: images/components/FlipFlops_bottom.png
     :align: right
     :figwidth: 150px
+
+    Bottom side view
+
 
 
 Continuing with the digital circuits, and located under the logic gates, the |Product| integrates 4 JK :term:`FF` thanks to two 4027D :term:`IC`. 
@@ -162,9 +188,14 @@ Signal generator
     :align: left
     :figwidth: 150px
 
+    Top side view
+
 .. figure:: images/components/555_bottom.png
     :align: right
     :figwidth: 150px
+
+    Bottom side view
+
 
 
 The |Product| integrates a square signal generator, the well-known **555** Timer oscillator :term:`IC`, placed on the bottom right side of the board.
@@ -178,9 +209,14 @@ Audio
     :align: left
     :figwidth: 150px
 
+    Top side view
+
 .. figure:: images/components/Audio_bottom.png
     :align: right
     :figwidth: 150px
+
+    Bottom side view
+
 
 
 Next to the signal generator, also on the bottom right side of the board, there is a class-D audio amplifier based on the PAM8403 :term:`IC`.
@@ -197,9 +233,14 @@ Opto-electronics
     :align: left
     :figwidth: 150px
 
+    Top side view
+
 .. figure:: images/components/OptoElectronics_bottom.png
     :align: right
     :figwidth: 150px
+
+    Bottom side view
+
 
 
 Next to the speaker, and continuing with the non-electric signals the |Product| can output, the opto-electronics section can be found: 3-colors :term:`LED` bar, :term:`RGB` & 7 segments display.
@@ -218,6 +259,8 @@ Push-buttons
 .. figure:: images/components/Pushbuttons_top.png
     :align: left
     :figwidth: 150px
+
+    Top side view
 
 Moving to the board's inputs side, we can easily recognize the push-buttons array on the bottom area next to the capacitors.
 
@@ -261,6 +304,8 @@ Microphone
     :align: left
     :figwidth: 150px
 
+    Top side view
+
 The electrec microphone is placed on the left side of the sensor's area. The CMEJ-0627-42-P is an omnidirectional microphone with a -42dB sensitivity.
 
 
@@ -274,6 +319,8 @@ LDR
     :align: left
     :figwidth: 150px
 
+    Top side view
+
 The :term:`LDR` is placed next to the microphone. The used component is the GL5528.
 
 
@@ -283,6 +330,8 @@ Thermistor
 .. figure:: images/components/NTC_top.png
     :align: left
     :figwidth: 150px
+
+    Top side view
 
 The thermistor component integrated in the |Product|, next to the :term:`LDR`, is a :term:`NTC` type. This means that the resistance decreases as temperature rises. 
 
@@ -294,9 +343,14 @@ Accelerometer
     :align: left
     :figwidth: 150px
 
+    Top side view
+
 .. figure:: images/components/Accelerometer_bottom.png
     :align: right
     :figwidth: 150px
+
+    Bottom side view
+
 
 
 The |Product| integrates a tri-axial analog accelerometers, placed on the right side of the sensor's area. The chosen device is the ADXL337 transducer from Analog Devices, able to measure up to ±3g. 
@@ -309,9 +363,14 @@ Tactile sensors
     :align: left
     :figwidth: 150px
 
+    Top side view
+
 .. figure:: images/components/CapTactile_bottom.png
     :align: right
     :figwidth: 150px
+
+    Bottom side view
+
 
 Last, but not least, there are two types of *tactile* sensor: a capacitive sensor and a conductive one, both placed on the 
 center bottom area of the board, one over each other respectively.

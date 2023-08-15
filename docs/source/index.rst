@@ -50,9 +50,9 @@ please contact me directly:
    :hidden:
 
    safety   
-   glossary
    getting_started
    examples 
    components
    design   
+   glossary
    faq   
