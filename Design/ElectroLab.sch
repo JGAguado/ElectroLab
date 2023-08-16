@@ -9221,8 +9221,8 @@ https://www.aliexpress.com/item/4000661828247.html?spm=a2g0o.productlist.0.0.93c
 <wire x1="4.325" y1="0.9" x2="4.425" y2="0.9" width="0" layer="46"/>
 <wire x1="4.425" y1="0.9" x2="4.725" y2="0.6" width="0" layer="46" curve="-90"/>
 <wire x1="4.725" y1="0.6" x2="4.725" y2="-0.6" width="0" layer="46"/>
-<pad name="VBUS" x="-1.8" y="4.08" drill="0.9"/>
-<pad name="GND" x="1.8" y="4.08" drill="0.9"/>
+<pad name="GND" x="-1.8" y="4.08" drill="0.9"/>
+<pad name="VBUS" x="1.8" y="4.08" drill="0.9"/>
 <pad name="SHIELD2" x="-4.375" y="3.81" drill="0.6" shape="long" rot="R270"/>
 <wire x1="-4.025" y1="3.21" x2="-4.325" y2="2.91" width="0" layer="46" curve="-90"/>
 <wire x1="-4.325" y1="2.91" x2="-4.425" y2="2.91" width="0" layer="46"/>
@@ -10327,7 +10327,7 @@ Source: DCJ0303.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="USB-C-POWER">
-<description>AliExpress Special! Connect 5.1k 10% resistors to each CC pin, pulled up to 3.3v or 5.0v.</description>
+<description>TYPE-C-31-M-33</description>
 <gates>
 <gate name="G$1" symbol="USB-POWER" x="0" y="-2.54"/>
 </gates>
@@ -10338,7 +10338,9 @@ Source: DCJ0303.pdf</description>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LCSC" value="C2848624" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -13961,9 +13963,9 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <part name="LED10" library="SpaceDIY_semiconductors" deviceset="RED&amp;GREEN_LED" device="" value="E6CC1205RYGC2UDA"/>
 <part name="LED11" library="SpaceDIY_semiconductors" deviceset="RED&amp;GREEN_LED" device="" value="E6CC1205RYGC2UDA"/>
 <part name="LED12" library="SpaceDIY_semiconductors" deviceset="RED&amp;GREEN_LED" device="" value="E6CC1205RYGC2UDA"/>
-<part name="R35" library="SpaceDIY_passive_components" deviceset="R0603" device="" value="330"/>
-<part name="R36" library="SpaceDIY_passive_components" deviceset="R0603" device="" value="330"/>
-<part name="R37" library="SpaceDIY_passive_components" deviceset="R0603" device="" value="330"/>
+<part name="R35" library="SpaceDIY_passive_components" deviceset="R0603" device="" value="470"/>
+<part name="R36" library="SpaceDIY_passive_components" deviceset="R0603" device="" value="470"/>
+<part name="R37" library="SpaceDIY_passive_components" deviceset="R0603" device="" value="470"/>
 <part name="RGB" library="SpaceDIY_semiconductors" deviceset="LED-RGB-CC" device="CLEAR" value="CLEAR"/>
 <part name="U1" library="SparkFun-Sensors" deviceset="ADXL335" device="">
 <attribute name="LCSC" value="C34439"/>
