@@ -9133,62 +9133,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </library>
 <library name="SpaceDIY_connectors">
 <packages>
-<package name="PJ316">
-<description>&lt;b&gt;AUDIO MONO JACK&lt;/b&gt; P&lt;p&gt;
-https://www.aliexpress.com/item/4000661828247.html?spm=a2g0o.productlist.0.0.93cf22eehQ1Y8H&amp;algo_pvid=0b734790-be7c-4efa-ad21-b45190db7f42&amp;algo_exp_id=0b734790-be7c-4efa-ad21-b45190db7f42-19&amp;pdp_ext_f=%7B"sku_id"%3A"10000005519451657"%7D&amp;pdp_npi=2%40dis%21EUR%211.45%211.23%21%21%21%21%21%402101e9d016650384236357132efb45%2110000005519451657%21sea&amp;curPageLogUid=ZeobFEoQiH6Q</description>
-<wire x1="1.3" y1="12" x2="-1.3" y2="12" width="0" layer="46"/>
-<wire x1="-1.3" y1="12" x2="-1.3" y2="11" width="0" layer="46"/>
-<wire x1="-1.3" y1="11" x2="1.3" y2="11" width="0" layer="46"/>
-<wire x1="1.3" y1="11" x2="1.3" y2="12" width="0" layer="46"/>
-<wire x1="-1.3" y1="2" x2="-1.3" y2="1" width="0" layer="46"/>
-<wire x1="-1.3" y1="1" x2="1.3" y2="1" width="0" layer="46"/>
-<wire x1="1.3" y1="1" x2="1.3" y2="2" width="0" layer="46"/>
-<wire x1="1.3" y1="2" x2="-1.3" y2="2" width="0" layer="46"/>
-<wire x1="1.3" y1="7.5" x2="-1.3" y2="7.5" width="0" layer="46"/>
-<wire x1="-1.3" y1="7.5" x2="-1.3" y2="6.4" width="0" layer="46"/>
-<wire x1="-1.3" y1="6.4" x2="1.3" y2="6.4" width="0" layer="46"/>
-<wire x1="1.3" y1="6.4" x2="1.3" y2="7.5" width="0" layer="46"/>
-<wire x1="-3.5" y1="0" x2="3.5" y2="0" width="0.2032" layer="21"/>
-<wire x1="3.5" y1="13" x2="-3.5" y2="13" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="13" x2="-3.5" y2="0" width="0.2032" layer="21"/>
-<wire x1="-3" y1="0" x2="-3" y2="-3.8" width="0.2032" layer="21" style="shortdash"/>
-<wire x1="3" y1="0.06" x2="3" y2="-3.8" width="0.2032" layer="21" style="shortdash"/>
-<wire x1="3" y1="-3.8" x2="-3" y2="-3.8" width="0.2032" layer="21" style="shortdash"/>
-<wire x1="3.5" y1="0" x2="3.5" y2="13" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="1.5" drill="1" diameter="2" shape="long" rot="R180"/>
-<pad name="3" x="0" y="11.5" drill="1" diameter="2" shape="long" rot="R180"/>
-<pad name="2" x="0" y="7" drill="1" diameter="2" shape="long"/>
-<text x="0" y="4" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="9" size="1.27" layer="27" align="center">&gt;VALUE</text>
-</package>
-<package name="PJ316_3.5" urn="urn:adsk.eagle:footprint:7490/1" locally_modified="yes">
-<description>&lt;b&gt;AUDIO MONO JACK&lt;/b&gt; P&lt;p&gt;
-https://www.aliexpress.com/item/4000661828247.html?spm=a2g0o.productlist.0.0.93cf22eehQ1Y8H&amp;algo_pvid=0b734790-be7c-4efa-ad21-b45190db7f42&amp;algo_exp_id=0b734790-be7c-4efa-ad21-b45190db7f42-19&amp;pdp_ext_f=%7B"sku_id"%3A"10000005519451657"%7D&amp;pdp_npi=2%40dis%21EUR%211.45%211.23%21%21%21%21%21%402101e9d016650384236357132efb45%2110000005519451657%21sea&amp;curPageLogUid=ZeobFEoQiH6Q</description>
-<wire x1="1.3" y1="12" x2="-1.3" y2="12" width="0" layer="46"/>
-<wire x1="-1.3" y1="12" x2="-1.3" y2="11" width="0" layer="46"/>
-<wire x1="-1.3" y1="11" x2="1.3" y2="11" width="0" layer="46"/>
-<wire x1="1.3" y1="11" x2="1.3" y2="12" width="0" layer="46"/>
-<wire x1="-1.3" y1="1.5" x2="-1.3" y2="0.5" width="0" layer="46"/>
-<wire x1="-1.3" y1="0.5" x2="1.3" y2="0.5" width="0" layer="46"/>
-<wire x1="1.3" y1="0.5" x2="1.3" y2="1.5" width="0" layer="46"/>
-<wire x1="1.3" y1="1.5" x2="-1.3" y2="1.5" width="0" layer="46"/>
-<wire x1="1.3" y1="6.8" x2="-1.3" y2="6.8" width="0" layer="46"/>
-<wire x1="-1.3" y1="6.8" x2="-1.3" y2="5.7" width="0" layer="46"/>
-<wire x1="-1.3" y1="5.7" x2="1.3" y2="5.7" width="0" layer="46"/>
-<wire x1="1.3" y1="5.7" x2="1.3" y2="6.8" width="0" layer="46"/>
-<wire x1="-3.5" y1="0" x2="3.5" y2="0" width="0.2032" layer="21"/>
-<wire x1="3.5" y1="13" x2="-3.5" y2="13" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="13" x2="-3.5" y2="0" width="0.2032" layer="21"/>
-<wire x1="-3" y1="0" x2="-3" y2="-3.8" width="0.2032" layer="21" style="shortdash"/>
-<wire x1="3" y1="0.06" x2="3" y2="-3.8" width="0.2032" layer="21" style="shortdash"/>
-<wire x1="3" y1="-3.8" x2="-3" y2="-3.8" width="0.2032" layer="21" style="shortdash"/>
-<wire x1="3.5" y1="0" x2="3.5" y2="13" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="1" drill="1" diameter="2" shape="long" rot="R180"/>
-<pad name="3" x="0" y="11.5" drill="1" diameter="2" shape="long" rot="R180"/>
-<pad name="2" x="0" y="6.3" drill="1" diameter="2" shape="long"/>
-<text x="0" y="4" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="9" size="1.27" layer="27" align="center">&gt;VALUE</text>
-</package>
 <package name="USB-C-POWER">
 <pad name="SHIELD1" x="-4.375" y="0" drill="0.6" shape="long" rot="R270"/>
 <pad name="SHIELD4" x="4.375" y="0" drill="0.6" shape="long" rot="R270"/>
@@ -10007,40 +9951,38 @@ https://www.aliexpress.com/item/4000661828247.html?spm=a2g0o.productlist.0.0.93c
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="HC-PJ-320A-3P-D">
+<description>&lt;b&gt;AUDIO MONO JACK&lt;/b&gt; P&lt;p&gt;
+https://www.aliexpress.com/item/4000661828247.html?spm=a2g0o.productlist.0.0.93cf22eehQ1Y8H&amp;algo_pvid=0b734790-be7c-4efa-ad21-b45190db7f42&amp;algo_exp_id=0b734790-be7c-4efa-ad21-b45190db7f42-19&amp;pdp_ext_f=%7B"sku_id"%3A"10000005519451657"%7D&amp;pdp_npi=2%40dis%21EUR%211.45%211.23%21%21%21%21%21%402101e9d016650384236357132efb45%2110000005519451657%21sea&amp;curPageLogUid=ZeobFEoQiH6Q</description>
+<wire x1="-3" y1="0" x2="3" y2="0" width="0.2032" layer="21"/>
+<wire x1="3" y1="11.15" x2="-3" y2="11.15" width="0.2032" layer="21"/>
+<wire x1="-3" y1="11.15" x2="-3" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="0" x2="-2.5" y2="-2.8" width="0.2032" layer="21" style="shortdash"/>
+<wire x1="2.5" y1="0.06" x2="2.5" y2="-2.8" width="0.2032" layer="21" style="shortdash"/>
+<wire x1="2.5" y1="-2.8" x2="-2.5" y2="-2.8" width="0.2032" layer="21" style="shortdash"/>
+<wire x1="3" y1="0" x2="3" y2="11.15" width="0.2032" layer="21"/>
+<pad name="1" x="2.25" y="2.15" drill="0.5" diameter="1.27" shape="long" rot="R90"/>
+<pad name="2" x="-2.25" y="4.15" drill="0.5" diameter="1.27" shape="long" rot="R90"/>
+<text x="-1" y="5.5" size="1.27" layer="25" rot="R90" align="center">&gt;NAME</text>
+<text x="1" y="6" size="1.27" layer="27" rot="R90" align="center">&gt;VALUE</text>
+<pad name="3" x="2.15" y="9.15" drill="0.5" diameter="1.27" shape="long" rot="R90"/>
+<hole x="0" y="2.1" drill="1.2"/>
+<hole x="0" y="8.1" drill="1.2"/>
+<wire x1="2.55" y1="1.4" x2="1.95" y2="1.4" width="0" layer="46"/>
+<wire x1="1.95" y1="1.4" x2="1.95" y2="2.9" width="0" layer="46"/>
+<wire x1="1.95" y1="2.9" x2="2.55" y2="2.9" width="0" layer="46"/>
+<wire x1="2.55" y1="2.9" x2="2.55" y2="1.4" width="0" layer="46"/>
+<wire x1="-1.95" y1="3.4" x2="-2.55" y2="3.4" width="0" layer="46"/>
+<wire x1="-2.55" y1="3.4" x2="-2.55" y2="4.9" width="0" layer="46"/>
+<wire x1="-2.55" y1="4.9" x2="-1.95" y2="4.9" width="0" layer="46"/>
+<wire x1="-1.95" y1="4.9" x2="-1.95" y2="3.4" width="0" layer="46"/>
+<wire x1="2.45" y1="8.4" x2="1.85" y2="8.4" width="0" layer="46"/>
+<wire x1="1.85" y1="8.4" x2="1.85" y2="9.9" width="0" layer="46"/>
+<wire x1="1.85" y1="9.9" x2="2.45" y2="9.9" width="0" layer="46"/>
+<wire x1="2.45" y1="9.9" x2="2.45" y2="8.4" width="0" layer="46"/>
+</package>
 </packages>
-<packages3d>
-<package3d name="DCJ0303" urn="urn:adsk.eagle:package:7493/1" type="box">
-<description>DC POWER JACK Pad shape changed to LONG 2007.07.26
-Source: DCJ0303.pdf</description>
-<packageinstances>
-<packageinstance name="PJ316_3.5"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="DC_JACK_1.3">
-<wire x1="-5.08" y1="2.54" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-2.54" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="6.35" y2="0" width="0.254" layer="94"/>
-<wire x1="6.35" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
-<pin name="1" x="10.16" y="7.62" visible="pad" length="point" rot="R180"/>
-<pin name="2" x="10.16" y="2.54" visible="pad" length="point" rot="R180"/>
-<pin name="3" x="10.16" y="-2.54" visible="pad" length="point" rot="R180"/>
-</symbol>
 <symbol name="USB-POWER">
 <wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.4064" layer="94"/>
 <wire x1="-5.08" y1="7.62" x2="-5.08" y2="-2.54" width="0.4064" layer="94"/>
@@ -10292,40 +10234,26 @@ Source: DCJ0303.pdf</description>
 <circle x="0" y="5.08" radius="0.635" width="0.254" layer="94"/>
 <circle x="0" y="2.54" radius="0.635" width="0.254" layer="94"/>
 </symbol>
+<symbol name="DC_JACK_1.3">
+<wire x1="-5.08" y1="2.54" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="10.16" y="7.62" visible="pad" length="point" rot="R180"/>
+<pin name="2" x="10.16" y="2.54" visible="pad" length="point" rot="R180"/>
+<pin name="3" x="10.16" y="-2.54" visible="pad" length="point" rot="R180"/>
+<wire x1="0" y1="0" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="AUDIO_JACK_MONO_3.5">
-<gates>
-<gate name="G$1" symbol="DC_JACK_1.3" x="-2.54" y="-2.54"/>
-</gates>
-<devices>
-<device name="ALIEXPRESS" package="PJ316_3.5">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7493/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="LCSC" package="PJ316">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="LCSC" value="C5123139" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="USB-C-POWER">
 <description>TYPE-C-31-M-33</description>
 <gates>
@@ -10925,6 +10853,25 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AUDIO_JACK_MONO_3.5_3P">
+<gates>
+<gate name="G$1" symbol="DC_JACK_1.3" x="-2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="HC-PJ-320A-3P-D">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC" value="C5372850" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -13858,7 +13805,7 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 </part>
 <part name="U2" library="SpaceDIY_sensors" deviceset="GAS_SENSOR" device="" technology="MQ-3" value="GAS_SENSOR"/>
 <part name="R67" library="SpaceDIY_passive_components" deviceset="R0603" device="" value="10k"/>
-<part name="P+1" library="SparkFun" deviceset="3.3V" device="" value="VUSB"/>
+<part name="P+1" library="SparkFun" deviceset="3.3V" device="" value="5V"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="R39" library="SpaceDIY_passive_components" deviceset="R0603" device="" value="330"/>
 <part name="C22" library="SpaceDIY_passive_components" deviceset="C0603" device="" value="470n"/>
@@ -13895,7 +13842,6 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <part name="J10" library="SpaceDIY_connectors" deviceset="CONN_10" device="&quot;"/>
 <part name="J11" library="SpaceDIY_connectors" deviceset="CONN_10" device="&quot;"/>
 <part name="J12" library="SpaceDIY_connectors" deviceset="CONN_10" device="&quot;"/>
-<part name="J13" library="SpaceDIY_connectors" deviceset="AUDIO_JACK_MONO_3.5" device="LCSC"/>
 <part name="J14" library="SpaceDIY_connectors" deviceset="CONN_30" device=""/>
 <part name="J15" library="SpaceDIY_connectors" deviceset="CONN_30" device=""/>
 <part name="J16" library="SpaceDIY_connectors" deviceset="CONN_30" device=""/>
@@ -14004,6 +13950,7 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <part name="R38" library="SpaceDIY_passive_components" deviceset="R0603" device="" value="330"/>
 <part name="LED13" library="SpaceDIY_semiconductors" deviceset="RED&amp;GREEN_LED" device="" value="E6CC1205RYGC2UDA"/>
 <part name="PH1" library="SpaceDIY_sensors" deviceset="PHOTORESISTOR" device=""/>
+<part name="JACK" library="SpaceDIY_connectors" deviceset="AUDIO_JACK_MONO_3.5_3P" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14251,9 +14198,9 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <attribute name="NAME" x="222.885" y="87.376" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="227.711" y="87.376" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="S1" gate="G$1" x="154.94" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="151.13" y="36.83" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="160.02" y="36.83" size="1.778" layer="96" rot="R90"/>
+<instance part="S1" gate="G$1" x="147.32" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="143.51" y="36.83" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="152.4" y="36.83" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R31" gate="G$1" x="220.98" y="50.8" smashed="yes">
 <attribute name="NAME" x="217.17" y="52.2986" size="1.778" layer="95"/>
@@ -15414,10 +15361,10 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <pinref part="J1" gate="G$1" pin="+"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
-<label x="149.86" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="144.78" y1="50.8" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
+<label x="142.24" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="S1" gate="G$1" pin="R1"/>
-<wire x1="152.4" y1="45.72" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="45.72" x2="144.78" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$104" class="0">
@@ -15456,7 +15403,7 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <wire x1="88.9" y1="43.18" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="V_USB" class="0">
 <segment>
 <wire x1="53.34" y1="53.34" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="53.34" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
@@ -15481,6 +15428,15 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <junction x="45.72" y="53.34"/>
 <pinref part="LED1" gate="-R" pin="A"/>
 <pinref part="LED1" gate="-G" pin="A"/>
+<label x="121.92" y="53.34" size="1.27" layer="95" xref="yes"/>
+<wire x1="119.38" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+<junction x="119.38" y="53.34"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="L1"/>
+<wire x1="144.78" y1="35.56" x2="144.78" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="33.02" x2="142.24" y2="33.02" width="0.1524" layer="91"/>
+<label x="142.24" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
@@ -15497,13 +15453,21 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <net name="N$109" class="0">
 <segment>
 <wire x1="175.26" y1="50.8" x2="167.64" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="50.8" x2="154.94" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="50.8" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="50.8" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="RC"/>
 <pinref part="U3" gate="G$1" pin="IN"/>
 <pinref part="C38" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="48.26" x2="167.64" y2="50.8" width="0.1524" layer="91"/>
 <junction x="167.64" y="50.8"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<pinref part="S1" gate="G$1" pin="LC"/>
+<wire x1="147.32" y1="35.56" x2="147.32" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="33.02" x2="149.86" y2="33.02" width="0.1524" layer="91"/>
+<label x="149.86" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -18091,7 +18055,7 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <junction x="50.8" y="106.68"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="5V" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="A1"/>
 <pinref part="P+1" gate="G$1" pin="3.3V"/>
@@ -18261,7 +18225,6 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <attribute name="NAME" x="173.7614" y="92.71" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="178.562" y="92.71" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J13" gate="G$1" x="228.6" y="154.94" smashed="yes" rot="R180"/>
 <instance part="J36" gate="G$1" x="147.32" y="144.78" smashed="yes">
 <attribute name="VALUE" x="144.78" y="142.494" size="1.778" layer="96"/>
 <attribute name="NAME" x="144.78" y="155.448" size="1.778" layer="95"/>
@@ -18380,6 +18343,7 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <attribute name="NAME" x="30.48" y="137.16" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="30.48" y="109.22" size="1.778" layer="96"/>
 </instance>
+<instance part="JACK" gate="G$1" x="228.6" y="154.94" smashed="yes" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -18390,7 +18354,7 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <wire x1="208.28" y1="157.48" x2="208.28" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="152.4" x2="200.66" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="PH12" gate="G$1" pin="3"/>
-<pinref part="J13" gate="G$1" pin="3"/>
+<pinref part="JACK" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$257" class="0">
@@ -19066,7 +19030,7 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <segment>
 <pinref part="PH12" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="147.32" x2="218.44" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="J13" gate="G$1" pin="1"/>
+<pinref part="JACK" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$123" class="0">
@@ -19334,7 +19298,7 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <wire x1="213.36" y1="149.86" x2="200.66" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="PH12" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="149.86" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="J13" gate="G$1" pin="2"/>
+<pinref part="JACK" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="G" class="0">
