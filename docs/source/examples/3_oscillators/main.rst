@@ -4,7 +4,6 @@ Oscillators
 .. toctree::
    :maxdepth: 2
    :glob:
-   :numbered:
 
    multivibrator 
    555_mono 

@@ -4,7 +4,6 @@ Digital circuits
 .. toctree::
    :maxdepth: 2
    :glob:
-   :numbered:
    
    BCD_decoder 
    combinational 

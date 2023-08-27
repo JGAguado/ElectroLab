@@ -1,4 +1,4 @@
-Palm detector
+Clap detector
 ==============
 
 .. raw:: html
