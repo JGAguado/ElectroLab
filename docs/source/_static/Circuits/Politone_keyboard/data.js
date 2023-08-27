@@ -25,6 +25,6 @@ const curvesData = [
   {"from": "Z25", "to": "GEN1"},
   {"from": "Z30", "to": "GEN3"},
   {"from": "Z1", "to": "GEN2"},
-  {"from": "S10", "to": "GEN4"},
-  {"from": "S11", "to": "GND5"},
+  {"from": "S4", "to": "GEN4"},
+  {"from": "S5", "to": "GND5"},
 ];

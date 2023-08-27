@@ -9,6 +9,6 @@ const curvesData = [
   {"from": "Y30", "to": "C27"},
   {"from": "Z25", "to": "GEN1"},
   {"from": "Z30", "to": "GEN3"},
-  {"from": "GEN4", "to": "S10"},
-  {"from": "GND5", "to": "S11"},
+  {"from": "GEN4", "to": "S4"},
+  {"from": "GND5", "to": "S5"},
 ];

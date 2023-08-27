@@ -27,7 +27,7 @@ left_clicks = list()
 
 
 class ElectroLab():
-    def __init__(self, board, circuits_path):
+    def __init__(self, board):
         super().__init__()
         with open(board, 'r', encoding='utf8') as config:
             try:
@@ -35,11 +35,14 @@ class ElectroLab():
             except yaml.YAMLError as exc:
                 print(exc)
         # self.board_mapping(board)
+        circuits_path = self.config['input_path']
         self.main(circuits_path)
 
     def main(self, circuits_path):
+
         for file in os.listdir(circuits_path):
             if file.endswith('.xlsx'):
+                print(file)
                 self.circuit = pd.read_excel(circuits_path + '\\' + file)
                 name = file.split('.')[0]
                 self.render_circuit(name)
@@ -196,9 +199,7 @@ class ElectroLab():
 
 
 if __name__ == "__main__":
+    board= 'ElectroLab_R3.yaml'
 
-    circuits_path = '0_Circuits'
-    board= 'ElectroLab_R2.yaml'
-
-    ElectroLab(board, circuits_path)
+    ElectroLab(board)
 

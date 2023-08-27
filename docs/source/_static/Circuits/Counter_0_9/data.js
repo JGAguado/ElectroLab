@@ -8,7 +8,6 @@ const curvesData = [
   {"from": "POS7", "to": "FF6"},
   {"from": "POS8", "to": "FF18"},
   {"from": "POS9", "to": "FF16"},
-  {"from": "GND1", "to": "DP6"},
   {"from": "GND3", "to": "R33"},
   {"from": "R34", "to": "Z15"},
   {"from": "Y15", "to": "PB6"},
