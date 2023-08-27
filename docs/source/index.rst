@@ -1,7 +1,7 @@
 ElectroLab
 ###############
 
-.. sidebar:: |Product| V|Version|
+.. sidebar:: |Product| V |Version|
 
     .. image:: ../../Documentation/Images/ElectroLab.png
 
