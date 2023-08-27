@@ -15756,54 +15756,6 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <wire x1="147.32" y1="73.66" x2="147.32" y2="83.82" width="0.1524" layer="91"/>
 <label x="147.32" y="76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
-</net>
-<net name="GND" class="0">
-<segment>
-<wire x1="48.26" y1="160.02" x2="43.18" y2="160.02" width="0.1524" layer="91"/>
-<label x="43.18" y="160.02" size="1.778" layer="95"/>
-<pinref part="IC13" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="149.86" y1="160.02" x2="144.78" y2="160.02" width="0.1524" layer="91"/>
-<label x="144.78" y="160.02" size="1.778" layer="95"/>
-<pinref part="IC14" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="99.06" y1="160.02" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
-<label x="93.98" y="160.02" size="1.778" layer="95"/>
-<pinref part="IC15" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<label x="170.18" y="121.92" size="1.778" layer="95" rot="R90"/>
-<wire x1="170.18" y1="121.92" x2="170.18" y2="127" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<label x="210.82" y="121.92" size="1.778" layer="95" rot="R90"/>
-<wire x1="210.82" y1="121.92" x2="210.82" y2="127" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="A" pin="GND"/>
-<wire x1="190.5" y1="55.88" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="55.88" x2="187.96" y2="40.64" width="0.1524" layer="91"/>
-<label x="185.42" y="38.1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="40.64" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
-<label x="177.8" y="38.1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="P" pin="VSS"/>
-<wire x1="73.66" y1="60.96" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
-<label x="73.66" y="53.34" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="P" pin="VSS"/>
-<wire x1="147.32" y1="58.42" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
-<label x="147.32" y="50.8" size="1.778" layer="95" rot="R90"/>
-</segment>
 <segment>
 <pinref part="IC6" gate="A" pin="S"/>
 <wire x1="30.48" y1="78.74" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
@@ -15851,6 +15803,54 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <wire x1="104.14" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="48.26" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
 <label x="99.06" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<wire x1="48.26" y1="160.02" x2="43.18" y2="160.02" width="0.1524" layer="91"/>
+<label x="43.18" y="160.02" size="1.778" layer="95"/>
+<pinref part="IC13" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="149.86" y1="160.02" x2="144.78" y2="160.02" width="0.1524" layer="91"/>
+<label x="144.78" y="160.02" size="1.778" layer="95"/>
+<pinref part="IC14" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="99.06" y1="160.02" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
+<label x="93.98" y="160.02" size="1.778" layer="95"/>
+<pinref part="IC15" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<label x="170.18" y="121.92" size="1.778" layer="95" rot="R90"/>
+<wire x1="170.18" y1="121.92" x2="170.18" y2="127" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<label x="210.82" y="121.92" size="1.778" layer="95" rot="R90"/>
+<wire x1="210.82" y1="121.92" x2="210.82" y2="127" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="A" pin="GND"/>
+<wire x1="190.5" y1="55.88" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="55.88" x2="187.96" y2="40.64" width="0.1524" layer="91"/>
+<label x="185.42" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C21" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="40.64" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
+<label x="177.8" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="P" pin="VSS"/>
+<wire x1="73.66" y1="60.96" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
+<label x="73.66" y="53.34" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="P" pin="VSS"/>
+<wire x1="147.32" y1="58.42" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
+<label x="147.32" y="50.8" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="43.18" x2="241.3" y2="40.64" width="0.1524" layer="91"/>
