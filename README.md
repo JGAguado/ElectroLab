@@ -8,7 +8,7 @@
 
 # ElectroLab
 
-The ElectroLab board is an electronic trainer designed for the ICAI Technological Campus. It has been created with educational purposes in the analogic and digital electronics field.
+The ElectroLab board is an educational electronic trainer designed to provide a guided and beginner-friendly approach to learning practical electronics.
 
 <p float="left">
    <img src="./Documentation/Images/Render.png" width="100%">
@@ -31,7 +31,8 @@ The ElectroLab board is an electronic trainer designed for the ICAI Technologica
   *   Accelerometer
   *   Pushbutton
   *   Potentiometer
-  *   Tactile sensors
+  *   Tactile sensor
+  *   Gas sensor MQ-2
 * Actuators:
   *   Speaker
   *   7 segment display
@@ -47,7 +48,7 @@ It can be powered directly from a USB (5V) or throught the ArduLab Interface.
 <li><a href="./README.md">README.md</a></li>
 
 [documentation-shield]: https://readthedocs.org/projects/electrolab/badge/?version=latest&style=for-the-badge
-[documentation]: https://electrolab.readthedocs.io/en/latest/
+[documentation]: https://electrolab.readthedocs.io/en/v3/
 
 [releases-shield]: https://img.shields.io/github/release/JGAguado/ElectroLab.svg?style=for-the-badge
 [releases]: https://github.com/JGAguado/ElectroLab/releases
