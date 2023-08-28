@@ -47,7 +47,7 @@ It can be powered directly from a USB (5V) or throught the ArduLab Interface.
 <li><a href="./README.md">README.md</a></li>
 
 [documentation-shield]: https://readthedocs.org/projects/electrolab/badge/?version=latest&style=for-the-badge
-[documentation]: https://electrolab.readthedocs.io/en/latest/
+[documentation]: https://electrolab.readthedocs.io/en/v2/
 
 [releases-shield]: https://img.shields.io/github/release/JGAguado/ElectroLab.svg?style=for-the-badge
 [releases]: https://github.com/JGAguado/ElectroLab/releases
