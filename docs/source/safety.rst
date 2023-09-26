@@ -22,7 +22,7 @@ Before working with the |Product|, make sure to meet all of the following criter
 ----------------------
 .. figure:: images/safety/lipo.png
     :align: right
-    :figwidth: 100px
+    :figwidth: 150px
 
 Due to the high power density of :term:`LiPo` batteries, the |Product| is powered directly by a 1000mAh :term:`LiPo` battery. Therefore there are specific electronics embeded in charge of the battery 
 management, including charge/discharge of the battery and protections against low-voltage levels and short-circuits. 
@@ -72,6 +72,11 @@ Disposal
 In accordance with national and local environmental protection and material recovery and recycling regulations, 
 electronic devices that can no longer be used (in case a repair is not possible) must be disposed of separately 
 and not with normal household garbage.
+
+|
+|
+|
+|
 
 Restriction of Hazardous Substances
 -----------------------------------

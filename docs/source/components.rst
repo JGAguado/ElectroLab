@@ -70,6 +70,7 @@ As it can seen on the board's back, each resistor is connected to two male pinhe
 
 The resistors have no *polarity*, meaning that any of the terminals can go to the positive or negative side of a circuit. 
 
+Resistors values:
 =====  =====  ======
 100Ω   100Ω   100Ω
 470Ω   470Ω   470Ω
@@ -104,6 +105,11 @@ Capacitors
 The capacitors array, located under the resistors array, consists on two columns of 10 capacitors each. In this case each row has its own value, giving a total of 20 capacitors, 10 different values.
 
 The first 8 rows (or values) are formed by ceramic capacitors, that have no polarity. However, the last two rows (values 100 μF and 1mF) are tantalum capacitors, **with polarity**.
+
+|
+|
+
+Capacitors values:
 =====  ===== 
 10pF   10pF   
 100pF  100pF   
@@ -542,12 +548,10 @@ In the case of the MQ-2, the MOS reacts to LPG, Smoke, Alcohol, Propane, Hydroge
 
 |
 |
-|
 
 .. hint:: 
     In the case of a sensor reading of 100 :term:`ppm` of CO it would mean that only 100 molecules (out of 1 million) present on the gas would be CO, and the other 999900 would be any other gas.
 
-|
 ----------
 
 
