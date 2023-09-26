@@ -47,8 +47,3 @@ While working with the |Product|, make sure you follow this steps:
     If the Power LED indicator doesn't turn on, power off the board and check the circuit: you might have 
     a shortcircuit somewhere!
 
-
-.. toctree::
-   :hidden:
-
-   assembly

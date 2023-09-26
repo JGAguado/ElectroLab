@@ -51,6 +51,7 @@ please contact me directly:
 
    safety   
    getting_started
+   assembly
    examples 
    components
    design   
