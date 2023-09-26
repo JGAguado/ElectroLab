@@ -8,8 +8,16 @@ Power
 -------------
 .. figure:: images/components/Power_top.png
     :align: left
-    :figwidth: 200px
+    :figwidth: 120px
+
+    Top side view
     
+.. image:: images/components/Power_bottom.png
+    :height: 120px
+    :align: right
+
+    Bottom side view
+
 The |Product| is powered at 5V (volts). That is because the different components on board work with a standard 5 volts :term:`TTL` level.
 
 It is important to highlight that there is no power regulation, and therefore the input voltage has to be ~5V. In general, any USB powering device will offer this 5V, so it can be used without any issue.
@@ -258,6 +266,10 @@ This common :term:`IC` can provide square signals (0-5V) and depending on the as
 Audio
 ----------------
 
+.. WARNING:: 
+    The speaker has polarity. When assembling this device, pay attention to the marks under the sensor.
+
+
 .. figure:: images/components/Audio_top.png
     :align: left
     :figwidth: 150px
@@ -270,6 +282,18 @@ Audio
 
     Bottom side view
 
+
+.. figure:: images/components/Audio_ampli_top.png
+    :align: left
+    :figwidth: 150px
+
+    Top side view
+
+.. figure:: images/components/Audio_ampli_bottom.png
+    :align: right
+    :figwidth: 150px
+
+    Bottom side view
 
 
 Next to the signal generator, also on the bottom right side of the board, there is a class-D audio amplifier based on the PAM8403 :term:`IC`.
@@ -285,6 +309,9 @@ As part of the audio laboratory there are two more components: 2 jack connectors
 
 Opto-electronics
 ----------------
+.. WARNING:: 
+    The :term:`RGB` :term:`LED` has polarity. When assembling this device, pay attention to allign the plain side of the device 
+    with the marks on the board.
 
 .. figure:: images/components/OptoElectronics_top.png
     :align: left
@@ -372,6 +399,9 @@ The area where the sensors are placed extends from the center of the board (unde
 
 Microphone
 ^^^^^^^^^^^^
+.. WARNING:: 
+    This device has polarity. When assembling this device, pay attention to the marks under the sensor.
+
 
 .. figure:: images/components/Microphone_top.png
     :align: left
@@ -455,7 +485,37 @@ As the accelerometer :term:`IC` works with 3V, a voltage regulator is connected 
 ----------
 
 
-Tactile sensors
+Gas sensor
+^^^^^^^^^^^^^^^^
+.. Note::
+    This sensor is the only one requiring 5VDC to work. Therefore it will only work when there is a USB powering the board. 
+    You can verify this sensor is working through the :term:`LED` close to the sensor.
+
+.. figure:: images/components/Gas_top.png
+    :align: left
+    :figwidth: 150px
+
+    Top side view
+
+.. figure:: images/components/Gas_bottom.png
+    :align: left
+    :figwidth: 150px
+
+    Bottom side view
+
+
+Despite you can mount any other MQ sensor series, the one by default is the MQ-2. This device is a :term:`MOS` sensor. Metal oxide sensors are also known as Chemiresistors because sensing is based on the change in resistance of the sensing material when exposed to gasses.
+
+In the case of the MQ-2, the MOS reacts to LPG, Smoke, Alcohol, Propane, Hydrogen, Methane and Carbon Monoxide concentrations, ranging from 200 to 10000 :term:`ppm`.
+
+.. admonition:: What does a concentration of 100 ppm mean?
+    :term:`ppm` stands for Parts-per-million, an extended unit for measuring the ratio of a gas. In the case of a sensor reading of 100 :term:`ppm`
+    of CO~2~ it would mean that only 100 molecules present on the gas would be CO~2~, and the other 999900 would be any other gas.
+
+----------
+
+
+Tactile sensor
 ^^^^^^^^^^^^^^^^
 .. figure:: images/components/Tactile_top.png
     :align: left
@@ -463,15 +523,6 @@ Tactile sensors
 
     Top side view
 
-.. figure:: images/components/CapTactile_bottom.png
-    :align: right
-    :figwidth: 150px
-
-    Bottom side view
 
 
-Last, but not least, there are two types of *tactile* sensor: a capacitive sensor and a conductive one, both placed on the 
-center bottom area of the board, one over each other respectively.
-
-- The capacitive sensor is supported by the AT42QT1012 :term:`IC`, which is internally routed to give a states-based output through the accessible pinhead.
-- The conductivity (or resistivity) based sensor, works by measuring the conductivity of any item in contact with the top's layer expoded pad. The sensor is formed by a 2 sets of horizontal lines interconnected vertically. If any conductive item (like a drop of water or a finger) is in contact with the layer, the resistance in between the two pins decreases.
+The *tactile* sensor is based on conductivity (or resistivity). It works by measuring the conductivity of any item in contact with the top's layer expoded pad. The sensor is formed by a 2 sets of horizontal lines interconnected vertically. If any conductive item (like a drop of water or a finger) is in contact with the layer, the resistance in between the two pins decreases.

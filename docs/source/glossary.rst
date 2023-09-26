@@ -49,8 +49,14 @@
    MDI
        Material Design Icons
 
+   MOS
+       Metal Oxide Semiconductor
+
    BOM
        Bill of Materials
+
+   ppm
+       Parts-per-million
 
    ESD
        Electrostatic Discharge
