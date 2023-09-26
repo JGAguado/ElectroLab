@@ -12,11 +12,11 @@ Power
 
     Top side view
     
-.. image:: images/components/Power_bottom.png
+.. figure:: images/components/Power_bottom.png
     :align: right
     :figwidth: 120px
 
-    Bottom side view
+    Top side view
 
 The |Product| is powered at 3.3V (volts). That is because the different components on board work with a standard 3.3V volts :term:`TTL` level.
 
