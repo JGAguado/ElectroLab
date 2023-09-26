@@ -434,161 +434,6 @@ Changed DIP package to have round (not oval) pin pads
 </deviceset>
 </devicesets>
 </library>
-<library name="bt_electromech">
-<description>&lt;b&gt;Electromechanical devices&lt;/b&gt;
-&lt;p&gt;Created by Michael Shimniok &lt;a href="http://www.bot-thoughts.com/"&gt;www.bot-thoughts.com&lt;/a&gt;&lt;/b&gt;</description>
-<packages>
-<package name="DPDT_JS202011AQN">
-<description>C&amp;K Switch P/N JS202011AQN</description>
-<pad name="4" x="-2.5" y="1.65" drill="1"/>
-<pad name="5" x="0" y="1.65" drill="1"/>
-<pad name="6" x="2.5" y="1.65" drill="1"/>
-<pad name="1" x="-2.5" y="-1.65" drill="1"/>
-<pad name="2" x="0" y="-1.65" drill="1"/>
-<pad name="3" x="2.5" y="-1.65" drill="1"/>
-<wire x1="-4.5" y1="1.8" x2="-3.556" y2="1.8" width="0.127" layer="21"/>
-<wire x1="3.556" y1="1.8" x2="4.5" y2="1.8" width="0.127" layer="21"/>
-<wire x1="4.5" y1="1.8" x2="4.5" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="4.5" y1="-1.8" x2="3.556" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="-3.556" y1="-1.8" x2="-4.5" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="-1.8" x2="-4.5" y2="1.8" width="0.127" layer="21"/>
-<wire x1="-1.524" y1="-4.191" x2="0" y2="-4.191" width="0.127" layer="51"/>
-<wire x1="-3.556" y1="1.8" x2="3.556" y2="1.8" width="0.127" layer="51"/>
-<wire x1="-3.556" y1="-1.8" x2="-1.524" y2="-1.8" width="0.127" layer="51"/>
-<wire x1="-1.524" y1="-1.8" x2="0" y2="-1.8" width="0.127" layer="51"/>
-<wire x1="0" y1="-1.8" x2="3.556" y2="-1.8" width="0.127" layer="51"/>
-<wire x1="-1.524" y1="-4.191" x2="-1.524" y2="-1.8" width="0.127" layer="51"/>
-<wire x1="0" y1="-4.191" x2="0" y2="-1.8" width="0.127" layer="51"/>
-<polygon width="0.127" layer="51">
-<vertex x="0" y="-4.191"/>
-<vertex x="1.524" y="-4.191"/>
-<vertex x="1.524" y="-1.8"/>
-<vertex x="0" y="-1.8"/>
-</polygon>
-<text x="-3.175" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.683" y="2.794" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="DPDT_JS202011CQN">
-<description>C&amp;K JS202011CQN</description>
-<pad name="4" x="-2.5" y="1.65" drill="1"/>
-<pad name="5" x="0" y="1.651" drill="1"/>
-<pad name="6" x="2.5" y="1.65" drill="1"/>
-<pad name="1" x="-2.5" y="-1.65" drill="1"/>
-<pad name="2" x="0" y="-1.651" drill="1"/>
-<pad name="3" x="2.5" y="-1.65" drill="1"/>
-<wire x1="-4.5" y1="1.8" x2="-3.556" y2="1.8" width="0.127" layer="21"/>
-<wire x1="3.556" y1="1.8" x2="4.5" y2="1.8" width="0.127" layer="21"/>
-<wire x1="4.5" y1="1.8" x2="4.5" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="4.5" y1="-1.8" x2="3.556" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="-3.556" y1="-1.8" x2="-4.5" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="-1.8" x2="-4.5" y2="1.8" width="0.127" layer="21"/>
-<wire x1="-3.556" y1="1.8" x2="3.556" y2="1.8" width="0.127" layer="51"/>
-<wire x1="-3.556" y1="-1.8" x2="3.556" y2="-1.8" width="0.127" layer="51"/>
-<polygon width="0.127" layer="51">
-<vertex x="-1.524" y="0.762"/>
-<vertex x="0" y="0.762"/>
-<vertex x="0" y="-0.762"/>
-<vertex x="-1.524" y="-0.762"/>
-</polygon>
-<text x="-3.3238" y="-0.0762" size="1.016" layer="25" align="center">&gt;NAME</text>
-<text x="-3.683" y="2.794" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-0.0254" y1="0.762" x2="1.524" y2="0.762" width="0.127" layer="51"/>
-<wire x1="1.524" y1="0.762" x2="1.524" y2="-0.762" width="0.127" layer="51"/>
-<wire x1="1.524" y1="-0.762" x2="0" y2="-0.762" width="0.127" layer="51"/>
-</package>
-<package name="DPDT_JS202011SCQN">
-<wire x1="-4.5" y1="1.8" x2="-3.556" y2="1.8" width="0.127" layer="21"/>
-<wire x1="3.556" y1="1.8" x2="4.5" y2="1.8" width="0.127" layer="21"/>
-<wire x1="4.5" y1="1.8" x2="4.5" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="4.5" y1="-1.8" x2="3.556" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="-3.556" y1="-1.8" x2="-4.5" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="-1.8" x2="-4.5" y2="1.8" width="0.127" layer="21"/>
-<wire x1="-3.556" y1="1.8" x2="3.556" y2="1.8" width="0.127" layer="51"/>
-<wire x1="-3.556" y1="-1.8" x2="3.556" y2="-1.8" width="0.127" layer="51"/>
-<polygon width="0.127" layer="51">
-<vertex x="-1.524" y="0.762"/>
-<vertex x="0" y="0.762"/>
-<vertex x="0" y="-0.762"/>
-<vertex x="-1.524" y="-0.762"/>
-</polygon>
-<text x="-3.4798" y="-4.1402" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.683" y="2.794" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-0.0254" y1="0.762" x2="1.524" y2="0.762" width="0.127" layer="51"/>
-<wire x1="1.524" y1="0.762" x2="1.524" y2="-0.762" width="0.127" layer="51"/>
-<wire x1="1.524" y1="-0.762" x2="0" y2="-0.762" width="0.127" layer="51"/>
-<smd name="5" x="0" y="2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-<smd name="2" x="0" y="-2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-<smd name="1" x="-2.5" y="-2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-<smd name="3" x="2.5" y="-2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-<smd name="6" x="2.5" y="2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-<smd name="4" x="-2.5" y="2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="DPDT">
-<wire x1="-3.175" y1="0" x2="-1.905" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="0" x2="3.175" y2="0" width="0.254" layer="94"/>
-<text x="-3.81" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="LC" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="RC" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
-<pin name="L1" x="-5.08" y="2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="R1" x="5.08" y="2.54" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
-<pin name="L2" x="-5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="R2" x="5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DPDT" prefix="S">
-<description>&lt;b&gt;Dual Position, Dual Throw (DPDT) Switch&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="DPDT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_JS202011AQN" package="DPDT_JS202011AQN">
-<connects>
-<connect gate="G$1" pin="L1" pad="1"/>
-<connect gate="G$1" pin="L2" pad="3"/>
-<connect gate="G$1" pin="LC" pad="2"/>
-<connect gate="G$1" pin="R1" pad="4"/>
-<connect gate="G$1" pin="R2" pad="6"/>
-<connect gate="G$1" pin="RC" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_JS202011CQN" package="DPDT_JS202011CQN">
-<connects>
-<connect gate="G$1" pin="L1" pad="1"/>
-<connect gate="G$1" pin="L2" pad="3"/>
-<connect gate="G$1" pin="LC" pad="2"/>
-<connect gate="G$1" pin="R1" pad="4"/>
-<connect gate="G$1" pin="R2" pad="6"/>
-<connect gate="G$1" pin="RC" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_JS02011SCQN" package="DPDT_JS202011SCQN">
-<connects>
-<connect gate="G$1" pin="L1" pad="1"/>
-<connect gate="G$1" pin="L2" pad="3"/>
-<connect gate="G$1" pin="LC" pad="2"/>
-<connect gate="G$1" pin="R1" pad="4"/>
-<connect gate="G$1" pin="R2" pad="6"/>
-<connect gate="G$1" pin="RC" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="holes" urn="urn:adsk.eagle:library:237">
 <description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -1159,17 +1004,17 @@ Changed DIP package to have round (not oval) pin pads
 <rectangle x1="-0.8482" y1="-0.4318" x2="-0.4418" y2="0.4318" layer="51"/>
 </package>
 <package name="D/7343-31R" urn="urn:adsk.eagle:footprint:22918/1" locally_modified="yes">
-<wire x1="-3.45" y1="2.1" x2="3.45" y2="2.1" width="0.1016" layer="51"/>
-<wire x1="3.45" y1="2.1" x2="3.45" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="3.45" y1="-2.1" x2="-3.45" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="-3.45" y1="-2.1" x2="-3.45" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="-3.45" y1="2.1" x2="3.45" y2="2.1" width="0.1016" layer="21"/>
+<wire x1="3.45" y1="2.1" x2="3.45" y2="-2.1" width="0.1016" layer="21"/>
+<wire x1="3.45" y1="-2.1" x2="-3.45" y2="-2.1" width="0.1016" layer="21"/>
+<wire x1="-3.45" y1="-2.1" x2="-3.45" y2="2.1" width="0.1016" layer="21"/>
 <smd name="+" x="3.175" y="0" dx="2.55" dy="2.7" layer="1"/>
 <smd name="-" x="-3.175" y="0" dx="2.55" dy="2.7" layer="1"/>
 <text x="-3.65" y="2.3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.65" y="-3.575" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.65" y1="-1.2" x2="-3.5" y2="1.2" layer="51"/>
-<rectangle x1="3.5" y1="-1.2" x2="3.65" y2="1.2" layer="51"/>
-<rectangle x1="2.675" y1="-2.125" x2="3.15" y2="2.125" layer="51"/>
+<rectangle x1="-3.65" y1="-1.2" x2="-3.5" y2="1.2" layer="21"/>
+<rectangle x1="3.5" y1="-1.2" x2="3.65" y2="1.2" layer="21"/>
+<rectangle x1="2.675" y1="-2.125" x2="3.15" y2="2.125" layer="21"/>
 </package>
 <package name="0603-ARC" urn="urn:adsk.eagle:footprint:24894/1">
 <description>&lt;b&gt;Chip Resistor Array&lt;/b&gt; size 4 × 0603&lt;p&gt;
@@ -1208,17 +1053,17 @@ Source: RS Components</description>
 </package>
 <package name="B/3528-21R" urn="urn:adsk.eagle:footprint:22914/1" locally_modified="yes">
 <description>&lt;b&gt;Chip Capacitor Type KEMET B / EIA 3528-21 reflow solder&lt;/b&gt;&lt;p&gt;KEMET T / EIA 3528-12</description>
-<wire x1="-1.6" y1="1.2" x2="1.6" y2="1.2" width="0.1016" layer="51"/>
-<wire x1="1.6" y1="1.2" x2="1.6" y2="-1.2" width="0.1016" layer="51"/>
-<wire x1="1.6" y1="-1.2" x2="-1.6" y2="-1.2" width="0.1016" layer="51"/>
-<wire x1="-1.6" y1="-1.2" x2="-1.6" y2="1.2" width="0.1016" layer="51"/>
+<wire x1="-1.6" y1="1.2" x2="1.6" y2="1.2" width="0.1016" layer="21"/>
+<wire x1="1.6" y1="1.2" x2="1.6" y2="-1.2" width="0.1016" layer="21"/>
+<wire x1="1.6" y1="-1.2" x2="-1.6" y2="-1.2" width="0.1016" layer="21"/>
+<wire x1="-1.6" y1="-1.2" x2="-1.6" y2="1.2" width="0.1016" layer="21"/>
 <smd name="+" x="1.525" y="0" dx="1.95" dy="2.5" layer="1"/>
 <smd name="-" x="-1.525" y="0" dx="1.95" dy="2.5" layer="1"/>
 <text x="0" y="1.905" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="-1.905" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<rectangle x1="-1.75" y1="-0.6" x2="-1.625" y2="0.6" layer="51"/>
-<rectangle x1="1.625" y1="-0.6" x2="1.75" y2="0.6" layer="51"/>
-<rectangle x1="0.95" y1="-1.225" x2="1.25" y2="1.225" layer="51"/>
+<rectangle x1="-1.75" y1="-0.6" x2="-1.625" y2="0.6" layer="21"/>
+<rectangle x1="1.625" y1="-0.6" x2="1.75" y2="0.6" layer="21"/>
+<rectangle x1="0.95" y1="-1.225" x2="1.25" y2="1.225" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -10726,13 +10571,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <gate name="G$1" symbol="CONN_04" x="0" y="0"/>
 </gates>
 <devices>
-<device name="&quot;" package="1X10">
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-11563"/>
-</technology>
-</technologies>
-</device>
 <device name="" package="1X04">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -12959,7 +12797,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <gate name="G$1" symbol="OR_GATES" x="0" y="0"/>
 </gates>
 <devices>
-<device name="D" package="SO14">
+<device name="74HC32S14-13" package="SO14">
 <connects>
 <connect gate="G$1" pin="1A" pad="1"/>
 <connect gate="G$1" pin="1B" pad="2"/>
@@ -13571,6 +13409,91 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <text x="0.3" y="-5.9" size="2.1844" layer="21" ratio="11" align="center">-</text>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 </package>
+<package name="DPDT_JS202011CQN">
+<description>C&amp;K JS202011CQN</description>
+<pad name="4" x="-2.5" y="1.65" drill="1"/>
+<pad name="5" x="0" y="1.651" drill="1"/>
+<pad name="6" x="2.5" y="1.65" drill="1"/>
+<pad name="1" x="-2.5" y="-1.65" drill="1"/>
+<pad name="2" x="0" y="-1.651" drill="1"/>
+<pad name="3" x="2.5" y="-1.65" drill="1"/>
+<wire x1="-4.5" y1="1.8" x2="-3.556" y2="1.8" width="0.127" layer="21"/>
+<wire x1="3.556" y1="1.8" x2="4.5" y2="1.8" width="0.127" layer="21"/>
+<wire x1="4.5" y1="1.8" x2="4.5" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-1.8" x2="3.556" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="-1.8" x2="-4.5" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-1.8" x2="-4.5" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="1.8" x2="3.556" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="-1.8" x2="3.556" y2="-1.8" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-1.524" y="0.762"/>
+<vertex x="0" y="0.762"/>
+<vertex x="0" y="-0.762"/>
+<vertex x="-1.524" y="-0.762"/>
+</polygon>
+<text x="-3.3238" y="-0.0762" size="1.016" layer="25" align="center">&gt;NAME</text>
+<text x="-3.683" y="2.794" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-0.0254" y1="0.762" x2="1.524" y2="0.762" width="0.127" layer="21"/>
+<wire x1="1.524" y1="0.762" x2="1.524" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="1.524" y1="-0.762" x2="0" y2="-0.762" width="0.127" layer="21"/>
+</package>
+<package name="DPDT_JS202011AQN">
+<description>C&amp;K Switch P/N JS202011AQN</description>
+<pad name="4" x="-2.5" y="1.65" drill="1"/>
+<pad name="5" x="0" y="1.65" drill="1"/>
+<pad name="6" x="2.5" y="1.65" drill="1"/>
+<pad name="1" x="-2.5" y="-1.65" drill="1"/>
+<pad name="2" x="0" y="-1.65" drill="1"/>
+<pad name="3" x="2.5" y="-1.65" drill="1"/>
+<wire x1="-4.5" y1="1.8" x2="-3.556" y2="1.8" width="0.127" layer="21"/>
+<wire x1="3.556" y1="1.8" x2="4.5" y2="1.8" width="0.127" layer="21"/>
+<wire x1="4.5" y1="1.8" x2="4.5" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-1.8" x2="3.556" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="-1.8" x2="-4.5" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-1.8" x2="-4.5" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="-4.191" x2="0" y2="-4.191" width="0.127" layer="51"/>
+<wire x1="-3.556" y1="1.8" x2="3.556" y2="1.8" width="0.127" layer="51"/>
+<wire x1="-3.556" y1="-1.8" x2="-1.524" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="-1.524" y1="-1.8" x2="0" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="0" y1="-1.8" x2="3.556" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="-1.524" y1="-4.191" x2="-1.524" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="0" y1="-4.191" x2="0" y2="-1.8" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="0" y="-4.191"/>
+<vertex x="1.524" y="-4.191"/>
+<vertex x="1.524" y="-1.8"/>
+<vertex x="0" y="-1.8"/>
+</polygon>
+<text x="-3.175" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.683" y="2.794" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="DPDT_JS202011SCQN">
+<wire x1="-4.5" y1="1.8" x2="-3.556" y2="1.8" width="0.127" layer="21"/>
+<wire x1="3.556" y1="1.8" x2="4.5" y2="1.8" width="0.127" layer="21"/>
+<wire x1="4.5" y1="1.8" x2="4.5" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-1.8" x2="3.556" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="-1.8" x2="-4.5" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-1.8" x2="-4.5" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="1.8" x2="3.556" y2="1.8" width="0.127" layer="51"/>
+<wire x1="-3.556" y1="-1.8" x2="3.556" y2="-1.8" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-1.524" y="0.762"/>
+<vertex x="0" y="0.762"/>
+<vertex x="0" y="-0.762"/>
+<vertex x="-1.524" y="-0.762"/>
+</polygon>
+<text x="-3.4798" y="-4.1402" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.683" y="2.794" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-0.0254" y1="0.762" x2="1.524" y2="0.762" width="0.127" layer="51"/>
+<wire x1="1.524" y1="0.762" x2="1.524" y2="-0.762" width="0.127" layer="51"/>
+<wire x1="1.524" y1="-0.762" x2="0" y2="-0.762" width="0.127" layer="51"/>
+<smd name="5" x="0" y="2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
+<smd name="2" x="0" y="-2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
+<smd name="1" x="-2.5" y="-2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
+<smd name="3" x="2.5" y="-2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
+<smd name="6" x="2.5" y="2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
+<smd name="4" x="-2.5" y="2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POTENTIOMETER">
@@ -13608,6 +13531,19 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="7.62" x2="2.54" y2="5.08" width="0.254" layer="94"/>
 <text x="10.16" y="0" size="1.778" layer="94" rot="R90">&gt;NAME</text>
+</symbol>
+<symbol name="DPDT">
+<wire x1="-3.175" y1="0" x2="-1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="0" x2="3.175" y2="0" width="0.254" layer="94"/>
+<text x="-3.81" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="LC" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="RC" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
+<pin name="L1" x="-5.08" y="2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="R1" x="5.08" y="2.54" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
+<pin name="L2" x="-5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="R2" x="5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -13663,6 +13599,55 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <attribute name="MANUFACTURER" value="FUET" constant="no"/>
 <attribute name="OHM" value="8" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DPDT" prefix="S">
+<description>&lt;b&gt;Dual Position, Dual Throw (DPDT) Switch&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="DPDT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_JS202011AQN" package="DPDT_JS202011AQN">
+<connects>
+<connect gate="G$1" pin="L1" pad="1"/>
+<connect gate="G$1" pin="L2" pad="3"/>
+<connect gate="G$1" pin="LC" pad="2"/>
+<connect gate="G$1" pin="R1" pad="4"/>
+<connect gate="G$1" pin="R2" pad="6"/>
+<connect gate="G$1" pin="RC" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_JS202011CQN" package="DPDT_JS202011CQN">
+<connects>
+<connect gate="G$1" pin="L1" pad="1"/>
+<connect gate="G$1" pin="L2" pad="3"/>
+<connect gate="G$1" pin="LC" pad="2"/>
+<connect gate="G$1" pin="R1" pad="4"/>
+<connect gate="G$1" pin="R2" pad="6"/>
+<connect gate="G$1" pin="RC" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC" value="C189615" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_JS02011SCQN" package="DPDT_JS202011SCQN">
+<connects>
+<connect gate="G$1" pin="L1" pad="1"/>
+<connect gate="G$1" pin="L2" pad="3"/>
+<connect gate="G$1" pin="LC" pad="2"/>
+<connect gate="G$1" pin="R1" pad="4"/>
+<connect gate="G$1" pin="R2" pad="6"/>
+<connect gate="G$1" pin="RC" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -13734,7 +13719,7 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 </part>
 <part name="C19" library="SpaceDIY_passive_components" deviceset="C7343" device="" value="470uF"/>
 <part name="C20" library="SpaceDIY_passive_components" deviceset="C7343" device="" value="470uF"/>
-<part name="S1" library="bt_electromech" deviceset="DPDT" device="_JS202011CQN" value=""/>
+<part name="S1" library="SpaceDIY_electromechanical" deviceset="DPDT" device="_JS202011CQN" value="DPDT_JS202011CQN"/>
 <part name="R31" library="SpaceDIY_passive_components" deviceset="R0603" device="" value="470"/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8"/>
@@ -13939,7 +13924,7 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC13" library="SpaceDIY_IC" deviceset="74HC08D" device="D" package3d_urn="urn:adsk.eagle:package:1010/2"/>
 <part name="IC14" library="SpaceDIY_IC" deviceset="74HC04D" device="D" package3d_urn="urn:adsk.eagle:package:1010/2"/>
-<part name="IC15" library="SpaceDIY_IC" deviceset="74AHC32D" device="D" package3d_urn="urn:adsk.eagle:package:1010/2" value="74HC32S14-13">
+<part name="IC15" library="SpaceDIY_IC" deviceset="74AHC32D" device="74HC32S14-13" package3d_urn="urn:adsk.eagle:package:1010/2" value="74HC32S14-13">
 <attribute name="LCSC" value="C176921"/>
 </part>
 <part name="IC3" library="SpaceDIY_IC" deviceset="LM324DT" device="D" package3d_urn="urn:adsk.eagle:package:1010/2"/>
@@ -14200,7 +14185,6 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 </instance>
 <instance part="S1" gate="G$1" x="147.32" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="143.51" y="36.83" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="152.4" y="36.83" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R31" gate="G$1" x="220.98" y="50.8" smashed="yes">
 <attribute name="NAME" x="217.17" y="52.2986" size="1.778" layer="95"/>
@@ -15361,10 +15345,10 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <pinref part="J1" gate="G$1" pin="+"/>
 </segment>
 <segment>
-<wire x1="144.78" y1="50.8" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
-<label x="142.24" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="S1" gate="G$1" pin="R1"/>
-<wire x1="144.78" y1="45.72" x2="144.78" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="R2"/>
+<wire x1="149.86" y1="45.72" x2="149.86" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="48.26" x2="152.4" y2="48.26" width="0.1524" layer="91"/>
+<label x="152.4" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$104" class="0">
@@ -15433,10 +15417,10 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <junction x="119.38" y="53.34"/>
 </segment>
 <segment>
-<pinref part="S1" gate="G$1" pin="L1"/>
-<wire x1="144.78" y1="35.56" x2="144.78" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="33.02" x2="142.24" y2="33.02" width="0.1524" layer="91"/>
-<label x="142.24" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="33.02" x2="152.4" y2="33.02" width="0.1524" layer="91"/>
+<label x="152.4" y="33.02" size="1.27" layer="95" xref="yes"/>
+<pinref part="S1" gate="G$1" pin="L2"/>
+<wire x1="149.86" y1="33.02" x2="149.86" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
@@ -15466,8 +15450,8 @@ Source: https://www.lcsc.com/product-detail/Photoresistors_Senba-Sensing-Tech-GL
 <segment>
 <pinref part="S1" gate="G$1" pin="LC"/>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="33.02" x2="149.86" y2="33.02" width="0.1524" layer="91"/>
-<label x="149.86" y="33.02" size="1.27" layer="95" xref="yes"/>
+<wire x1="147.32" y1="33.02" x2="144.78" y2="33.02" width="0.1524" layer="91"/>
+<label x="144.78" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
