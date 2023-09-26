@@ -71,6 +71,7 @@ As it can seen on the board's back, each resistor is connected to two male pinhe
 The resistors have no *polarity*, meaning that any of the terminals can go to the positive or negative side of a circuit. 
 
 Resistors values:
+
 =====  =====  ======
 100Ω   100Ω   100Ω
 470Ω   470Ω   470Ω
@@ -110,6 +111,7 @@ The first 8 rows (or values) are formed by ceramic capacitors, that have no pola
 |
 
 Capacitors values:
+
 =====  ===== 
 10pF   10pF   
 100pF  100pF   
