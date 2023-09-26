@@ -283,18 +283,6 @@ Audio
     Bottom side view
 
 
-.. figure:: images/components/Audio_ampli_top.png
-    :align: left
-    :figwidth: 150px
-
-    Top side view
-
-.. figure:: images/components/Audio_ampli_bottom.png
-    :align: right
-    :figwidth: 150px
-
-    Bottom side view
-
 
 Next to the signal generator, also on the bottom right side of the board, there is a class-D audio amplifier based on the PAM8403 :term:`IC`.
 
@@ -512,7 +500,7 @@ Gas sensor
     Top side view
 
 .. figure:: images/components/Gas_bottom.png
-    :align: left
+    :align: right
     :figwidth: 150px
 
     Bottom side view
@@ -522,7 +510,7 @@ Despite you can mount any other MQ sensor series, the one by default is the MQ-2
 
 In the case of the MQ-2, the MOS reacts to LPG, Smoke, Alcohol, Propane, Hydrogen, Methane and Carbon Monoxide concentrations, ranging from 200 to 10000 :term:`ppm`.
 
-.. admonition:: What does a concentration of 100 ppm mean?
+.. admonition:: And, by the way...
     In the case of a sensor reading of 100 :term:`ppm` of CO it would mean that only 100 molecules (out of 1 million) present on the gas would be CO, and the other 999900 would be any other gas.
 
 |
