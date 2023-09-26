@@ -1,6 +1,7 @@
 📐Design
 =======================
 
+.. _schematic:
 Electronic schematics
 ---------------------
 .. image:: ../../Documentation/Schematics/Schematic_1.png

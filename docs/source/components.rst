@@ -8,26 +8,29 @@ Power
 -------------
 .. figure:: images/components/Power_top.png
     :align: left
-    :figwidth: 120px
+    :figwidth: 200px
 
     Top side view
     
+
+
+The |Product| is powered internally at 3.3V (volts). Since the board is battery powered, the most convenient way (and therefore avoiding step-up converters) was to adapt the 
+components to a 3.3V working range.
+
+The internal circuit for charging the battery (which can be consulted on the :ref:`schematic:`) is ready to handle the nominal 5V from the USB-C port.
+
+There is a resetable fuse and a voltage regulator (:term:`LDO`) after the battery, in order to prevent the rest of the electronic components to receive the 4.2V of the :term:`LiPo`
+
 .. figure:: images/components/Power_bottom.png
     :align: right
     :figwidth: 120px
 
-    Top side view
+    Bottom side view
+    
+Once the board is powered, not only the Integrated Circuits (:term:`IC`) are being energized, but also the 3.3V bar gets its voltage with respect to the :term:`GND` bar. 
+The only exception is the Gas sensor, that needs the 5V from the USB-C, and that will only work when the board is wired to a 5V source.
 
-The |Product| is powered at 3.3V (volts). That is because the different components on board work with a standard 3.3V volts :term:`TTL` level.
-
-It is important to highlight that there is no power regulation, and therefore the input voltage has to be ~3.3V. In general, any USB powering device will offer this 3.3V, so it can be used without any issue.
-
-The power can be inputted in two different ways: through the USB connector or through the Auxiliary Interface. The selection of the power source is done with the switch.
-
-- The micro USB connector, placed in the upper left side of the board, can be directly plugged to any USB source, like a laptop, a charger or even a power-bank.
-- The Auxiliary Interface consists on the lateral black IDC-16 connector. This interface, apart from providing an auxiliary power source to the |Product|, remains as an expansion port for upcoming compatible boards.
-
-Once the board is powered, not only the Integrated Circuits (:term:`IC`) are being energized, but also the 3.3V bar gets its voltage with respect to the :term:`GND` bar. The 3.3V & :term:`GND` bar are separated by 3 rows of other pinheads. These headers are interconnected vertically, forming nodes of 4 points for those applications that requires multiple connections in one node.
+The 3.3V & :term:`GND` bar are separated by 4 rows of other pinheads. These headers are interconnected vertically, forming nodes of 4 points for those applications that requires multiple connections in one node.
 
 .. image:: images/components/BusBar_top.png
   :height: 120px
@@ -288,6 +291,8 @@ Next to the signal generator, also on the bottom right side of the board, there 
 
 This filter-less 3W stereo amplifier is internally prepared to provide a ready-to-use interface, it can input the left (L) and/or right (R) channels. It is important to connect correctly the :term:`GND` from the jack to the :term:`GND` of the amplifier.
 
+|
+|
 
 .. figure:: images/components/Audio_ampli_top.png
     :align: left

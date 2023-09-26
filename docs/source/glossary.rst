@@ -40,6 +40,12 @@
    LED
        Light Emitting Diode
 
+   LDO
+       Low-dropout regulator
+
+   LiPo
+       Lithium polymer battery
+
    RGB
        Red-Green-Blue
 
