@@ -13,21 +13,21 @@ Power
     Top side view
     
 .. image:: images/components/Power_bottom.png
-    :height: 120px
     :align: right
+    :figwidth: 120px
 
     Bottom side view
 
-The |Product| is powered at 5V (volts). That is because the different components on board work with a standard 5 volts :term:`TTL` level.
+The |Product| is powered at 3.3V (volts). That is because the different components on board work with a standard 3.3V volts :term:`TTL` level.
 
-It is important to highlight that there is no power regulation, and therefore the input voltage has to be ~5V. In general, any USB powering device will offer this 5V, so it can be used without any issue.
+It is important to highlight that there is no power regulation, and therefore the input voltage has to be ~3.3V. In general, any USB powering device will offer this 3.3V, so it can be used without any issue.
 
 The power can be inputted in two different ways: through the USB connector or through the Auxiliary Interface. The selection of the power source is done with the switch.
 
 - The micro USB connector, placed in the upper left side of the board, can be directly plugged to any USB source, like a laptop, a charger or even a power-bank.
 - The Auxiliary Interface consists on the lateral black IDC-16 connector. This interface, apart from providing an auxiliary power source to the |Product|, remains as an expansion port for upcoming compatible boards.
 
-Once the board is powered, not only the Integrated Circuits (:term:`IC`) are being energized, but also the 5V bar gets its voltage with respect to the :term:`GND` bar. The 5V & :term:`GND` bar are separated by 3 rows of other pinheads. These headers are interconnected vertically, forming nodes of 4 points for those applications that requires multiple connections in one node.
+Once the board is powered, not only the Integrated Circuits (:term:`IC`) are being energized, but also the 3.3V bar gets its voltage with respect to the :term:`GND` bar. The 3.3V & :term:`GND` bar are separated by 3 rows of other pinheads. These headers are interconnected vertically, forming nodes of 4 points for those applications that requires multiple connections in one node.
 
 .. image:: images/components/BusBar_top.png
   :height: 120px
@@ -202,7 +202,7 @@ Attending to each type of logic gate, the used :term:`IC` are the following:
 - OR gates: SN74LV32ADR. 
 - NOT gates: SN74LV04ADR. 
 
-When working with 5V :term:`TTL` levels, the definition of a bit (1 or 0) is done by voltage levels. For avoiding the background electrical noise to interfere with our logic processes, all the logic gates inputs are pulled-down through a 10kΩ resistor array.
+When working with 3.3V levels, the definition of a bit (1 or 0) is done by voltage levels. For avoiding the background electrical noise to interfere with our logic processes, all the logic gates inputs are pulled-down through a 10kΩ resistor array.
 
 |
 |
@@ -255,7 +255,7 @@ Signal generator
 
 The |Product| integrates a square signal generator, the well-known **555** Timer oscillator :term:`IC`, placed on the bottom right side of the board.
 
-This common :term:`IC` can provide square signals (0-5V) and depending on the assembled circuit the integrated 555 can be configured as monostable or astable multivibrator. This is because the pin 5 of the 555 :term:`IC` is internally connected to a 0.01μF capacitor, as it is required for any monostabe or astable configuration.
+This common :term:`IC` can provide square signals (0-3.3V) and depending on the assembled circuit the integrated 555 can be configured as monostable or astable multivibrator. This is because the pin 5 of the 555 :term:`IC` is internally connected to a 0.01μF capacitor, as it is required for any monostabe or astable configuration.
 
 |
 |
@@ -300,11 +300,25 @@ Next to the signal generator, also on the bottom right side of the board, there 
 
 This filter-less 3W stereo amplifier is internally prepared to provide a ready-to-use interface, it can input the left (L) and/or right (R) channels. It is important to connect correctly the :term:`GND` from the jack to the :term:`GND` of the amplifier.
 
+
+.. figure:: images/components/Audio_ampli_top.png
+    :align: left
+    :figwidth: 150px
+
+    Top side view
+
+.. figure:: images/components/Audio_ampli_bottom.png
+    :align: right
+    :figwidth: 150px
+
+Bottom side view
+
 As part of the audio laboratory there are two more components: 2 jack connectors and 1 speaker, located on the upper side of the |Product|.
 
 |
 |
-
+|
+|
 ----------
 
 Opto-electronics
@@ -509,9 +523,12 @@ Despite you can mount any other MQ sensor series, the one by default is the MQ-2
 In the case of the MQ-2, the MOS reacts to LPG, Smoke, Alcohol, Propane, Hydrogen, Methane and Carbon Monoxide concentrations, ranging from 200 to 10000 :term:`ppm`.
 
 .. admonition:: What does a concentration of 100 ppm mean?
-    :term:`ppm` stands for Parts-per-million, an extended unit for measuring the ratio of a gas. In the case of a sensor reading of 100 :term:`ppm`
-    of CO~2~ it would mean that only 100 molecules present on the gas would be CO~2~, and the other 999900 would be any other gas.
+    In the case of a sensor reading of 100 :term:`ppm` of CO it would mean that only 100 molecules (out of 1 million) present on the gas would be CO, and the other 999900 would be any other gas.
 
+|
+|
+|
+|
 ----------
 
 
