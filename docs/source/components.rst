@@ -70,6 +70,18 @@ As it can seen on the board's back, each resistor is connected to two male pinhe
 
 The resistors have no *polarity*, meaning that any of the terminals can go to the positive or negative side of a circuit. 
 
+=====  =====  ======
+100Ω   100Ω   100Ω
+470Ω   470Ω   470Ω
+1kΩ    1kΩ    1kΩ
+4.7kΩ  4.7kΩ  4.7kΩ
+10kΩ   10kΩ   10kΩ
+10kΩ   10kΩ   10kΩ
+15kΩ   15kΩ   15kΩ
+47kΩ   47kΩ   47kΩ
+100kΩ  100kΩ  100kΩ
+470kΩ  470kΩ  470kΩ
+=====  =====  ======
 
 ----------
 
@@ -92,6 +104,18 @@ Capacitors
 The capacitors array, located under the resistors array, consists on two columns of 10 capacitors each. In this case each row has its own value, giving a total of 20 capacitors, 10 different values.
 
 The first 8 rows (or values) are formed by ceramic capacitors, that have no polarity. However, the last two rows (values 100 μF and 1mF) are tantalum capacitors, **with polarity**.
+=====  ===== 
+10pF   10pF   
+100pF  100pF   
+1nF    1nΩ    
+10nF   10nF  
+50nF   50nF   
+100nF  100nF   
+1μF    1μF
+10μF   10μF   
+100μF  100μF  
+1mF    1mF
+=====  =====  
 
 .. Warning::
      It's important to pay attention how the polarized capacitors are connected in the circuit **before** powering it, making sure that the side with the **+** symbol **never** goes to the :term:`GND`. 

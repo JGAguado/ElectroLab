@@ -27,11 +27,8 @@ Before working with the |Product|, make sure to meet all of the following criter
 Due to the high power density of :term:`LiPo` batteries, the |Product| is powered directly by a 1000mAh :term:`LiPo` battery. Therefore there are specific electronics embeded in charge of the battery 
 management, including charge/discharge of the battery and protections against low-voltage levels and short-circuits. 
 
-However it's not recommended to leave the product unatended while charging for long time through the C-Type USB. In case you observe a high increase of the device's temperature or you 
+However it's not recommended to leave the product unatended while charging for long time. In case you observe a high increase of the device's temperature or you 
 smell burn, immediatelly disconnect the device from the charging USB.
-
-In case you are using the optional solar panel for extending the autonomy and you feel the device gets too hot from the solar charging, please cover the solar panel until you see 
-the charging LED goes off.
 
 If you have any question, please check with technical support (:ref:`support`) before taking any action potentially dangerous.
 
@@ -41,10 +38,13 @@ Protection against :term:`ESD`
 
 .. figure:: images/safety/esd.png
     :align: left
-    :figwidth: 80px
+    :figwidth: 100px
 
 The |Product| contains components sensitive to :term:`ESD`, which can be damaged by inappropriate handling. 
 It's therefore necessary to provide some safety precautions against :term:`ESD` during the handling and operation.
+
+|
+|
 
 Usage, transport and storage
 ----------------------------
