@@ -544,7 +544,7 @@ In the case of the MQ-2, the MOS reacts to LPG, Smoke, Alcohol, Propane, Hydroge
 |
 |
 
-.. admonition:: And, by the way...
+.. hint:: 
     In the case of a sensor reading of 100 :term:`ppm` of CO it would mean that only 100 molecules (out of 1 million) present on the gas would be CO, and the other 999900 would be any other gas.
 
 |
