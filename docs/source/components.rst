@@ -11,21 +11,22 @@ Power
     :figwidth: 200px
 
     Top side view
-    
+
+.. figure:: images/components/Power_bottom.png
+    :align: right
+    :figwidth: 200px
+
+    Bottom side view    
 
 
 The |Product| is powered internally at 3.3V (volts). Since the board is battery powered, the most convenient way (and therefore avoiding step-up converters) was to adapt the 
 components to a 3.3V working range.
 
-The internal circuit for charging the battery (which can be consulted on the :ref:`schematic:`) is ready to handle the nominal 5V from the USB-C port.
+The internal circuit for charging the battery (which can be consulted on the :ref:`schematic`) is ready to handle the nominal 5V from the USB-C port.
 
 There is a resetable fuse and a voltage regulator (:term:`LDO`) after the battery, in order to prevent the rest of the electronic components to receive the 4.2V of the :term:`LiPo`
 
-.. figure:: images/components/Power_bottom.png
-    :align: right
-    :figwidth: 120px
 
-    Bottom side view
     
 Once the board is powered, not only the Integrated Circuits (:term:`IC`) are being energized, but also the 3.3V bar gets its voltage with respect to the :term:`GND` bar. 
 The only exception is the Gas sensor, that needs the 5V from the USB-C, and that will only work when the board is wired to a 5V source.
@@ -515,12 +516,13 @@ Despite you can mount any other MQ sensor series, the one by default is the MQ-2
 
 In the case of the MQ-2, the MOS reacts to LPG, Smoke, Alcohol, Propane, Hydrogen, Methane and Carbon Monoxide concentrations, ranging from 200 to 10000 :term:`ppm`.
 
+|
+|
+|
+
 .. admonition:: And, by the way...
     In the case of a sensor reading of 100 :term:`ppm` of CO it would mean that only 100 molecules (out of 1 million) present on the gas would be CO, and the other 999900 would be any other gas.
 
-|
-|
-|
 |
 ----------
 

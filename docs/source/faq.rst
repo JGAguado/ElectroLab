@@ -13,7 +13,7 @@ After assembling everything and powering the board, the circuit doesn’t do wha
 
 I accidentally inverted the polarity of a component that was marked as polarized, what can I do?
     If the component seems damaged from outside or the circuit doesn’t work after fixing it, it 
-    is clear that you will need to replace it or send it for repair (check :ref:`support:`).
+    is clear that you will need to replace it or send it for repair (check :ref:`support`).
 
 I want to expand the set of sensors to play with other, can I do it?
     Of course! Just make sure are components rated for 5V. Remember to connect both :term:`GND` 
