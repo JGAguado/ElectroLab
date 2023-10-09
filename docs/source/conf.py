@@ -61,5 +61,5 @@ html_static_path = ['_static']
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
-def setup(app):
-    app.add_css_file('my_theme.css')
+#def setup(app):
+#    app.add_css_file('my_theme.css')
