@@ -86,7 +86,7 @@ Restriction of Hazardous Substances
     :figwidth: 125px
 
 The :term:`PCB` and the electronic components mounted on the |Product| have been manufactured attending to the EU rules 
-restricting the use of hazardous substances (RoHS) in electrical and electronic equipment to protect the 
+restricting the use of hazardous substances (:term:`RoHS`) in electrical and electronic equipment to protect the 
 environment and public health. 
 
 

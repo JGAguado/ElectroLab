@@ -84,3 +84,6 @@
 
    BCD
        Binary-coded decimal
+
+   RoHS
+       Restriction of Hazardous Substances (in Electrical and Electronic Equipment)
