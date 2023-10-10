@@ -14,6 +14,7 @@ receive your kit, is making sure you find all the components included:
 2. Stencil board (purple PCB)
 3. Female-to-female jumper boards (pack of 40)
 4. THT components:
+
     - 2x Rotary potentiometers: 2 units per kit
     - 1x Linear potentiometer
     - 1x Speaker
@@ -33,12 +34,14 @@ receive your kit, is making sure you find all the components included:
 
 
 and optionally you could have acquired:
+
 - A 1000mAh LiPo battery
 - A protection enclosure consisting on:
+
     - 3 transparent acrylic plates
     - 4 screws set (screw, washer & nut)
 
-After assembling it (visit the :doc:`assembly` section), you will be able to make your own circuits, 
+After assembling it (visit the :doc:`assembly` section), you will be able to make your own circuits 
 or start exploring the ones on the :doc:`examples` section.
 
 

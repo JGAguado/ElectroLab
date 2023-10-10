@@ -96,7 +96,7 @@ Tools
 Steps
 -----
 
-1. Mount the screws on the |Product| as indicated, with the screw head comming from the bottom side (the one with :term:`SMD` components) and add a nut on the top side of the board (the one with the QR code).
+1. Mount 2 screws on the |Product| diagonally, with the screw head comming from the bottom side (the one with :term:`SMD` components) and add a nut on the top side of the board (the one with the QR code).
 
     .. image:: images/assembly/1.PNG
         :width: 60%
@@ -109,7 +109,7 @@ Steps
         :width: 60%
         :align: center
 
-3. Once you have mounted all the pins, place gently the *Stencil board* over it. Be patient, some pins (like the individual pin from the signal generator or the Gas sensor) may become troubly rebels. Once they are all in place, screw the other 4 nuts to the screws to secure the two boards together.
+3. Once you have mounted all the pins, place gently the *Stencil board* over it. Be patient, some pins (like the individual pin from the signal generator or the Gas sensor) may become troubly rebels. Once they are all in place, screw the other 2 nuts to the screws to secure the two boards together.
 
     .. image:: images/assembly/3.PNG
         :width: 49%
