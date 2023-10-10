@@ -15,7 +15,7 @@ components, such as the pinheads and the rest of the components on the top side.
 
 Tools
 -----
-.. Important:: 
+.. Tip:: 
     Investing in quality tools will ensure a smoother and more precise soldering and electronics assembly experience, making your projects more efficient and successful in the long run.
 
 
@@ -41,6 +41,7 @@ Tools
 
     .. image:: images/assembly/solder-wire.jpg
         :width: 60%
+        :align: center
 
     There are two main types of solder: leaded and lead-free. Each has its own considerations:
 
@@ -66,6 +67,7 @@ Tools
 
     .. image:: images/assembly/Pliers.jpg
         :width: 60%
+        :align: center
 
 4. PCB Clamp:
     :Price range: $10 to $30
@@ -74,9 +76,11 @@ Tools
 
     .. image:: images/assembly/Clamp.jpg
         :width: 60%
+        :align: center
 
 
 .. admonition:: And, by the way...
+
     For making easier the :term:`THT` components assembly, the |Product| comes with a *Stencil board* that will 
     help you with the pinheads positioning for soldering. 
 
@@ -95,12 +99,14 @@ Steps
 
     .. image:: images/assembly/1.PNG
         :width: 60%
+        :align: center
 
 
 2. Start with the pinheads. Place **all** the pinheads on the |Product| top side. Make sure you introduce the short side of the pin on the :term:`PCB`.
 
     .. image:: images/assembly/2.PNG
         :width: 60%
+        :align: center
 
 3. Once you have mounted all the pins, place gently the *Stencil board* over it. Be patient, some pins (like the individual pin from the signal generator or the Gas sensor) may become troubly rebels. Once they are all in place, screw the other 4 nuts to the screws to secure the two boards together.
 
@@ -114,11 +120,13 @@ Steps
     
     .. image:: images/assembly/6.gif
         :width: 60%
+        :align: center
         
 5. After soldering all the pinheads, the screws can be removed and the boards separated.
 
     .. image:: images/assembly/8.PNG
         :width: 60%
+        :align: center
         
 6. Continue with each individual :term:`THT` component, starting from the smaller like the switches and sensors. In this case is highly recomended to:
 
@@ -129,8 +137,8 @@ Steps
     1. Place the component on top side of the board
 
         .. image:: images/assembly/9.PNG
-        :width: 60%
-
+            :width: 60%
+            :align: center
 
     2. If it has long pins that can bend (like the :term:`LDR` sensor), bend the pins to keep it in place. 
     If not, press it to hold it in position while soldering (like the speaker).
@@ -138,11 +146,13 @@ Steps
     3. Start by soldering just one of the pins. 
             
         .. image:: images/assembly/10.PNG
-        :width: 60%
+            :width: 60%
+            :align: center
 
     4. Check if the sensor is still in the correct position and correct it if not.
     5. Solder the rest of the pins and cut the excess length of them.
             
         .. image:: images/assembly/13.gif
-        :width: 60%
+            :width: 60%
+            :align: center
 

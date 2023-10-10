@@ -3,7 +3,7 @@
 
 .. figure:: images/getting_started/Multivibrator.gif
     :align: left
-    :figwidth: 200px
+    :figwidth: 500px
 
     Oscillating circuit
 
@@ -13,7 +13,8 @@ The |Product| is a board that needs no further setups or configuration besides t
 
 |
 |
-
+|
+|
 
 🎓How it works?
 -------------
@@ -28,13 +29,9 @@ While working with the |Product|, make sure you follow this steps:
 
 - ✅ Before plugging or unplugging any jumper wires, make sure the board is turned off:
 
-    - If you are using the USB power, the switch has to be in position *AUX* and the USB cable disconnected.
-    - In case you are powering it from the Auxiliar interface, the switch has to be in position *USB* and nothing is connected to the Auxiliar Interface connector.
-
-
 - ✅ Assembly the circuit following a known order, it will save you time in case you get lost.
 
-- ✅ Check that there are not any wire connecting 5V to :term:`GND`.
+- ✅ Check that there are not any wire connecting 3.3V to :term:`GND`.
 
 - ✅ Connect the USB cable or the Auxiliar Interface in order to power the board.
 
