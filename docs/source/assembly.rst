@@ -81,15 +81,16 @@ Tools
 For making easier the :term:`THT` components assembly, the |Product| comes with a *Stencil board* that will 
 help you with the pinheads positioning for soldering. 
 
-    .. image:: images/assembly/Top_stencil.png
-        :width: 49%
+.. image:: images/assembly/Top_stencil.png
+    :width: 49%
 
-        Top side
+    Top side
 
-    .. image:: images/assembly/Bottom_stencil.png
-        :width: 49%
 
-        Bottom side
+.. image:: images/assembly/Bottom_stencil.png
+    :width: 49%
+
+    Bottom side
 
 
 Steps
