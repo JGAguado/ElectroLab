@@ -30,7 +30,8 @@ Tools
 
     .. image:: images/assembly/VTSSC40N.png
         :width: 60%
-
+        :align: center
+        :alt: VTSSC40N
 
 2. Solder Wire:
     :Price range: $5 to $15 (100g spool)

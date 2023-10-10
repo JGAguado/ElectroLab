@@ -2,19 +2,45 @@
 ===============
 
 .. figure:: images/getting_started/Multivibrator.gif
-    :align: left
+    :align: right
     :figwidth: 500px
 
     Oscillating circuit
 
+The ElectroLab board is being sold as a kit, which means that you will need to assemble (and solder) it. The first thing to do once you 
+receive your kit, is making sure you find all the components included:
 
-The |Product| is a board that needs no further setups or configuration besides the initial assembly of its components.
+1. ElectroLab board (green PCB)
+2. Stencil board (purple PCB)
+3. Female-to-female jumper boards (pack of 40)
+4. THT components:
+    - 2x Rotary potentiometers: 2 units per kit
+    - 1x Linear potentiometer
+    - 1x Speaker
+    - 1x 7 segments display
+    - 1x RGB led
+    - 1x Slide switch
+    - 1x USB-C connector
+    - 1x NTC thermistor
+    - LDR photoresistor
+    - 1x Microphone
+    - 9x Pushbutton
+    - 1x 3.5mm jack connector
+    - 1x MQ-2 gas sensor
+    - 1x Blue header
+    - 1x Red header
+    - 10x Black header
 
 
-|
-|
-|
-|
+and optionally you could have acquired:
+- A 1000mAh LiPo battery
+- A protection enclosure consisting on:
+    - 3 transparent acrylic plates
+    - 4 screws set (screw, washer & nut)
+
+After assembling it (visit the :doc:`assembly` section), you will be able to make your own circuits, 
+or start exploring the ones on the :doc:`examples` section.
+
 
 🎓How it works?
 -------------
