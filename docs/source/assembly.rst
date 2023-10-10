@@ -20,26 +20,25 @@ Tools
 
 1. Soldering Iron/Soldering Station:
 
-.. bibliographic fields (which also require a transform):
-
     :Price range: $15 to $50 for a soldering iron, $50 to $150 for a station
-    :Application: Essential for joining electronic components. Opt for adjustable temperature settings and comfortable grips. 
-    A soldering iron with a temperature range of around 300°C to 400°C (572°F to 752°F) should cover most electronics soldering tasks.
+    Essential for joining electronic components. Opt for adjustable temperature settings and comfortable grips. 
+    A soldering iron with a temperature range of around 300°C to 400°C (572°F to 752°F) should cover most electronics soldering tasks. 
     A fine conical or chisel tip is generally recommended for electronics work, as it provides precision and control. 
     Tip size can vary, but a tip with a width of around 1mm is often a good starting point for most projects. 
-    Some soldering stations offer interchangeable tips, allowing you to select the most suitable one for your task.
+    Some soldering stations offer interchangeable tips, allowing you to select the most suitable one for your task. 
     For general electronics work, a soldering iron in the range of 25-60 watts is suitable. 
 
     .. image:: images/assembly/VTSSC40N.png
         :width: 60%
 
-        Velleman VTSSC40N solder station
+
 
 2. Solder Wire:
     :Price range: $5 to $15 (100g spool)
-    :Application: Material used to create electrical connections. Common diameters for electronics work include 0.8mm (0.031"), 1.0mm (0.039"), and 1.2mm (0.047"). 
-    Thinner solder (e.g., 0.8mm) is suitable for fine, delicate work, like the **ElectroLab** soldering, while thicker 
-    solder (e.g., 1.2mm) can be used for larger components and wires.
+    Material used to create electrical connections. 
+    Common diameters for electronics work include 0.8mm (0.031"), 1.0mm (0.039"), and 1.2mm (0.047"). 
+    Thinner solder (e.g., 0.8mm) is suitable for fine, delicate work, like the **ElectroLab** soldering, 
+    while thicker solder (e.g., 1.2mm) can be used for larger components and wires.
 
     .. image:: images/assembly/solder-wire.jpg
         :width: 60%
@@ -63,7 +62,7 @@ Tools
 
 3. Cutting Pliers:
     :Price range: $5 to $20
-    :Application: Used for trimming excess leads and wires after soldering. 
+    Used for trimming excess leads and wires after soldering. 
     Look for sharp, precision-ground jaws, ergonomic handles, and corrosion-resistant materials.
 
     .. image:: images/assembly/Pliers.jpg
@@ -71,10 +70,10 @@ Tools
 
 4. PCB Clamp:
     :Price range: $10 to $30
-    :Application: Althoug this is more of a personal choice and not a required tool, a good PCB clamp will secure your board during soldering and help you on the assembly. 
+    Althoug this is more of a personal choice and not a required tool, a good PCB clamp will secure your board during soldering and help you on the assembly. 
     Choose one with adjustable clamping pressure, a non-marring surface, and a stable base or attachment mechanism.
 
-    .. image:: images/assembly/PCB clamp.jpg
+    .. image:: images/assembly/Clamp.jpg
         :width: 60%
 
 
@@ -127,14 +126,11 @@ Steps
         
 6. Continue with each individual :term:`THT` component, starting from the smaller like the switches and sensors. In this case is highly recomended to:
 
-.. WARNING:: 
-    Some components have **polarity**, which means they have to be assembled on a specific way, pay attention to the marks under the sensor.
-    Those :term:`THT` components are the speaker, the microphone, the RGB led and the 7 segments display.
+    .. WARNING:: 
+        Some components have **polarity**, which means they have to be assembled on a specific way, pay attention to the marks under the sensor.
+        Those :term:`THT` components are the speaker, the microphone, the RGB led and the 7 segments display.
 
-
-
-
-   1. Place the component on top side of the board
+    1. Place the component on top side of the board
 
        .. image:: images/assembly/9.PNG
         :width: 60%
