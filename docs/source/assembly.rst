@@ -18,19 +18,18 @@ Tools
 .. Important:: 
     Investing in quality tools will ensure a smoother and more precise soldering and electronics assembly experience, making your projects more efficient and successful in the long run.
 
-1. Soldering Iron/Soldering Station:
 
+1. Soldering Iron/Soldering Station:
     :Price range: $15 to $50 for a soldering iron, $50 to $150 for a station
-    Essential for joining electronic components. Opt for adjustable temperature settings and comfortable grips. 
-    A soldering iron with a temperature range of around 300°C to 400°C (572°F to 752°F) should cover most electronics soldering tasks. 
-    A fine conical or chisel tip is generally recommended for electronics work, as it provides precision and control. 
+    Essential for joining electronic components. A soldering iron in the range of 25-60 watts and 
+    with a temperature range of around 300°C to 400°C (572°F to 752°F) should cover most electronics soldering tasks. 
+    
+    Regarding the tip, a fine conical or chisel tip is generally recommended for electronics work, as it provides precision and control.    
     Tip size can vary, but a tip with a width of around 1mm is often a good starting point for most projects. 
     Some soldering stations offer interchangeable tips, allowing you to select the most suitable one for your task. 
-    For general electronics work, a soldering iron in the range of 25-60 watts is suitable. 
 
     .. image:: images/assembly/VTSSC40N.png
         :width: 60%
-
 
 
 2. Solder Wire:
@@ -77,19 +76,16 @@ Tools
         :width: 60%
 
 
-For making easier the :term:`THT` components assembly, the |Product| comes with a *Stencil board* that will 
-help you with the pinheads positioning for soldering. 
+.. admonition:: And, by the way...
+    For making easier the :term:`THT` components assembly, the |Product| comes with a *Stencil board* that will 
+    help you with the pinheads positioning for soldering. 
 
-.. image:: images/assembly/Top_stencil.png
-    :width: 49%
+    .. image:: images/assembly/Top_stencil.png
+        :width: 49%
 
-    Top side
+    .. image:: images/assembly/Bottom_stencil.png
+        :width: 49%
 
-
-.. image:: images/assembly/Bottom_stencil.png
-    :width: 49%
-
-    Bottom side
 
 
 Steps
@@ -132,21 +128,21 @@ Steps
 
     1. Place the component on top side of the board
 
-       .. image:: images/assembly/9.PNG
+        .. image:: images/assembly/9.PNG
         :width: 60%
 
 
-   2. If it has long pins that can bend (like the :term:`LDR` sensor), bend the pins to keep it in place. 
-   If not, press it to hold it in position while soldering (like the speaker).
+    2. If it has long pins that can bend (like the :term:`LDR` sensor), bend the pins to keep it in place. 
+    If not, press it to hold it in position while soldering (like the speaker).
 
-   3. Start by soldering just one of the pins. 
-          
-       .. image:: images/assembly/10.PNG
+    3. Start by soldering just one of the pins. 
+            
+        .. image:: images/assembly/10.PNG
         :width: 60%
 
-   4. Check if the sensor is still in the correct position and correct it if not.
-   5. Solder the rest of the pins and cut the excess length of them.
-          
-       .. image:: images/assembly/13.gif
+    4. Check if the sensor is still in the correct position and correct it if not.
+    5. Solder the rest of the pins and cut the excess length of them.
+            
+        .. image:: images/assembly/13.gif
         :width: 60%
 

@@ -10,7 +10,6 @@
 
 The |Product| is a board that needs no further setups or configuration besides the initial assembly of its components.
 
-Once you have it in your hands, the only thing you will need to have some fun is a micro-USB to power it and some Dupont wires.
 
 |
 |

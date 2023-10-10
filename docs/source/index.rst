@@ -10,9 +10,8 @@ Welcome to the documentation page of the |Product|, an electronic trainer design
 It should be considered as a beginner-friendly guided solution for learning practical electronics
 where no prior knowledge is required.
 
-With its big set of resistors and capacitors, multiple transistors, and a wide set of integrated
-circuits, the ElectroLab offers the most versatile platform for building up your electronic circuits
-in a few steps.
+With its big set of integrated components, the ElectroLab offers a very powerful and versatile platform for building up your electronic circuits
+in very few steps.
 
 Contents
 --------
@@ -22,6 +21,9 @@ Contents
 
 :doc:`getting_started`
     First steps for starting with the |Product|.
+
+:doc:`assembly`
+    Get to know how to prepare your |Product|.
 
 :doc:`examples`
     Example circuits ready to deploy on the |Product|.
