@@ -2,6 +2,8 @@
 ===========
 The |Product| is a board that may look complex at first sight because of the density of components in the layout. However, once you get familiarized with the different parts, it's pretty simple and intuitive.
 
+.. image:: images/components/General.png
+    
 Let's start by exploring the different sections that form the |Product|, how they work and what to do with them.
 
 Power

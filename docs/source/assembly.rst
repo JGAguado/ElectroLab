@@ -157,3 +157,6 @@ Steps
             :width: 60%
             :align: center
 
+    .. Attention:: 
+        Please exercise caution when trimming the excess metal from soldered pins.  
+        Wearing safety glasses or goggles while performing this task is strongly recommended to avoid potential eye injury.
