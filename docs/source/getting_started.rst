@@ -15,7 +15,7 @@ receive your kit, is making sure you find all the components included:
 3. Female-to-female jumper boards (pack of 40)
 4. THT components:
 
-    - 2x Rotary potentiometers: 2 units per kit
+    - 2x Rotary potentiometers
     - 1x Linear potentiometer
     - 1x Speaker
     - 1x 7 segments display
@@ -23,7 +23,7 @@ receive your kit, is making sure you find all the components included:
     - 1x Slide switch
     - 1x USB-C connector
     - 1x NTC thermistor
-    - LDR photoresistor
+    - 1x LDR photoresistor
     - 1x Microphone
     - 9x Pushbutton
     - 1x 3.5mm jack connector

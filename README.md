@@ -1,51 +1,22 @@
 [![Documentation Status][documentation-shield]][documentation]
 [![GitHub Release][releases-shield]][releases]
 [![License][license-shield]](LICENSE)
-[![BuyIt][buyit-shield]][tindie]
+[![BuyIt][buyit-shield]][elecrow]
 
 [![Project Maintenance][maintenance-shield]][maintenance]
 [![BuyMeCoffee][buymecoffee-shield]][buymecoffee]
 
 # ElectroLab
 
-The ElectroLab board is an educational electronic trainer designed to provide a guided and beginner-friendly approach to learning practical electronics.
+The ElectroLab board is an electronic trainer designed for educational purposes. It should be considered as a beginner-friendly guided solution for learning practical electronics where no prior knowledge is required.
+
+With its big set of integrated components, the ElectroLab offers a very powerful and versatile platform for building up your electronic circuits in very few steps.
 
 <p float="left">
-   <img src="./Documentation/Images/Render.png" width="100%">
+   <img src="./docs/source/images/components/General_grey.png" width="100%">
 </p>
 
-## Features
-* Resistors
-* Capacitors
-* Transistors
-* Diodes
-* LEDs
-* Operational Amplifiers
-* Logic Gates
-* Flip Flops
-* 555 IC
-* Sensors:
-  *   Microphone
-  *   LDR
-  *   NTC
-  *   Accelerometer
-  *   Pushbutton
-  *   Potentiometer
-  *   Tactile sensor
-  *   Gas sensor MQ-2
-* Actuators:
-  *   Speaker
-  *   7 segment display
-  *   RGB LED
 
-It can be powered directly from a USB (5V) or throught the ArduLab Interface.
-
-## Project tree
-
-<li><a href="./Design/">Design</a></li>
-<li><a href="./Documentation/">Documentation</a></li>
-
-<li><a href="./README.md">README.md</a></li>
 
 [documentation-shield]: https://readthedocs.org/projects/electrolab/badge/?version=latest&style=for-the-badge
 [documentation]: https://electrolab.readthedocs.io/en/v3/
@@ -61,5 +32,5 @@ It can be powered directly from a USB (5V) or throught the ArduLab Interface.
 [buymecoffee-shield]: https://img.shields.io/badge/buy%20me%20a%20coffee-support-yellow.svg?style=for-the-badge
 [buymecoffee]: https://www.buymeacoffee.com/J.G.Aguado
 
-[buyit-shield]: https://img.shields.io/badge/get%20it%20on-tindie-247d84.svg?style=for-the-badge
-[tindie]: https://www.tindie.com/products/jgaguado/smart-plant/
+[buyit-shield]: https://img.shields.io/badge/get%20it%20on-elecrow-399BD7.svg?style=for-the-badge
+[elecrow]: https://www.elecrow.com/electrolab.html
