@@ -40,7 +40,7 @@ Tools
     Thinner solder (e.g., 0.8mm) is suitable for fine, delicate work, like the **ElectroLab** soldering, 
     while thicker solder (e.g., 1.2mm) can be used for larger components and wires.
 
-    .. image:: images/assembly/solder-wire.jpg
+    .. image:: images/assembly/solder-wire.png
         :width: 60%
         :align: center
 
@@ -66,7 +66,7 @@ Tools
     Used for trimming excess leads and wires after soldering. 
     Look for sharp, precision-ground jaws, ergonomic handles, and corrosion-resistant materials.
 
-    .. image:: images/assembly/Pliers.jpg
+    .. image:: images/assembly/Pliers.png
         :width: 60%
         :align: center
 
@@ -75,7 +75,7 @@ Tools
     Althoug this is more of a personal choice and not a required tool, a good PCB clamp will secure your board during soldering and help you on the assembly. 
     Choose one with adjustable clamping pressure, a non-marring surface, and a stable base or attachment mechanism.
 
-    .. image:: images/assembly/Clamp.jpg
+    .. image:: images/assembly/Clamp.png
         :width: 60%
         :align: center
 

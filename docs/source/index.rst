@@ -13,6 +13,11 @@ where no prior knowledge is required.
 With its big set of integrated components, the ElectroLab offers a very powerful and versatile platform for building up your electronic circuits
 in very few steps.
 
+.. admonition:: Where to buy it?
+    
+    If you don't have already yours, get one now in `Elecrow <https://www.elecrow.com/electrolab.html>`_
+
+
 Contents
 --------
 
