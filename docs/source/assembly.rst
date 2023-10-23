@@ -1,9 +1,15 @@
 🛠 Assembly 
 ===========
 
+    .. image:: images/assembly/CQN23016K_kits_02.png
+        :width: 40%
+        :align: left
+        :alt: Kit contain
+        
 The |Product| can be ordered partially assembled, where all the :term:`SMD`
 components are already assembled and you only need to assemble and solder the :term:`THT`
 components, such as the pinheads and the rest of the components on the top side.
+
 
 .. Caution::
     If you have never soldered any electronic component before, this kit may result quite challenging for you and therefore is highly 
