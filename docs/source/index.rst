@@ -1,9 +1,9 @@
 ElectroLab
 ###############
 
-.. sidebar:: |Product| V |Version|
-
-    .. image:: ../../Documentation/Images/ElectroLab.png
+.. raw:: html
+        
+    <iframe src="_static/carousel.html" style="width: 100%; height: 300px; border: none;"></iframe>
 
 
 Welcome to the documentation page of the |Product|, an electronic trainer designed for educational purposes.
@@ -12,10 +12,6 @@ where no prior knowledge is required.
 
 With its big set of integrated components, the ElectroLab offers a very powerful and versatile platform for building up your electronic circuits
 in very few steps.
-
-.. admonition:: Where to buy it?
-    
-    If you don't have already yours, get one now in `Elecrow <https://www.elecrow.com/electrolab.html>`_
 
 
 Contents
