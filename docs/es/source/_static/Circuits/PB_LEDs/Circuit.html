@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circuit</title>
+  <!-- Include CSS or styles here -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    /* Additional CSS */
+    .canvas-container {
+      max-width: 80%; /* Limit the maximum width to 80% */
+      margin: auto; /* Center the canvas container */
+    }
+    .canvas-container canvas {
+      width: 100%; /* Set the canvas width to 100% within the container */
+      height: auto; /* Maintain the canvas aspect ratio */
+      border: 0px solid black;
+    }
+    .table-responsive {
+    max-height:300px;
+    }
+  </style>
+  
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-9"> <!-- 80% column -->
+            <div class="canvas-container">
+                <canvas id="imageCanvas"></canvas>
+            </div>
+        </div>                
+        <div class="col-md-3"> 
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-primary" type="button" id="prevBtn"><i class="fa-solid fa-arrow-left"></i></button>
+                </div>
+                <input type="text" class="form-control" id="stepInput" value="0" aria-label="Current step">
+                <div class="input-group-append">
+                    <span class="input-group-text" id="totalItems">0</span>
+                    <button class="btn btn-primary" type="button" id="nextBtn"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>             
+            </div>   
+            <div class="panel-body table-responsive">   
+                <table class="table table-striped" id="myTable">
+                    <thead>
+                    <tr>
+                        <th scope="col"><i id="toggleIcon" class="fa-solid fa-eye" id="visibility"></i></th>
+                        <th scope="col">From</th>
+                        <th scope="col">To</th>
+                    </tr>
+                    </thead>        
+                </table>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  </div>
+
+  <!-- Include JavaScript and Material Design Icons here -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/84fd38aaf4.js" crossorigin="anonymous"></script>
+
+  <script src="data.js"></script>
+
+  <script>    
+
+    const canvas = document.getElementById("imageCanvas");
+    const context = canvas.getContext("2d");
+    const tableBody = document.querySelector("tbody");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const stepInput = document.getElementById("stepInput");
+    const totalItems = document.getElementById("totalItems");
+    const toggleIcon = document.getElementById("toggleIcon");
+    
+    let toggleStatus = false;
+    
+    let layer = "1.png";
+
+
+    let currentStep = 0;
+    const maxStep = curvesData.length;
+
+    function updateImage() {
+      // Get the hidden image element
+      const image = new Image();
+      // Set the image source
+      image.src = "0.png";
+      // Wait for the image to load
+      image.onload = () => {
+        const aspectRatio = image.width / image.height;
+        canvas.width = window.innerWidth * 0.8;
+        canvas.height = canvas.width / aspectRatio;
+        context.drawImage(image, 0, 0, canvas.width, canvas.height);
+      };
+    }
+
+    function updateTable() {
+      const table = document.getElementById("myTable");
+      curvesData.forEach((item, index) => {
+
+        const row = table.insertRow();
+        const visibilityCell = row.insertCell(0);
+        const fromCell = row.insertCell(1);
+        const toCell = row.insertCell(2);
+
+        // Create checkbox
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.id = `visibility-checkbox-${index}`; // Assign unique id
+        visibilityCell.appendChild(checkbox);
+
+        // Set data to cells
+        fromCell.textContent = item.from;
+        toCell.textContent = item.to;
+
+      });
+    }
+
+    toggleIcon.addEventListener("click", () => {
+      console.log('Clicked')
+      const rows = document.querySelectorAll("tr");
+      toggleStatus = !toggleStatus;
+      for (let index = 0; index < rows.length-1; index++) {
+        const checkbox = document.getElementById(`visibility-checkbox-${index}`);
+        checkbox.checked = toggleStatus;
+      }
+      changeVisibleLayer();
+    });
+
+    // Add event listeners to the checkboxes for toggling visibility
+    myTable.addEventListener("change", (event) => {       
+        changeVisibleLayer();
+    });
+
+    // Update step when Next/Previous buttons are clicked
+    nextBtn.addEventListener("click", () => {
+      if (currentStep < maxStep) {
+        currentStep++;
+        stepInput.value = currentStep;
+        changeStep();
+      }
+    });
+
+    prevBtn.addEventListener("click", () => {
+      if (currentStep > 0) {
+        currentStep--;
+        stepInput.value = currentStep;
+        changeStep();
+      }
+    });
+
+    // Update step when input value changes
+    stepInput.addEventListener("change", () => {
+      const newStep = parseInt(stepInput.value);
+      if (!isNaN(newStep) && newStep >= 0 && newStep < maxStep) {
+        currentStep = newStep;
+        changeStep();
+      }
+    });
+
+    function changeStep() {
+      const rows = document.querySelectorAll("tr");
+      for (let index = 0; index < rows.length-1; index++) {
+        const checkbox = document.getElementById(`visibility-checkbox-${index}`);
+        checkbox.checked = index+1 <= currentStep;
+        //, currentStep, checkbox.checked);        
+      }
+      changeVisibleLayer();
+    }
+
+    function changeVisibleLayer() {
+      updateImage();
+      const rows = document.querySelectorAll("tr");
+      for (let index = 0; index < rows.length-1; index++) {
+        const checkbox = document.getElementById(`visibility-checkbox-${index}`);
+        console.log(index, checkbox)
+        if (checkbox.checked) {
+            const newlayer = layer.replace(/(\d+)\.png$/, `${index+1}.png`);
+            const image = new Image();
+            image.src = newlayer;
+
+            image.onload = () => {
+                context.drawImage(image, 0, 0, canvas.width, canvas.height);
+            };
+            }
+        }
+    }
+
+    function drawImages() {
+        images.forEach((imageData) => {
+            const image = new Image();
+            image.src = imageData.src;
+            image.onload = () => {
+                context.drawImage(image, 0, 0, canvas.width, canvas.height);
+            };
+        });
+        }
+    // Initialize the page
+    totalItems.textContent = "/" + maxStep;
+    canvas.width = window.innerWidth * 0.8; // Set canvas width to 80% of window width
+    canvas.height = window.innerHeight;
+    
+    // Load and display the static image
+    updateImage();
+
+    // Initialize the canvas and table
+    //drawImages();
+    updateTable();
+  </script>
+</body>
+</html>

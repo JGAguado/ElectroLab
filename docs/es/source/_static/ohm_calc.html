@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+      
+      body {
+        font-family: Arial, sans-serif;
+      }
+      
+      h2 {
+        font-family: 'Audiowide', cursive;
+      }
+      
+      .rst-content {
+        padding: 20px;
+      }
+      
+      .rst-prolog {
+        margin-top: -20px;
+        margin-bottom: 20px;
+      }
+      
+      .rst-versions {
+        margin-bottom: 30px;
+      }
+      
+      .rst-current-version {
+        margin-bottom: 10px;
+      }
+      
+      .rst-other-versions {
+        margin-bottom: 20px;
+      }
+      
+      .rst-breadcrumbs {
+        margin-bottom: 20px;
+      }
+      
+      .rst-sidebar {
+        margin-bottom: 30px;
+      }
+      
+      .rst-footer {
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      
+      .rst-external-link {
+        background-image: url('https://assets.readthedocs.org/static/docsearch/img/icon.svg');
+      }
+      
+      .rst-breadcrumbs .fa-home:before {
+        content: "\\f015";
+      }
+    </style>
+  </head>
+  <body class="wy-body-for-nav">
+    <div class="rst-content">
+      
+    
+      <label for="voltage">Voltage (V):</label>
+      <input type="text" id="voltage" class="wy-nav-search" style="width: 100px;">
+    
+      <label for="resistance">Resistance:</label>
+      <input type="text" id="resistance" class="wy-nav-search" style="width: 100px;">
+    
+      <select id="resistance-unit" class="wy-nav-search" style="width: 100px;">
+        <option value="ohm">Ω</option>
+        <option value="kilo">kΩ</option>
+        <option value="mega">MΩ</option>
+      </select>
+    
+      <button onclick="calculate()" class="wy-nav-search">Calculate</button>
+    
+      <div id="result" class="wy-nav-content-wrap"></div>
+    </div>
+  
+<script>
+    function calculate() {
+      var voltage = parseFloat(document.getElementById("voltage").value);
+      var resistance = parseFloat(document.getElementById("resistance").value);
+      var resistanceUnit = document.getElementById("resistance-unit").value;
+      
+      if (isNaN(voltage) || isNaN(resistance)) {
+        document.getElementById("result").innerHTML = "Please enter valid numeric values.";
+      } else {
+        if (resistanceUnit === "ohm") {
+          // No conversion needed
+          var current = voltage / resistance;
+        } else if (resistanceUnit === "kilo") {
+          // Convert kiloohm to ohm
+          resistance *= 1000;
+          var current = voltage / resistance;
+        } else if (resistanceUnit === "mega") {
+          // Convert megaohm to ohm
+          resistance *= 1000000;
+          var current = voltage / resistance;
+        }
+        
+        if (current < 0.1) {
+          var currentInMilliamps = current * 1000;
+          document.getElementById("result").innerHTML = "The current is: " + currentInMilliamps.toFixed(2) + " milliamperes.";
+        } else {
+          document.getElementById("result").innerHTML = "The current is: " + current.toFixed(2) + " amperes.";
+        }      
+    }
+    }
+  </script>
+</html>
