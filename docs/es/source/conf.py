@@ -16,6 +16,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 from datetime import date
+from babel.dates import format_date
 
 
 # -- Project information -----------------------------------------------------
@@ -27,8 +28,10 @@ email = 'jon-garcia@hotmail.com'
 release = '1'
 version = '3'
 
+
 today = date.today()
 compile_date = today.strftime("%B %d, %Y")
+compile_date = format_date(today, locale='es')
 
 rst_epilog  = """
 .. |Product| replace:: %s

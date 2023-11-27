@@ -1,25 +1,23 @@
 💬 :term:`FAQ`
 =============================
 
-After connecting everything and turning on the |Product|, I don't see any :term:`LED` on.
-    If the board is correctly powered and you cannot see the power :term:`LED` on, disconnect the power immediately: 
-    there is a short-circuit in your board, meaning that there is a wire (with very little resistance) connecting the 
-    Vcc 5V and the :term:`GND`.
+Después de conectar todo y encender el |Product|, no veo ningún :term:`LED`.
+    Si la placa está correctamente alimentada y no puedes ver el :term:`LED` de encendido, desconecta la alimentación inmediatamente:
+    hay un cortocircuito en tu placa, lo que significa que hay un cable (con muy poca resistencia) conectando el
+    Vcc y :term:`GND`.
 
-After assembling everything and powering the board, the circuit doesn’t do what I expected, why?
-    The more complex the assembled circuit is, the easier to make a mistake. If the circuit has 
-    been tested before, the most likely answer is that there is some error at a certain connection. 
-    The solution is to check node by node that everything is correctly connected.
+Después de ensamblar todo y encender la placa, el circuito no hace lo que esperaba, ¿por qué?
+    Cuanto más complejo sea el circuito ensamblado, más fácil será cometer un error. Si el circuito ha sido probado antes, lo más probable es que haya algún error en alguna conexión.
+    La solución es verificar nodo por nodo que todo esté correctamente conectado.
 
-I accidentally inverted the polarity of a component that was marked as polarized, what can I do?
-    If the component seems damaged from outside or the circuit doesn’t work after fixing it, it 
-    is clear that you will need to replace it or send it for repair (check :ref:`support`).
+Invertí accidentalmente la polaridad de un componente que estaba marcado como polarizado, ¿qué puedo hacer?
+    Si el componente parece dañado por fuera o el circuito no funciona después de arreglarlo, está claro que necesitarás reemplazarlo o enviarlo para reparación (consulta :ref:`support`).
 
-I want to expand the set of sensors to play with other, can I do it?
-    Of course! Just make sure are components rated for 5V. Remember to connect both :term:`GND` 
-    together and in case the sensor needs a power supply connect it to the 5V bus-bar.
+Quiero ampliar el conjunto de sensores para probar otros, ¿puedo hacerlo?
+    ¡Por supuesto! Solo asegúrate de que los componentes estén calificados para 3.3V. Recuerda conectar ambos :term:`GND`
+    juntos y, en caso de que el sensor necesite una fuente de alimentación, conéctalo a la barra colectora de 3.3V.
 
-Can I connect multiple ElectroLab together for making more complex circuits?
-    Yes, some of the circuits can become so complex that you might need to do it like this. In 
-    this case just connect the 5V of one ElectroLab to the 5v of the other and the :term:`GND` of one to 
-    the :term:`GND` of the other, so both are powered correctly.
+¿Puedo conectar varios ElectroLab para hacer circuitos más complejos?
+    Sí, algunos circuitos pueden volverse tan complejos que es posible que necesites hacerlo de esta manera. En
+    este caso, simplemente conecta el 3.3V de un ElectroLab al 3.3V del otro y el :term:`GND` de uno al
+    :term:`GND` del otro, para que ambos estén alimentados correctamente.

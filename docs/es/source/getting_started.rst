@@ -1,74 +1,69 @@
-💡 Getting started
+💡 Empezando
 ===============
 
-.. figure:: images/getting_started/Multivibrator.gif
+.. figura:: images/getting_started/Multivibrator.gif
     :align: right
     :figwidth: 500px
 
-    Oscillating circuit
+    Circuito oscilador
 
-The ElectroLab board is being sold as a kit, which means that you will need to assemble (and solder) it. The first thing to do once you 
-receive your kit, is making sure you find all the components included:
+La placa ElectroLab se vende como un kit, lo que significa que tendrás que ensamblarla (y soldarla). Lo primero que debes hacer 
+una vez que recibas tu kit es asegurarte de encontrar todos los componentes incluidos:
 
-1. ElectroLab board (green PCB)
-2. Stencil board (purple PCB)
-3. Female-to-female jumper boards (pack of 40)
-4. THT components:
+1. Placa ElectroLab (PCB verde)
+2. Placa de estarcido (PCB morado)
+3. Cables duPont hembra-hembra (paquete de 40)
+4. Componentes THT:
 
-    - 2x Rotary potentiometers
-    - 1x Linear potentiometer
-    - 1x Speaker
-    - 1x 7 segments display
-    - 1x RGB led
-    - 1x Slide switch
-    - 1x USB-C connector
-    - 1x NTC thermistor
-    - 1x LDR photoresistor
-    - 1x Microphone
-    - 9x Pushbutton
-    - 1x 3.5mm jack connector
-    - 1x MQ-2 gas sensor
-    - 1x Blue header
-    - 1x Red header
-    - 10x Black header
-
-
-and optionally you could have acquired:
-
-- A 1000mAh LiPo battery
-- A protection enclosure consisting on:
-
-    - 3 transparent acrylic plates
-    - 4 screws set (screw, washer & nut)
-
-After assembling it (visit the :doc:`assembly` section), you will be able to make your own circuits 
-or start exploring the ones on the :doc:`examples` section.
+    - 2x Potenciómetros rotativos
+    - 1x Potenciómetro lineal
+    - 1x Altavoz
+    - 1x Display de 7 segmentos
+    - 1x LED RGB
+    - 1x Interruptor deslizante
+    - 1x Conector USB-C
+    - 1x Termistor NTC
+    - 1x Fotoresistor LDR
+    - 1x Micrófono
+    - 9x Botón pulsador
+    - 1x Conector jack de 3.5 mm
+    - 1x Sensor de gas MQ-2
+    - 1x Pines macho azules
+    - 1x Pines macho rojo
+    - 10x Pines macho negro
 
 
-🎓How it works?
+y opcionalmente podrías haber adquirido:
+
+- Una batería LiPo de 1000mAh
+- Un protector que consiste en:
+
+    - 3 placas acrílicas transparentes
+    - Conjunto de 4 tornillos (tornillo, arandela y tuerca)
+
+Después de ensamblarlo (visita la sección de :doc:`assembly`), podrás hacer tus propios circuitos o comenzar a explorar los que se encuentran en la sección de :doc:`examples`.
+
+🎓¿Cómo funciona?
 -------------
-On the |Product|, each component is internally powered and it's :term:`I/O` are already routed to an accessible pinhead. 
-This makes it very easy the quick prototyping of electronic circuits since you just need to interconnect them with female-female wires.
+En el |Product|, cada componente está alimentado internamente y sus :term:`I/O` ya están conectadas a un cabezal de pin accesible. Esto facilita mucho la creación rápida de circuitos electrónicos, ya que solo necesitas interconectarlos con cables hembra-hembra.
 
-While working with the |Product|, make sure you follow this steps:
+Mientras trabajas con el |Product|, asegúrate de seguir estos pasos:
 
-- ✅ Analyze and understand the schematic you want to assembly with the |Product|
+- ✅ Analiza y comprende el esquemático que deseas ensamblar con el |Product|.
 
-- ✅ Check if you will be using polarized components (like the polarized capacitors or the microphone) for paying extra attention.
+- ✅ Verifica si usarás componentes polarizados (como los condensadores polarizados o el micrófono) para prestar atención adicional.
 
-- ✅ Before plugging or unplugging any jumper wires, make sure the board is turned off:
+- ✅ Antes de enchufar o desenchufar cualquier cable puente, asegúrate de que la placa esté apagada:
 
-- ✅ Assembly the circuit following a known order, it will save you time in case you get lost.
+- ✅ Ensambla el circuito siguiendo un orden conocido, te ahorrará tiempo en caso de que te pierdas.
 
-- ✅ Check that there are not any wire connecting 3.3V to :term:`GND`.
+- ✅ Comprueba que no haya ningún cable conectando 3.3V a :term:`GND`.
 
-- ✅ Connect the USB cable or the Auxiliar Interface in order to power the board.
+- ✅ Conecta el cable USB o la Interfaz Auxiliar para alimentar la placa.
 
-- ✅ Toggle the switch and check that the power led turns on.
+- ✅ Cambia el interruptor y verifica que el LED de encendido se encienda.
 
-- ✅ Play with your recently assembled circuit and experiment with safety!
+- ✅ ¡Juega con tu circuito recién ensamblado y experimenta con seguridad!
 
 .. Caution::
-    If the Power LED indicator doesn't turn on, power off the board and check the circuit: you might have 
-    a shortcircuit somewhere!
-
+    Si el indicador LED de encendido no se enciende, apaga la placa y verifica el circuito: ¡puede que tengas un cortocircuito en algún lugar!

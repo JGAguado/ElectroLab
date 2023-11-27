@@ -1,17 +1,17 @@
-🚀 Example circuits
+🚀 Circuitos de ejemplo
 ================
-Now that we know the way to operate with the |Product| let's get into some real work.
+Ahora que conocemos la forma de operar con el |Product|, vamos a ponernos manos a la obra.
 
-Through the upcomming docs, you will see interactive illustrations like this one:
+A lo largo de los próximos documentos, verás ilustraciones interactivas como esta:
 
 .. raw:: html
         
     <iframe src="_static/Circuits/PB_LEDs/Circuit.html" style="width: 100%; height: 500px; border: none;"></iframe>
 
-You can navigate through each step forward ➡️ and backward ⬅️, or enter directly the step you want.
-You can also visualize all the steps at once by clicking on the 👁 (eye icon).
+Puedes navegar hacia adelante ➡️ y hacia atrás ⬅️ en cada paso, o ingresar directamente al paso que desees.
+También puedes visualizar todos los pasos a la vez haciendo clic en el 👁 (ícono de ojo).
 
-Feel free to experiment with the following tested circuits:
+Siéntete libre de experimentar con los siguientes circuitos probados:
 
 .. toctree::
    :maxdepth: 2

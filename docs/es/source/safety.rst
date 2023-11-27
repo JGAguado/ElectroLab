@@ -1,92 +1,87 @@
-🦺 Safety guidelines
+🦺 Directrices de seguridad
 =================
 
-These safety guidelines, the operation instructions and the limit values listed in :doc:`specs` are to be read carefully before operating the product.
+Estas directrices de seguridad, las instrucciones de operación y los valores límite enumerados en :doc:`specs` deben leerse detenidamente antes de operar el producto.
 
 .. Caution::
-    This product has been designed for educational applications. 
-    It was not designed for any use involving serious risks or hazards that could lead to death, injury, serious physical damage, or loss of any kind without the implementation of exceptionally stringent safety precautions.
+    Este producto ha sido diseñado para aplicaciones educativas. 
+    No fue diseñado para ningún uso que implique riesgos o peligros graves que puedan llevar a la muerte, lesiones, daños físicos graves o pérdidas de cualquier tipo sin la implementación de precauciones de seguridad excepcionalmente rigurosas.
 
-Before the operation
+Antes de la operación
 --------------------
-Before working with the |Product|, make sure to meet all of the following criteria:
+Antes de trabajar con la |Product|, asegúrate de cumplir con todos los siguientes criterios:
 
-- The |Product| is placed in a stable non-conductive surface.
-- There are no objects or debris stuck in between the male pins of the surface of the board.
-- Do not manipulate the board if you have wet hands or in such conditions that could lead to a short-circuit.
-- Do not manipulate the board if you feel that you are electrostatically charged.
-- Some components have polarity, meaning that they need a specific way of being connected.Please pay attention to the (⚠️) indications in this document related to those components.
+- La |Product| está colocado en una superficie estable y no conductora.
+- No hay objetos o escombros atascados entre los pines macho de la superficie de la placa.
+- No manipules la placa si tienes las manos mojadas o en condiciones que puedan causar un cortocircuito.
+- No manipules la placa si sientes que estás cargado electrostáticamente.
+- Algunos componentes tienen polaridad, lo que significa que necesitan una forma específica de ser conectados. Por favor, presta atención a las indicaciones (⚠️) en este documento relacionadas con esos componentes.
 
  
-:term:`LiPo` battery powered
+Batería :term:`LiPo`
 ----------------------
-.. figure:: images/safety/lipo.png
+.. figura:: images/safety/lipo.png
     :align: right
     :figwidth: 150px
 
-Due to the high power density of :term:`LiPo` batteries, the |Product| is powered directly by a 1000mAh :term:`LiPo` battery. Therefore there are specific electronics embeded in charge of the battery 
-management, including charge/discharge of the battery and protections against low-voltage levels and short-circuits. 
+La |Product| se alimenta directamente con una batería :term:`LiPo` de 1000mAh. Por lo tanto, hay electrónica específica integrada encargada de la gestión de la batería, incluyendo la carga/descarga de la batería y protecciones contra niveles de voltaje bajo y cortocircuitos.
 
-However it's not recommended to leave the product unatended while charging for long time. In case you observe a high increase of the device's temperature or you 
-smell burn, immediatelly disconnect the device from the charging USB.
+Sin embargo, no se recomienda dejar el producto sin supervisión mientras se carga durante mucho tiempo. En caso de observar un aumento significativo de la temperatura del dispositivo o percibir un olor a quemado, desconecta inmediatamente el dispositivo del USB de carga.
 
-If you have any question, please check with technical support (:ref:`support`) before taking any action potentially dangerous.
+Si tienes alguna pregunta, por favor consulta con el soporte técnico (:ref:`support`) antes de tomar cualquier acción potencialmente peligrosa.
 
 
-Protection against :term:`ESD`
+Protección contra :term:`ESD`
 ------------------------------
 
-.. figure:: images/safety/esd.png
+.. figura:: images/safety/esd.png
     :align: left
     :figwidth: 100px
 
-The |Product| contains components sensitive to :term:`ESD`, which can be damaged by inappropriate handling. 
-It's therefore necessary to provide some safety precautions against :term:`ESD` during the handling and operation.
+La |Product| contiene componentes sensibles a la :term:`ESD`, que pueden dañarse por manipulación inapropiada. 
+Por lo tanto, es necesario tomar algunas precauciones de seguridad contra la :term:`ESD` durante el manejo y la operación.
 
 |
 |
 
-Usage, transport and storage
+Uso, transporte y almacenamiento
 ----------------------------
 
-During the use, transport and storage, this product must be protected from any mechanical stress 
-(forces applied over the board or it's components), temperatures out of the data-sheet's range, high 
-environmental humidity or aggressive atmospheres.
+Durante el uso, transporte y almacenamiento, este producto debe protegerse de cualquier estrés mecánico 
+(fuerzas aplicadas sobre la placa o sus componentes), temperaturas fuera del rango indicado en la ficha técnica, alta 
+humedad ambiental o atmósferas agresivas.
 
-Avoid using it in areas where it cannot be assured the previously mentioned environmental conditions.
+Evita usarla en áreas donde no se puedan asegurar las condiciones ambientales mencionadas anteriormente.
 
-Repairs
+Reparaciones
 -------
 
-If any of the components on the board gets damaged, a reparation is possible. This repair can be performed by 
-yourself if you identify the problem and have the means for desoldering & soldering. If this is not the case,
-just write to the :ref:`support` mail to reach a solution.
+Si alguno de los componentes de la placa se daña, es posible realizar una reparación. Esta reparación puede ser realizada por ti mismo si identificas el problema y tienes los medios para desoldar y soldar. Si este no es el caso,
+simplemente escribe al correo de :ref:`support` para encontrar una solución.
 
-Disposal
+Reciclaje
 --------
 
-.. figure:: images/safety/disposal.png
+.. figura:: images/safety/disposal.png
     :align: right
     :figwidth: 100px
     
-In accordance with national and local environmental protection and material recovery and recycling regulations, 
-electronic devices that can no longer be used (in case a repair is not possible) must be disposed of separately 
-and not with normal household garbage.
+De acuerdo con las regulaciones nacionales y locales de protección ambiental y recuperación y reciclaje de materiales, 
+los dispositivos electrónicos que ya no se puedan usar (en caso de que no sea posible una reparación) deben ser desechados por separado 
+y no con la basura doméstica normal.
 
 |
 |
 |
 |
 
-Restriction of Hazardous Substances
+Restricción de Sustancias Peligrosas
 -----------------------------------
 
-.. figure:: images/safety/RoHS.png
+.. figura:: images/safety/RoHS.png
     :align: left
     :figwidth: 125px
 
-The :term:`PCB` and the electronic components mounted on the |Product| have been manufactured attending to the EU rules 
-restricting the use of hazardous substances (:term:`RoHS`) in electrical and electronic equipment to protect the 
-environment and public health. 
-
-
+El :term:`PCB` y los componentes electrónicos montados en la |Product| han sido fabricados siguiendo las normas de la UE 
+que restringen el uso de sustancias peligrosas (:term:`RoHS`) en equipos eléctricos y electrónicos para proteger el 
+medio ambiente y la salud pública.

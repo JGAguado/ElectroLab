@@ -5,85 +5,85 @@
    :sorted:
 
    IC
-       Integrated Circuit
+       Integrated Circuit (Circuito integrado)
 
    TTL
-       Transistor-Transistor Logic
+       Transistor-Transistor Logic (Logica Transistor-Transistor)
 
    I/O
-       Inputs / Outputs
+       Inputs / Outputs (Entradas / Salidas)
 
    GND
-       Ground
+       Ground (Tierra/masa)
 
    OTA
-       Over-the-Air
+       Over-the-Air (remoto)
 
    PCB
-       Printed Circuit Board
+       Printed Circuit Board (Placa de circuito impresa)
 
    PWM
-       Pulse-width Modulation
+       Pulse-width Modulation (Modulación por ancho de pulso)
 
    FF
        Flip Flop
 
    Op.Amp.
-       Operational Amplifier
+       Operational Amplifier (Amplificado operacional)
 
    FAQ
-       Frequently Answered Questions
+       Frequently Answered Questions (Preguntas frecuentemente respondidas)
 
    LDR
-       Light Dependant Resistor
+       Light Dependant Resistor (Resistencia dependiente de la luz)
 
    LED
-       Light Emitting Diode
+       Light Emitting Diode (Diodo emisor de luz)
 
    LDO
-       Low-dropout regulator
+       Low-dropout regulator (Regulador de baja caída de tensión)
 
    LiPo
-       Lithium polymer battery
+       Lithium polymer battery (Batería de polímero de litio)
 
    RGB
-       Red-Green-Blue
+       Red-Green-Blue (Rojo-Verde-Azul)
 
    NTC
-       Negative Temperature Coefficient
+       Negative Temperature Coefficient (Coeficiente de Temperatura Negativo)
 
    MDI
-       Material Design Icons
+       Material Design Icons (Iconos de Material Design)
 
    MOS
-       Metal Oxide Semiconductor
+       Metal Oxide Semiconductor (Semiconductor de Óxido Metálico)
 
    BOM
-       Bill of Materials
+       Bill of Materials (Lista de Materiales)
 
    ppm
-       Parts-per-million
+       Parts-per-million (Partes por millón)
 
    ESD
-       Electrostatic Discharge
+       Electrostatic Discharge (Descarga Electroestática)
 
    SMD
-       Surface-mounted device
+       Surface-mounted device (Dispositivo montado en superficie)
 
    SMT
-       Surface-mount Technology
+       Surface-mount Technology (Tecnología de montaje superficial)
 
    THT
-       Through Hole Technology
+       Through Hole Technology (Tecnología de Montaje a Través de Orificios)
 
    IIC
-       Inter-Integrated Circuit. Also known as I2C or :math:`I^2 C`.
+       Inter-Integrated Circuit. Also known as I2C or :math:`I^2 C`. (Circuito Inter-Integrado. También conocido como I2C o :math:`I^2 C`.)
 
    ADC
-       Analog-Digital Converter
+       Analog-Digital Converter (Convertidor Analógico-Digital)
 
    BCD
-       Binary-coded decimal
+       Binary-coded decimal (Decimal codificado en binario)
 
    RoHS
-       Restriction of Hazardous Substances (in Electrical and Electronic Equipment)
+       Restriction of Hazardous Substances in Electrical and Electronic Equipment (Restricción de Sustancias Peligrosas en Equipos Eléctricos y Electrónicos)

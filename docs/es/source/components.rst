@@ -1,41 +1,39 @@
-📱 Components
-===========
-The |Product| is a board that may look complex at first sight because of the density of components in the layout. However, once you get familiarized with the different parts, it's pretty simple and intuitive.
+📱 Componentes
+=============
+
+La |Product| es una placa que puede parecer compleja a primera vista debido a la densidad de componentes en el diseño. Sin embargo, una vez que te familiarizas con las diferentes partes, es bastante simple e intuitivo.
 
 .. image:: images/components/General.png
     :width: 100%
     :align: center
     
-Let's start by exploring the different sections that form the |Product|, how they work and what to do with them.
+Comencemos explorando las diferentes secciones que conforman la |Product|, cómo funcionan y qué hacer con ellas.
 
-Power
+Alimentación
 -------------
 .. figure:: images/components/Power_top.png
     :align: left
     :figwidth: 200px
 
-    Top side view
+    Vista superior
 
 .. figure:: images/components/Power_bottom.png
     :align: right
     :figwidth: 200px
 
-    Bottom side view    
+    Vista inferior    
 
 
-The |Product| is powered internally at 3.3V (volts). Since the board is battery powered, the most convenient way (and therefore avoiding step-up converters) was to adapt the 
-components to a 3.3V working range.
+La |Product| se alimenta internamente a 3.3V (voltios). Dado que la placa funciona con batería, la forma más conveniente (y evitando conversores dc-dc) fue adaptar los 
+componentes a un rango de trabajo de 3.3V.
 
-The internal circuit for charging the battery (which can be consulted on the :ref:`schematic`) is ready to handle the nominal 5V from the USB-C port.
+El circuito interno para cargar la batería (que se puede consultar en el :ref:`esquemático`) está preparado para manejar los 5V nominales del puerto USB-C.
 
-There is a resetable fuse and a voltage regulator (:term:`LDO`) after the battery, in order to prevent the rest of the electronic components to receive the 4.2V of the :term:`LiPo`
+Hay un fusible rearmable y un regulador de voltaje (:term:`LDO`) después de la batería, para evitar que el resto de los componentes electrónicos reciban los 4.2V de la :term:`LiPo`.
 
+Una vez que la placa está alimentada, no solo se energizan los Circuitos Integrados (:term:`IC`), sino que también la barra de 3.3V recibe su voltaje con respecto a la barra de :term:`GND`. La única excepción es el sensor de gas, que necesita los 5V del USB-C y solo funcionará cuando la placa esté conectada a una fuente de 5V.
 
-    
-Once the board is powered, not only the Integrated Circuits (:term:`IC`) are being energized, but also the 3.3V bar gets its voltage with respect to the :term:`GND` bar. 
-The only exception is the Gas sensor, that needs the 5V from the USB-C, and that will only work when the board is wired to a 5V source.
-
-The 3.3V & :term:`GND` bar are separated by 4 rows of other pinheads. These headers are interconnected vertically, forming nodes of 4 points for those applications that requires multiple connections in one node.
+La barra de 3.3V y :term:`GND` están separadas por 4 filas de otras cabeceras de clavijas. Estas cabeceras están interconectadas verticalmente, formando nodos de 4 puntos para aquellas aplicaciones que requieren múltiples conexiones en un nodo.
 
 .. image:: images/components/BusBar_top.png
   :height: 120px
@@ -53,28 +51,28 @@ The 3.3V & :term:`GND` bar are separated by 4 rows of other pinheads. These head
 
 ----------
 
-Resistors
+Resistencias
 -------------
 
 .. figure:: images/components/Resistors_top.png
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
 .. figure:: images/components/Resistors_bottom.png
     :align: right
     :figwidth: 150px
 
-    Bottom side view
+    Vista inferior
 
-The resistors array, located in the left side of the |Product|, consist on three columns of 10 resistors per row, giving a total of 30 resistors. As experience has showed us, the value of 10kΩ is specially useful (for pull-down/pull-up circuits), and that is why there are two columns with the same value. Apart from this exception, the rest of rows has its own individual value.
+El conjunto de resistencias, ubicado en el lado izquierdo de la |Product|, consiste en tres columnas de 10 resistencias por fila, dando un total de 30 resistencias. Como nos ha mostrado la experiencia, el valor de 10kΩ es especialmente útil (para circuitos pull-down/pull-up), por eso hay dos columnas con el mismo valor. Aparte de esta excepción, el resto de las filas tiene su propio valor individual.
 
-As it can seen on the board's back, each resistor is connected to two male pinhead, so the access to each terminal of each resistor is clear.
+Como se puede ver en la parte posterior de la placa, cada resistencia está conectada a dos cabezas de clavija macho, por lo que el acceso a cada terminal de cada resistencia es claro.
 
-The resistors have no *polarity*, meaning that any of the terminals can go to the positive or negative side of a circuit. 
+Las resistencias no tienen *polaridad*, lo que significa que cualquiera de los terminales puede ir al lado positivo o negativo de un circuito. 
 
-Resistors values:
+Valores de resistencias:
 
 =====  =====  ======
 100Ω   100Ω   100Ω
@@ -91,30 +89,29 @@ Resistors values:
 
 ----------
 
-Capacitors
+Condensadores 
 --------------
 
 .. figure:: images/components/Capacitors_top.png
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
 .. figure:: images/components/Capacitors_bottom.png
     :align: right
     :figwidth: 150px
 
-    Bottom side view
+    Vista inferior
 
 
-The capacitors array, located under the resistors array, consists on two columns of 10 capacitors each. In this case each row has its own value, giving a total of 20 capacitors, 10 different values.
+El conjunto de condensadores, ubicado debajo del conjunto de resistencias, consta de dos columnas de 10 condensadores cada uno. En este caso, cada fila tiene su propio valor, dando un total de 20 condensadores, 10 valores diferentes.
 
-The first 8 rows (or values) are formed by ceramic capacitors, that have no polarity. However, the last two rows (values 100 μF and 1mF) are tantalum capacitors, **with polarity**.
+Las primeras 8 filas (o valores) están formadas por condensadores cerámicos, que no tienen polaridad. Sin embargo, las dos últimas filas (valores de 100 μF y 1mF) son condensadores de tantalio, **con polaridad**.
 
 |
 |
-
-Capacitors values:
+Valores de condensadores:
 
 =====  ===== 
 10pF   10pF   
@@ -129,29 +126,29 @@ Capacitors values:
 1mF    1mF
 =====  =====  
 
-.. Warning::
-     It's important to pay attention how the polarized capacitors are connected in the circuit **before** powering it, making sure that the side with the **+** symbol **never** goes to the :term:`GND`. 
+.. Caution::
+     Es importante prestar atención a cómo se conectan los condensadores polarizados en el circuito **antes** de alimentarlo, asegurándose de que el lado con el símbolo **+** **nunca** vaya al :term:`GND`. 
 
 
 ----------
 
-Diodes
+Diodos
 ------------
 
 .. figure:: images/components/Diodes_top.png
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
 .. figure:: images/components/Diodes_bottom.png
     :align: right
     :figwidth: 150px
 
-    Bottom side view
+    Vista inferior
 
 
-The |Product| comes with a 4 diodes set, in this case, located in the upper right side of the board, between the 7 segments display and the transistors.
+La |Product| viene con un conjunto de 4 diodos, en este caso, ubicados en el lado superior derecho de la placa, entre la pantalla de 7 segmentos y los transistores.
 
 
 |
@@ -163,26 +160,26 @@ The |Product| comes with a 4 diodes set, in this case, located in the upper righ
 
 ----------
 
-Transistors
+Transistores
 --------------
 
 .. figure:: images/components/Transistors_top.png
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
 .. figure:: images/components/Transistors_bottom.png
     :align: right
     :figwidth: 150px
 
-    Bottom side view
+    Vista inferior
 
     
-There are two types of transistors integrated in the |Product|: PNP & NPN. Both of them are placed on the top right side of the board. Due to the limited space on the board and the more extended use of the NPN, there is one more of this type: 3 NPN in total and 2 PNP type. 
+Hay dos tipos de transistores integrados en la |Product| : PNP y NPN. Ambos están ubicados en el lado superior derecho de la placa. Debido al espacio limitado en la placa y al uso más extendido del NPN, hay uno más de este tipo: 3 NPN en total y 2 de tipo PNP. 
 
 
-Attending to the white printed silkscreen on the board, it is easy to identify each terminal of the transistor to be used on the circuit.
+Atendiendo a la serigrafía blanca impresa en la placa, es fácil identificar cada terminal del transistor a utilizar en el circuito.
 
 |
 |
@@ -190,59 +187,58 @@ Attending to the white printed silkscreen on the board, it is easy to identify e
 ----------
 
 
-Operational Amplifier
+Amplificador operacional
 ---------------------
 
 .. figure:: images/components/OpAmps_top.png
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
 .. figure:: images/components/OpAmps_bottom.png
     :align: right
     :figwidth: 150px
 
-    Bottom side view
+    Vista inferior
 
 
-The :term:`Op.Amp.` :term:`IC` that the |Product| mounts is a LM2902DT. Each :term:`IC` contains up to 4 independent :term:`Op.Amp.`, giving a total of 8 for the |Product| board, located on the right side of the board.
+El :term:`Op.Amp.` :term:`IC` que monta la |Product| es un LM2902DT. Cada :term:`IC` contiene hasta 4 :term:`Op.Amp.` independientes, dando un total de 8 para la placa de la |Product|, ubicados en el lado derecho de la placa.
 
-As printed in the silkscreen, the inputs to the :term:`Op.Amp.` are placed on the upper side, while the outputs are under. With a little bit of zoom it can be appreciated in the silkscreen which input is the Inverting (-) and which one is the Non-Inverting (+)
+Como se muestra en la serigrafía, las entradas al :term:`Op.Amp.` están colocadas en la parte superior, mientras que las salidas están debajo. Con un poco de zoom se puede apreciar en la serigrafía cuál entrada es la Inversora (-) y cuál es la No Inversora (+).
 
-As commented in the power section, these :term:`Op.Amp.` are powered as soon as the |Product| is powered, making them ready to be used.
+Como se comentó en la sección de alimentación, estos :term:`Op.Amp.` se alimentan tan pronto como se alimenta la |Product|, haciéndolos listos para ser utilizados.
 
 |
 |
 
 ----------
 
-
-Logic gates
+Puertas lógicas
 -----------
 
 .. figure:: images/components/LogicGates_top.png
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
 .. figure:: images/components/LogicGates_bottom.png
     :align: right
     :figwidth: 150px
 
-    Bottom side view
+    Vista inferior
 
 
-Moving on to the 100% digital circuits, |Product| integrates a set of 3 different logic gates: 4 AND, 4 OR and 6 NOT. The set of gates are placed on the right side of the board, directly under the :term:`Op.Amp.` and divided by columns (according to the gate type).
+Pasando a los circuitos 100% digitales, la |Product| integra un conjunto de 3 compuertas lógicas diferentes: 4 AND, 4 OR y 6 NOT. El conjunto de compuertas está ubicado en el lado derecho de la placa, directamente debajo de los :term:`Op.Amp.` y dividido por columnas (según el tipo de compuerta).
 
-Attending to each type of logic gate, the used :term:`IC` are the following:
+Atendiendo a cada tipo de compuerta lógica, los :term:`IC` utilizados son los siguientes:
 
-- AND gates: SN74LV08ADR. 
-- OR gates: SN74LV32ADR. 
-- NOT gates: SN74LV04ADR. 
+- Compuertas AND: SN74LV08ADR.
+- Compuertas OR: SN74LV32ADR.
+- Compuertas NOT: SN74LV04ADR.
 
-When working with 3.3V levels, the definition of a bit (1 or 0) is done by voltage levels. For avoiding the background electrical noise to interfere with our logic processes, all the logic gates inputs are pulled-down through a 10kΩ resistor array.
+Cuando se trabaja con niveles de 3.3V, la definición de un bit (1 o 0) se realiza mediante niveles de voltaje. Para evitar que el ruido eléctrico de fondo interfiera con nuestros procesos lógicos, todas las entradas de las compuertas lógicas se conectan a tierra a través de una matriz de resistencias de 10kΩ.
 
 |
 |
@@ -256,19 +252,19 @@ Flip Flops
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
 .. figure:: images/components/FlipFlops_bottom.png
     :align: right
     :figwidth: 150px
 
-    Bottom side view
+    Vista inferior
 
 
 
-Continuing with the digital circuits, and located under the logic gates, the |Product| integrates 4 JK :term:`FF` thanks to two 4027D :term:`IC`. 
+Continuando con los circuitos digitales, y ubicado debajo de las compuertas lógicas, la |Product| integra 4 JK :term:`FF` gracias a dos :term:`IC` 4027D :term:`FF`. 
 
-The :term:`FF` are, like in the case of the logic gates, ready to be used. 
+Los :term:`FF` son, al igual que en el caso de las compuertas lógicas, listos para ser utilizados.
 
 |
 |
@@ -276,57 +272,53 @@ The :term:`FF` are, like in the case of the logic gates, ready to be used.
 ----------
 
 
-Signal generator
+Generador de señales
 -----------------
 
 .. figure:: images/components/555_top.png
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
 .. figure:: images/components/555_bottom.png
     :align: right
     :figwidth: 150px
 
-    Bottom side view
+    Vista inferior
 
 
 
-The |Product| integrates a square signal generator, the well-known **555** Timer oscillator :term:`IC`, placed on the bottom right side of the board.
+La |Product| integra un generador de señal cuadrada, el conocido **555** Temporizador oscilador :term:`IC`, ubicado en la parte inferior derecha de la placa.
 
-This common :term:`IC` can provide square signals (0-3.3V) and depending on the assembled circuit the integrated 555 can be configured as monostable or astable multivibrator. This is because the pin 5 of the 555 :term:`IC` is internally connected to a 0.01μF capacitor, as it is required for any monostabe or astable configuration.
+Este común :term:`IC` puede proporcionar señales cuadradas (0-3.3V) y dependiendo del circuito ensamblado, el 555 integrado se puede configurar como monoestable o multivibrador astable. Esto se debe a que el pin 5 del 555 :term:`IC` está internamente conectado a un condensador de 0.01μF, como se requiere para cualquier configuración monoestable o astable.
 
 |
-|
-
-----------
-
-
+| 
 Audio
 ----------------
 
-.. WARNING:: 
-    The speaker has polarity. When assembling this device, pay attention to the marks under the sensor.
+.. Warning:: 
+    El altavoz tiene polaridad. Al ensamblar este dispositivo, presta atención a las marcas debajo del sensor.
 
 
 .. figure:: images/components/Audio_top.png
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
 .. figure:: images/components/Audio_bottom.png
     :align: right
     :figwidth: 150px
 
-    Bottom side view
+    Vista inferior
 
 
 
-Next to the signal generator, also on the bottom right side of the board, there is a class-D audio amplifier based on the PAM8403 :term:`IC`.
+Junto al generador de señales, también en la parte inferior derecha de la placa, hay un amplificador de audio de clase D basado en el :term:`IC` PAM8403.
 
-This filter-less 3W stereo amplifier is internally prepared to provide a ready-to-use interface, it can input the left (L) and/or right (R) channels. It is important to connect correctly the :term:`GND` from the jack to the :term:`GND` of the amplifier.
+Este amplificador estéreo de 3W sin filtro está preparado internamente para proporcionar una interfaz lista para usar, puede recibir los canales izquierdo (L) y/o derecho (R). Es importante conectar correctamente el :term:`GND` del conector al :term:`GND` del amplificador.
 
 |
 |
@@ -335,15 +327,15 @@ This filter-less 3W stereo amplifier is internally prepared to provide a ready-t
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
 .. figure:: images/components/Audio_ampli_bottom.png
     :align: right
     :figwidth: 150px
 
-Bottom side view
+    Vista inferior
 
-As part of the audio laboratory there are two more components: 2 jack connectors and 1 speaker, located on the upper side of the |Product|.
+Como parte del laboratorio de audio, hay dos componentes más: 2 conectores jack y 1 altavoz, ubicados en la parte superior de la |Product| .
 
 |
 |
@@ -351,64 +343,61 @@ As part of the audio laboratory there are two more components: 2 jack connectors
 |
 ----------
 
-Opto-electronics
+Optoelectrónica
 ----------------
-.. WARNING:: 
-    The :term:`RGB` :term:`LED` has polarity. When assembling this device, pay attention to allign the plain side of the device 
-    with the marks on the board.
+.. Warning:: 
+    El :term:`LED` :term:`RGB` tiene polaridad. Al ensamblar este dispositivo, asegúrate de alinear el lado plano del dispositivo con las marcas en la placa.
 
 .. figure:: images/components/OptoElectronics_top.png
     :align: left
     :figwidth: 200px
 
-    Top side view
+    Vista superior
 
 .. figure:: images/components/OptoElectronics_bottom.png
     :align: right
     :figwidth: 200px
 
-    Bottom side view
+    Vista inferior
 
 
 
-Next to the speaker, and continuing with the non-electric signals the |Product| can output, the opto-electronics section can be found: 3-colors :term:`LED` bar, :term:`RGB` & 7 segments display.
+Junto al altavoz, y continuando con las señales no eléctricas que puede emitir la |Product|, se encuentra la sección de optoelectrónica: una barra de :term:`LED` de 3 colores, un :term:`LED` :term:`RGB` y una pantalla de 7 segmentos.
 
-The light bar is just a set of 9 LEDs (with their correspondent resistance internally connected to the anode) pulled to the ground. This way, when a voltage is applied to each :term:`LED` pin, this will turn on, as simple as that. The bar has 3 different colors, green, yellow and red (from left to right), of 3 LEDs each color.
+La barra de luces es simplemente un conjunto de 9 :term:`LEDs` (con su resistencia correspondiente conectada internamente al ánodo) conectados a tierra. De esta manera, cuando se aplica un voltaje a cada pin del :term:`LED`, este se encenderá, tan simple como eso. La barra tiene 3 colores diferentes, verde, amarillo y rojo (de izquierda a derecha), de 3 :term:`LEDs` cada color.
 
-The :term:`RGB` :term:`LED` is an opto-electronic device that packs in a compact way 3 different LEDs of 3 different colors: red, green and blue (RGB). These 3 LEDs are connected by the cathode to the ground and each anode of them is already connected to the appropriate resistors, so the user can just input the voltage individually: you can replicate almost any color of the light spectrum.
+El :term:`LED` :term:`RGB` es un dispositivo optoelectrónico que incluye de manera compacta 3 :term:`LEDs` diferentes de 3 colores diferentes: rojo, verde y azul (RGB). Estos 3 :term:`LEDs` están conectados por el cátodo a tierra y cada ánodo está conectado a las resistencias apropiadas, por lo que el usuario puede simplemente ingresar el voltaje individualmente: se puede replicar casi cualquier color del espectro de luz.
 
-The seven segments (7s) :term:`LED` display is the last, but not least, component of the section, located between the :term:`RGB` :term:`LED` and the diodes. The 7 segments display, name that receives because of the amount of *bars* that conform each digit of the display, is internally connected to a BCD decoder :term:`IC`: the CD4511.
+La pantalla de siete segmentos (7s) es el último, pero no menos importante, componente de la sección, ubicado entre el :term:`LED` :term:`RGB` y los diodos. La pantalla de 7 segmentos, nombre que recibe debido a la cantidad de *barras* que conforman cada dígito del display, está conectada internamente a un decodificador BCD :term:`IC`: el CD4511.
 
-This BCD to seven segment decoder has 4 input and 7 output lines. This output is given to the 7 segment display, through the required resistors, so it displays the decimal number depending on the inputs.
+Este decodificador BCD a siete segmentos tiene 4 líneas de entrada y 7 líneas de salida. Esta salida se proporciona a la pantalla de 7 segmentos, a través de las resistencias requeridas, para que muestre el número decimal dependiendo de las entradas.
 
 |
 |
 
 ----------
 
-
-Push-buttons
+Pulsadores
 ------------------
 
 .. figure:: images/components/Pushbuttons_top.png
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
-Moving to the board's inputs side, we can easily recognize the push-buttons array on the bottom area next to the capacitors.
+Moviéndonos hacia el lado de las entradas de la placa, se pueden reconocer fácilmente los botones pulsadores en la zona inferior, junto a los condensadores.
 
-Individually, a push-button connects the two terminals it has if it is pressed, like a switch, letting the current flow. 
+Individualmente, un botón pulsador conecta los dos terminales que tiene si se presiona, como un interruptor, permitiendo el flujo de corriente.
 
-On the assembled array, each of the push-buttons, if pressed, connects one of the upper pins with one of the lateral pins, depending on the column and the row.
-
+En el conjunto ensamblado, cada uno de los botones pulsadores, al presionarse, conecta uno de los pines superiores con uno de los laterales, según la columna y la fila.
 
 |
 |
 
 ----------
 
-Potentiometers
+Potenciómetros
 ----------------------
 
 .. figure:: images/components/Potentiometers_top.png
@@ -420,155 +409,126 @@ Potentiometers
     :figwidth: 100px
 
 
-A potentiometer is a resistor whose values can be changed by a manual action. In the case of the |Product|, there are two different types of integrated potentiometers: 2 rotary and 1 linear, located on the bottom side, next to the audio amplifier circuit and the flip flops.
+Un potenciómetro es una resistencia cuyos valores pueden cambiarse mediante una acción manual. En el caso de la |Product|, hay dos tipos diferentes de potenciómetros integrados: 2 rotativos y 1 lineal, ubicados en el lado inferior, junto al circuito amplificador de audio y los flip-flops.
 
-In both cases, the resistance range the mounted potentiometers is 0 to 10kΩ. The minimum values are reached, naturally, when the knob/slider, are in the left position, and the maximum when they are in the right position.
+En ambos casos, el rango de resistencia de los potenciómetros montados es de 0 a 10kΩ. Los valores mínimos se alcanzan naturalmente cuando el botón/deslizador está en la posición izquierda, y el máximo cuando están en la posición derecha.
 
-.. Warning::
-    If you are assembling any circuit non-listed in the official tutorials of the |Product|, please make sure that there is some minimum resistance (>100Ω) in series with the used potentiometer. This is recommended because if the potentiometer is moved to the minimum resistance values, the current flowing through the potentiometer increases, which can damage irreversibly the component.
- 
+.. Caution::
+    Si estás ensamblando algún circuito no incluido en los tutoriales oficiales de la |Product|, asegúrate de que haya alguna resistencia mínima (>100Ω) en serie con el potenciómetro utilizado. Esto se recomienda porque si el potenciómetro se mueve a los valores mínimos de resistencia, la corriente que fluye a través del potenciómetro aumenta, lo que puede dañar irreversiblemente el componente.
+
 |
 |
-
 
 ----------
 
-
-Sensors
+Sensores
 ----------------
 
-Despite two types of input components have already been presented, these cannot be considered as sensors. A sensor, or transducer, is a device that *converts* a physical parameter (such as acceleration, light or temperature) to a measurable electrical signal.
+A pesar de que ya se han presentado dos tipos de componentes de entrada, estos no pueden considerarse como sensores. Un sensor, o transductor, es un dispositivo que *convierte* un parámetro físico (como aceleración, luz o temperatura) en una señal eléctrica mensurable.
 
-The area where the sensors are placed extends from the center of the board (under the :term:`GND` pinhead row) to the bottom edge, forming a "T".
+El área donde se encuentran los sensores se extiende desde el centro de la placa (debajo de la fila de pines :term:`GND`) hasta el borde inferior, formando una "T".
 
-Microphone
+Micrófono
 ^^^^^^^^^^^^
-.. WARNING:: 
-    This device has polarity. When assembling this device, pay attention to the marks under the sensor.
-
+.. Warning:: 
+    Este dispositivo tiene polaridad. Al ensamblar este dispositivo, presta atención a las marcas en la placa.
 
 .. figure:: images/components/Microphone_top.png
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
-The electrec microphone is placed on the left side of the sensor's area. The CMEJ-0627-42-P is an omnidirectional microphone with a -42dB sensitivity.
+La |Product| incluye un pequeño micrófono que convierte señales de sonido en señales eléctricas. Este micrófono, ubicado en la parte inferior central de la placa, está diseñado para capturar sonido y convertirlo en señales eléctricas, que luego pueden ser procesadas y utilizadas por otros componentes de la |Product| .
 
-
-.. Warning::
-    As the electrec microphone is a component with polarity, it's important to pay attention to the **+** and **-** printed signs on the silkscreen of the |Product|
-
-|
-|
-
-----------
-
-LDR
-^^^^^^^^^^^^
+Sensor de luz
+^^^^^^^^^^^^^^
+.. Warning:: 
+    Este dispositivo es sensible a la luz y puede variar su comportamiento según la intensidad lumínica.
 
 .. figure:: images/components/LDR_top.png
-    :align: left
-    :figwidth: 150px
+    :align: right
+    :figwidth: 100px
 
-    Top side view
+    Vista superior
 
-The :term:`LDR` is placed next to the microphone. The used component is the GL5528.
-
+La |Product| también integra un sensor de luz, conocido como un LDR (Light Dependent Resistor). Este sensor varía su resistencia dependiendo de la cantidad de luz que recibe. Ubicado junto al micrófono, en la parte inferior central de la placa, el LDR puede utilizarse para medir la intensidad de la luz en su entorno.
 
 |
 |
-|
-|
-|
 
-----------
-
-Thermistor
-^^^^^^^^^^^^
+Termistor
+^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/components/NTC_top.png
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
-The thermistor component integrated in the |Product|, next to the :term:`LDR`, is a :term:`NTC` type. This means that the resistance decreases as temperature rises. 
+El termistor integrado en la |Product|, junto al LDR, es de tipo :term:`NTC` (Coeficiente de Temperatura Negativo). Esto significa que la resistencia disminuye a medida que aumenta la temperatura. 
 
-
-|
-|
-|
-
-----------
-
-Accelerometer
-^^^^^^^^^^^^
+Acelerómetro
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/components/Accelerometer_top.png
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
 .. figure:: images/components/Accelerometer_bottom.png
     :align: right
     :figwidth: 150px
 
-    Bottom side view
+    Vista inferior
 
+La |Product| integra un acelerómetro analógico triaxial, ubicado en el lado derecho del área de sensores. El dispositivo elegido es el transductor ADXL337 de Analog Devices, capaz de medir hasta ±3g.
 
-
-The |Product| integrates a tri-axial analog accelerometers, placed on the right side of the sensor's area. The chosen device is the ADXL337 transducer from Analog Devices, able to measure up to ±3g. 
-
-As the accelerometer :term:`IC` works with 3V, a voltage regulator is connected internally to provide the required power to the :term:`IC`. The sensor outputs 3 signals, according to each axis, from 0 to 3V that corresponds to the range from -3g to +3g. This means that, for example, when the device's Z axis is vertical (aligned with the local gravity) the X and Y axis of the sensor should read 0g, providing an output signal of ~1.5V.
+El :term:`IC` del acelerómetro funciona con 3V, un regulador de voltaje está conectado internamente para proporcionar la potencia requerida al :term:`IC`. El sensor emite 3 señales, una para cada eje, desde 0 hasta 3V que corresponden al rango de -3g a +3g. Esto significa que, por ejemplo, cuando el eje Z del dispositivo está vertical (alineado con la gravedad local), los ejes X e Y del sensor deben leer 0g, proporcionando una señal de salida de ~1.5V.
 
 |
 |
 
-----------
+Sensor de gas
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
-Gas sensor
-^^^^^^^^^^^^^^^^
 .. Note::
-    This sensor is the only one requiring 5VDC to work. Therefore it will only work when there is a USB powering the board. 
-    You can verify this sensor is working through the :term:`LED` close to the sensor.
+    Este sensor es el único que requiere 5VDC para funcionar. Por lo tanto, solo funcionará cuando haya una fuente de alimentación USB conectada a la placa. 
+    Puedes verificar que el sensor está funcionando a través del :term:`LED` cercano al sensor.
 
 .. figure:: images/components/Gas_top.png
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
 .. figure:: images/components/Gas_bottom.png
     :align: right
     :figwidth: 150px
 
-    Bottom side view
+    Vista inferior
 
+A pesar de que se pueden montar otros sensores de la serie MQ, por defecto se incluye el MQ-2. Este dispositivo es un sensor :term:`MOS`. Los sensores de óxido de metal también son conocidos como quimioresistores porque la detección se basa en el cambio de resistencia del material sensor cuando se expone a gases.
 
-Despite you can mount any other MQ sensor series, the one by default is the MQ-2. This device is a :term:`MOS` sensor. Metal oxide sensors are also known as Chemiresistors because sensing is based on the change in resistance of the sensing material when exposed to gasses.
-
-In the case of the MQ-2, the MOS reacts to LPG, Smoke, Alcohol, Propane, Hydrogen, Methane and Carbon Monoxide concentrations, ranging from 200 to 10000 :term:`ppm`.
+En el caso del MQ-2, el :term:`MOS` reacciona a concentraciones de GLP, humo, alcohol, propano, hidrógeno, metano y monóxido de carbono, en un rango de 200 a 10000 :term:`ppm`.
 
 |
 |
 
 .. hint:: 
-    In the case of a sensor reading of 100 :term:`ppm` of CO it would mean that only 100 molecules (out of 1 million) present on the gas would be CO, and the other 999900 would be any other gas.
+    En el caso de una lectura del sensor de 100 :term:`ppm` de CO, significaría que solo hay 100 moléculas (de 1 millón) presentes en el gas que son CO, y las otras 999900 serían de cualquier otro gas.
 
 ----------
 
+Sensor táctil
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Tactile sensor
-^^^^^^^^^^^^^^^^
 .. figure:: images/components/Tactile_top.png
     :align: left
     :figwidth: 150px
 
-    Top side view
+    Vista superior
 
+El sensor *táctil* se basa en la conductividad (o resistividad). Funciona midiendo la conductividad de cualquier objeto en contacto con la capa superior del sensor. El sensor está formado por 2 conjuntos de líneas horizontales interconectadas verticalmente. Si algún objeto conductor (como una gota de agua o un dedo) está en contacto con la capa, la resistencia entre los dos pines disminuye.
 
-
-The *tactile* sensor is based on conductivity (or resistivity). It works by measuring the conductivity of any item in contact with the top's layer expoded pad. The sensor is formed by a 2 sets of horizontal lines interconnected vertically. If any conductive item (like a drop of water or a finger) is in contact with the layer, the resistance in between the two pins decreases.
