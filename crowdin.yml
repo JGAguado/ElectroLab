@@ -1,0 +1,3 @@
+files:
+  - source: /docs/source/**/*.rst
+    translation: /docs/source/%two_letters_code%/%original_file_name%
