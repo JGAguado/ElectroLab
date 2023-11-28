@@ -4,19 +4,19 @@
 .. _schematic:
 Electronic schematics
 ---------------------
-.. image:: ../../Documentation/Schematics/Schematic_1.png
+.. image:: ../../../Documentation/Schematics/Schematic_1.png
     :width: 49%
 
-.. image:: ../../Documentation/Schematics/Schematic_2.png
+.. image:: ../../../Documentation/Schematics/Schematic_2.png
     :width: 49%
 
-.. image:: ../../Documentation/Schematics/Schematic_3.png
+.. image:: ../../../Documentation/Schematics/Schematic_3.png
     :width: 49%
 
-.. image:: ../../Documentation/Schematics/Schematic_4.png
+.. image:: ../../../Documentation/Schematics/Schematic_4.png
     :width: 49%
 
-:download:`Download PDF <../../Documentation/Schematics/Schematic.pdf>`
+:download:`Download PDF <../../../Documentation/Schematics/Schematic.pdf>`
 
 .. _pcb:
 

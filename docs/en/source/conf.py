@@ -16,6 +16,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 from datetime import date
+from babel.dates import format_date
 
 
 # -- Project information -----------------------------------------------------

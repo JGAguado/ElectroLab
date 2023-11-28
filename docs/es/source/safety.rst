@@ -57,7 +57,7 @@ Reparaciones
 -------
 
 Si alguno de los componentes de la placa se daña, es posible realizar una reparación. Esta reparación puede ser realizada por ti mismo si identificas el problema y tienes los medios para desoldar y soldar. Si este no es el caso,
-simplemente escribe al correo de :ref:`support` para encontrar una solución.
+simplemente escribe al correo de :ref:`soporte <support>` para encontrar una solución.
 
 Reciclaje
 --------

@@ -60,7 +60,7 @@ Repairs
 
 If any of the components on the board gets damaged, a reparation is possible. This repair can be performed by 
 yourself if you identify the problem and have the means for desoldering & soldering. If this is not the case,
-just write to the :ref:`support` mail to reach a solution.
+just write to the :ref:`support <support>` mail to reach a solution.
 
 Disposal
 --------
