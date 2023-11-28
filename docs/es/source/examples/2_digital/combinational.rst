@@ -1,4 +1,4 @@
-Combinational circuits
+Circuitos combinacionales
 ====================
 
 .. raw:: html

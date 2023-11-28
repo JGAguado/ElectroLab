@@ -1,4 +1,4 @@
-📚 Acronyms
+📚 Acrónimos
 ============
 
 .. glossary:: 

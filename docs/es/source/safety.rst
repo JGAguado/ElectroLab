@@ -28,7 +28,7 @@ La |Product| se alimenta directamente con una batería :term:`LiPo` de 1000mAh. 
 
 Sin embargo, no se recomienda dejar el producto sin supervisión mientras se carga durante mucho tiempo. En caso de observar un aumento significativo de la temperatura del dispositivo o percibir un olor a quemado, desconecta inmediatamente el dispositivo del USB de carga.
 
-Si tienes alguna pregunta, por favor consulta con el soporte técnico (:ref:`support`) antes de tomar cualquier acción potencialmente peligrosa.
+Si tienes alguna pregunta, por favor consulta con el :ref:`soporte técnico <support>` antes de tomar cualquier acción potencialmente peligrosa.
 
 
 Protección contra :term:`ESD`

@@ -1,4 +1,4 @@
-Audio frequencies
+Frecuencias de audio
 ==============
 
 .. raw:: html

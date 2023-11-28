@@ -1,4 +1,4 @@
-:term:`BCD` decoder
+Decodificador :term:`BCD`
 ==============
 
 .. raw:: html

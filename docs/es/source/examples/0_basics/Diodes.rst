@@ -1,4 +1,4 @@
-Diodes
+Diodos
 ==============
 
 .. raw:: html

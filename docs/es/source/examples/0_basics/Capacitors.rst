@@ -1,4 +1,4 @@
-Capacitors
+Condensadores
 ==============
 
 .. raw:: html

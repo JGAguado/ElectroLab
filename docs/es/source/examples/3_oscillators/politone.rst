@@ -1,4 +1,4 @@
-Polytone keyboard
+Teclado politono
 ==============
 
 .. raw:: html

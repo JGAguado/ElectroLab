@@ -1,4 +1,4 @@
-Analog circuits
+Circuitos analógicos
 ==============
 
 .. toctree::

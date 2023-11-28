@@ -4,16 +4,16 @@
 .. _schematic:
 Esquemas electrónicos
 ---------------------
-.. image:: ../../Documentación/Esquemas/Esquemático_1.png
+.. image:: ../../Documentation/Schematics/Schematic_1.png
     :width: 49%
 
-.. image:: ../../Documentación/Esquemas/Esquemático_2.png
+.. image:: ../../Documentation/Schematics/Schematic_2.png
     :width: 49%
 
-.. image:: ../../Documentación/Esquemas/Esquemático_3.png
+.. image:: ../../Documentation/Schematics/Schematic_3.png
     :width: 49%
 
-.. image:: ../../Documentación/Esquemas/Esquemático_4.png
+.. image:: ../../Documentation/Schematics/Schematic_4.png
     :width: 49%
 
 :download:`Descargar PDF <../../Documentación/Esquemas/Esquemático.pdf>`

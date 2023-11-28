@@ -1,4 +1,4 @@
-Palm detector with states
+Detector de palmadas con estados
 ==============
 
 .. raw:: html

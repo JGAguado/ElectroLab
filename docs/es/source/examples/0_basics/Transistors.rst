@@ -1,4 +1,4 @@
-Transistors
+Transistores
 ==============
 
 .. raw:: html

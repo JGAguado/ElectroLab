@@ -1,4 +1,4 @@
-Basic circuits
+Circuitos básicos
 ==============
 
 .. toctree::

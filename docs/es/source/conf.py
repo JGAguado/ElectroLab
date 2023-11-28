@@ -30,8 +30,9 @@ version = '3'
 
 
 today = date.today()
-compile_date = today.strftime("%B %d, %Y")
-compile_date = format_date(today, locale='es')
+# compile_date = today.strftime("%B %d, %Y")
+compile_date = format_date(today, format='long', locale='es')
+
 
 rst_epilog  = """
 .. |Product| replace:: %s

@@ -26,7 +26,7 @@ Power
 The |Product| is powered internally at 3.3V (volts). Since the board is battery powered, the most convenient way (and therefore avoiding step-up converters) was to adapt the 
 components to a 3.3V working range.
 
-The internal circuit for charging the battery (which can be consulted on the :ref:`schematic`) is ready to handle the nominal 5V from the USB-C port.
+The internal circuit for charging the battery (which can be consulted on the :ref:`schematic <schematic>`) is ready to handle the nominal 5V from the USB-C port.
 
 There is a resetable fuse and a voltage regulator (:term:`LDO`) after the battery, in order to prevent the rest of the electronic components to receive the 4.2V of the :term:`LiPo`
 

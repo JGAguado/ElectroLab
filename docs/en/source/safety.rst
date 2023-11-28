@@ -30,7 +30,7 @@ management, including charge/discharge of the battery and protections against lo
 However it's not recommended to leave the product unatended while charging for long time. In case you observe a high increase of the device's temperature or you 
 smell burn, immediatelly disconnect the device from the charging USB.
 
-If you have any question, please check with technical support (:ref:`support`) before taking any action potentially dangerous.
+If you have any question, please check with :ref:`technical support <support>` before taking any action potentially dangerous.
 
 
 Protection against :term:`ESD`

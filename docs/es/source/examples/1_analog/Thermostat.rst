@@ -1,4 +1,4 @@
-Thermostat
+Termostato
 ==============
 
 .. raw:: html

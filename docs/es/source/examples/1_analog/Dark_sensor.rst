@@ -1,4 +1,4 @@
-Darkness sensor
+Sensor de oscuridad
 ==============
 
 .. raw:: html

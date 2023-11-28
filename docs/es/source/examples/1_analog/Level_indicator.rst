@@ -1,4 +1,4 @@
-Level_indicator
+Indicador de nivel
 ===============
 
 .. raw:: html

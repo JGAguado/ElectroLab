@@ -1,4 +1,4 @@
-Audio filters
+Filtros de audio
 ==============
 
 .. raw:: html

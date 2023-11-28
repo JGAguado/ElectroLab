@@ -1,4 +1,4 @@
-Automatic counter
+Contador automático
 =================
 
 .. raw:: html

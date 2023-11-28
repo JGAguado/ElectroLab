@@ -1,4 +1,4 @@
-Counter
+Contador
 ==============
 
 .. raw:: html

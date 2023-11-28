@@ -1,4 +1,4 @@
-Resistors
+Resistencias
 =================
 
 .. raw:: html

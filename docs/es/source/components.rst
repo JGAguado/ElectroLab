@@ -27,7 +27,7 @@ Alimentación
 La |Product| se alimenta internamente a 3.3V (voltios). Dado que la placa funciona con batería, la forma más conveniente (y evitando conversores dc-dc) fue adaptar los 
 componentes a un rango de trabajo de 3.3V.
 
-El circuito interno para cargar la batería (que se puede consultar en el :ref:`esquemático`) está preparado para manejar los 5V nominales del puerto USB-C.
+El circuito interno para cargar la batería (que se puede consultar en el :ref:`esquemático <schematic>`) está preparado para manejar los 5V nominales del puerto USB-C.
 
 Hay un fusible rearmable y un regulador de voltaje (:term:`LDO`) después de la batería, para evitar que el resto de los componentes electrónicos reciban los 4.2V de la :term:`LiPo`.
 

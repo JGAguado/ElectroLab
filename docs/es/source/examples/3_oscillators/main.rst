@@ -1,4 +1,4 @@
-Oscillators
+Osciladores
 ==============
 
 .. toctree::

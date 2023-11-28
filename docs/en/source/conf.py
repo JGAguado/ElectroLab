@@ -28,7 +28,8 @@ release = '1'
 version = '3'
 
 today = date.today()
-compile_date = today.strftime("%B %d, %Y")
+# compile_date = today.strftime("%B %d, %Y")
+compile_date = format_date(today, format='long', locale='en')
 
 rst_epilog  = """
 .. |Product| replace:: %s

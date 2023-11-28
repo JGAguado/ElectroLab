@@ -39,7 +39,7 @@ Soporte técnico
 Si tienes problemas técnicos o no puedes encontrar la información que necesitas en la documentación proporcionada, 
 por favor contáctame directamente:
 
-:Autor: |Autor|
+:Autor: |Author|
 :Contacto: |Email|
 
 :Placa: |Product|

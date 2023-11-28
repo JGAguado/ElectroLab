@@ -1,4 +1,4 @@
-Digital circuits
+Circuitos digitales
 ==============
 
 .. toctree::

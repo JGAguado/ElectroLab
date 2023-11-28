@@ -1,4 +1,4 @@
-Audio amplifiers
+Amplificador de audio
 ==============
 
 .. raw:: html
