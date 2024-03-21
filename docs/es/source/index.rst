@@ -51,7 +51,8 @@ por favor contáctame directamente:
    :maxdepth: 2
    :hidden:
 
-   safety   
+   safety
+   🛒 Comprar <https://www.elecrow.com/electrolab.html>      
    getting_started
    assembly
    examples 
