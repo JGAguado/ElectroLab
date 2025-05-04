@@ -49,7 +49,11 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
     "sphinx.ext.intersphinx",
+    'sphinxcontrib.googleanalytics',
+
 ]
+ 
+googleanalytics_id = "G-9ZF8620J5V"
 
 intersphinx_mapping = {
     "rtd": ("https://docs.readthedocs.io/en/stable/", None),

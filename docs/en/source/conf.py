@@ -48,7 +48,17 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
+    'sphinx.ext.inheritance_diagram',
+    'matplotlib.sphinxext.only_directives',
+    'matplotlib.sphinxext.plot_directive',
+    'IPython.sphinxext.ipython_directive',
+    'IPython.sphinxext.ipython_console_highlighting',
+    'numpydoc',
+    'sphinxcontrib.googleanalytics',
+
 ]
+ 
+googleanalytics_id = "G-9ZF8620J5V"
 
 intersphinx_mapping = {
     "rtd": ("https://docs.readthedocs.io/en/stable/", None),
